@@ -1,0 +1,251 @@
+id,name,latitude,longitude,zone,lines,line_count,is_interchange,footfall_tier
+Rithala,Rithala,28.7208,77.1072,North West Delhi,Red Line,1,False,Standard
+Rohini West,Rohini West,28.7147,77.1147,North West Delhi,Red Line,1,False,Standard
+Rohini East,Rohini East,28.71,77.1264,North West Delhi,Red Line,1,False,Standard
+Pitampura,Pitampura,28.7032,77.1352,North West Delhi,Red Line,1,False,Standard
+Kohat Enclave,Kohat Enclave,28.6978,77.1432,North West Delhi,Red Line,1,False,Standard
+Netaji Subhash Place,Netaji Subhash Place,28.6953,77.1525,North West Delhi,Red Line; Pink Line,2,True,High
+Keshav Puram,Keshav Puram,28.6908,77.162,North West Delhi,Red Line,1,False,Standard
+Kanhaiya Nagar,Kanhaiya Nagar,28.6835,77.1685,North West Delhi,Red Line,1,False,Standard
+Inderlok,Inderlok,28.6738,77.1706,North West Delhi,Red Line; Green Line,2,True,High
+Shastri Nagar,Shastri Nagar,28.6698,77.1818,North Delhi,Red Line,1,False,Standard
+Pratap Nagar,Pratap Nagar,28.6672,77.1956,North Delhi,Red Line,1,False,Standard
+Pul Bangash,Pul Bangash,28.6653,77.2036,North Delhi,Red Line,1,False,Standard
+Tis Hazari,Tis Hazari,28.6668,77.2167,North Delhi,Red Line,1,False,Standard
+Kashmere Gate,Kashmere Gate,28.6675,77.2285,Central Delhi,Red Line; Yellow Line; Violet Line,3,True,Mega Hub
+Shastri Park,Shastri Park,28.6705,77.2505,North East Delhi,Red Line,1,False,Standard
+Seelampur,Seelampur,28.6698,77.2662,North East Delhi,Red Line,1,False,Standard
+Welcome,Welcome,28.6719,77.2776,North East Delhi,Red Line; Pink Line,2,True,High
+Shahdara,Shahdara,28.6734,77.2894,East Delhi,Red Line,1,False,Standard
+Mansarovar Park,Mansarovar Park,28.6792,77.3005,East Delhi,Red Line,1,False,Standard
+Jhilmil,Jhilmil,28.6816,77.3117,East Delhi,Red Line,1,False,Standard
+Dilshad Garden,Dilshad Garden,28.6761,77.3214,East Delhi,Red Line,1,False,Standard
+Shaheed Nagar,Shaheed Nagar,28.6708,77.3325,Ghaziabad,Red Line,1,False,Standard
+Raj Bagh,Raj Bagh,28.6712,77.344,Ghaziabad,Red Line,1,False,Standard
+Major Mohit Sharma,Major Mohit Sharma,28.674,77.356,Ghaziabad,Red Line,1,False,Standard
+Shyam Park,Shyam Park,28.679,77.368,Ghaziabad,Red Line,1,False,Standard
+Mohan Nagar,Mohan Nagar,28.682,77.381,Ghaziabad,Red Line,1,False,Standard
+Arthala,Arthala,28.685,77.395,Ghaziabad,Red Line,1,False,Standard
+Hindon River,Hindon River,28.688,77.408,Ghaziabad,Red Line,1,False,Standard
+Shaheed Sthal,Shaheed Sthal,28.691,77.42,Ghaziabad,Red Line,1,False,Standard
+Samaypur Badli,Samaypur Badli,28.7455,77.1384,North Delhi,Yellow Line,1,False,Standard
+Rohini Sector 18,Rohini Sector 18,28.7392,77.1425,North Delhi,Yellow Line,1,False,Medium
+Haiderpur Badli Mor,Haiderpur Badli Mor,28.729,77.151,North Delhi,Yellow Line,1,False,Standard
+Jahangirpuri,Jahangirpuri,28.7258,77.1625,North Delhi,Yellow Line,1,False,Standard
+Adarsh Nagar,Adarsh Nagar,28.7161,77.1706,North Delhi,Yellow Line,1,False,Standard
+Azadpur,Azadpur,28.7067,77.1804,North Delhi,Yellow Line; Pink Line,2,True,High
+Model Town,Model Town,28.6998,77.1932,North Delhi,Yellow Line,1,False,Standard
+Guru Tegh Bahadur Nagar,Guru Tegh Bahadur Nagar,28.6978,77.2062,North Delhi,Yellow Line,1,False,Standard
+Vishwa Vidyalaya,Vishwa Vidyalaya,28.6948,77.2139,North Delhi,Yellow Line,1,False,Standard
+Vidhan Sabha,Vidhan Sabha,28.6792,77.2215,North Delhi,Yellow Line,1,False,Standard
+Civil Lines,Civil Lines,28.6753,77.2255,North Delhi,Yellow Line,1,False,Standard
+Chandni Chowk,Chandni Chowk,28.6578,77.2302,Central Delhi,Yellow Line,1,False,Standard
+Chawri Bazar,Chawri Bazar,28.6493,77.2263,Central Delhi,Yellow Line,1,False,Standard
+New Delhi,New Delhi,28.6431,77.2223,Central Delhi,Yellow Line; Airport Express Line,2,True,Mega Hub
+Rajiv Chowk,Rajiv Chowk,28.6328,77.2195,Central Delhi,Yellow Line; Blue Line,2,True,Mega Hub
+Patel Chowk,Patel Chowk,28.6231,77.2138,Central Delhi,Yellow Line,1,False,Standard
+Central Secretariat,Central Secretariat,28.6146,77.2119,Central Delhi,Yellow Line; Violet Line,2,True,High
+Udyog Bhawan,Udyog Bhawan,28.6115,77.212,Central Delhi,Yellow Line,1,False,Standard
+Lok Kalyan Marg,Lok Kalyan Marg,28.5985,77.2105,South Delhi,Yellow Line,1,False,Standard
+Jor Bagh,Jor Bagh,28.5888,77.212,South Delhi,Yellow Line,1,False,Standard
+Dilli Haat - INA,Dilli Haat - INA,28.5744,77.2103,South Delhi,Yellow Line; Pink Line,2,True,High
+AIIMS,AIIMS,28.5686,77.2078,South Delhi,Yellow Line,1,False,Standard
+Green Park,Green Park,28.5587,77.2065,South Delhi,Yellow Line,1,False,Standard
+Hauz Khas,Hauz Khas,28.5431,77.2064,South Delhi,Yellow Line; Magenta Line,2,True,Mega Hub
+Malviya Nagar,Malviya Nagar,28.5282,77.2062,South Delhi,Yellow Line,1,False,Standard
+Saket,Saket,28.5208,77.2017,South Delhi,Yellow Line,1,False,Standard
+Qutab Minar,Qutab Minar,28.5132,77.1857,South Delhi,Yellow Line,1,False,Standard
+Chhatarpur,Chhatarpur,28.5065,77.1746,South Delhi,Yellow Line,1,False,Standard
+Sultanpur,Sultanpur,28.4988,77.1615,South Delhi,Yellow Line,1,False,Standard
+Ghogha,Ghogha,28.49,77.148,South Delhi,Yellow Line,1,False,Standard
+Guru Dronacharya,Guru Dronacharya,28.4812,77.1215,Gurugram,Yellow Line,1,False,Standard
+Sikanderpur,Sikanderpur,28.482,77.0931,Gurugram,Yellow Line; Rapid Metro Gurgaon,2,True,High
+MG Road,MG Road,28.4798,77.0805,Gurugram,Yellow Line,1,False,Standard
+IFFCO Chowk,IFFCO Chowk,28.4722,77.0725,Gurugram,Yellow Line,1,False,Standard
+Millennium City Centre,Millennium City Centre,28.4593,77.0725,Gurugram,Yellow Line,1,False,Standard
+Dwarka Sector 21,Dwarka Sector 21,28.5523,77.0583,South West Delhi,Blue Line; Airport Express Line,2,True,High
+Dwarka Sector 8,Dwarka Sector 8,28.5658,77.0678,South West Delhi,Blue Line,1,False,Medium
+Dwarka Sector 9,Dwarka Sector 9,28.5742,77.0645,South West Delhi,Blue Line,1,False,Medium
+Dwarka Sector 10,Dwarka Sector 10,28.5815,77.0581,South West Delhi,Blue Line,1,False,Medium
+Dwarka Sector 11,Dwarka Sector 11,28.5898,77.052,South West Delhi,Blue Line,1,False,Medium
+Dwarka Sector 12,Dwarka Sector 12,28.5925,77.041,South West Delhi,Blue Line,1,False,Medium
+Dwarka Sector 13,Dwarka Sector 13,28.601,77.0335,South West Delhi,Blue Line,1,False,Medium
+Dwarka Sector 14,Dwarka Sector 14,28.6105,77.026,South West Delhi,Blue Line,1,False,Medium
+Dwarka,Dwarka,28.6152,77.0175,South West Delhi,Blue Line; Grey Line,2,True,High
+Dwarka Mor,Dwarka Mor,28.6195,77.0328,West Delhi,Blue Line,1,False,Standard
+Nawada,Nawada,28.6212,77.0445,West Delhi,Blue Line,1,False,Standard
+Uttam Nagar West,Uttam Nagar West,28.6235,77.056,West Delhi,Blue Line,1,False,Standard
+Uttam Nagar East,Uttam Nagar East,28.6255,77.0658,West Delhi,Blue Line,1,False,Standard
+Janakpuri West,Janakpuri West,28.6295,77.0778,West Delhi,Blue Line; Magenta Line,2,True,High
+Janakpuri East,Janakpuri East,28.6328,77.0875,West Delhi,Blue Line,1,False,Standard
+Tilak Nagar,Tilak Nagar,28.6365,77.0988,West Delhi,Blue Line,1,False,Standard
+Subhash Nagar,Subhash Nagar,28.6405,77.1055,West Delhi,Blue Line,1,False,Standard
+Tagore Garden,Tagore Garden,28.644,77.1145,West Delhi,Blue Line,1,False,Standard
+Rajouri Garden,Rajouri Garden,28.6492,77.1235,West Delhi,Blue Line; Pink Line,2,True,High
+Ramesh Nagar,Ramesh Nagar,28.6528,77.1345,West Delhi,Blue Line,1,False,Standard
+Moti Nagar,Moti Nagar,28.6578,77.1435,West Delhi,Blue Line,1,False,Standard
+Kirti Nagar,Kirti Nagar,28.6558,77.1518,West Delhi,Blue Line; Green Branch Line,2,True,High
+Shadipur,Shadipur,28.6515,77.1585,West Delhi,Blue Line,1,False,Standard
+Patel Nagar,Patel Nagar,28.6508,77.1685,Central Delhi,Blue Line,1,False,Standard
+Rajendra Place,Rajendra Place,28.6425,77.1785,Central Delhi,Blue Line,1,False,Standard
+Karol Bagh,Karol Bagh,28.6442,77.1902,Central Delhi,Blue Line,1,False,Standard
+Jhandewalan,Jhandewalan,28.6441,77.2015,Central Delhi,Blue Line,1,False,Standard
+RK Ashram Marg,RK Ashram Marg,28.6392,77.2115,Central Delhi,Blue Line,1,False,Standard
+Barakhamba Road,Barakhamba Road,28.6315,77.2275,Central Delhi,Blue Line,1,False,Standard
+Mandi House,Mandi House,28.6258,77.2345,Central Delhi,Blue Line; Violet Line,2,True,High
+Supreme Court,Supreme Court,28.6235,77.2435,Central Delhi,Blue Line,1,False,Standard
+Indraprastha,Indraprastha,28.6205,77.2515,Central Delhi,Blue Line,1,False,Standard
+Yamuna Bank,Yamuna Bank,28.6238,77.2665,East Delhi,Blue Line; Blue Branch Line,2,True,High
+Akshardham,Akshardham,28.6185,77.2795,East Delhi,Blue Line,1,False,Standard
+Mayur Vihar-1,Mayur Vihar-1,28.6048,77.2942,East Delhi,Blue Line; Pink Line,2,True,High
+Mayur Vihar Extension,Mayur Vihar Extension,28.5935,77.3015,East Delhi,Blue Line,1,False,Standard
+New Ashok Nagar,New Ashok Nagar,28.5885,77.3115,East Delhi,Blue Line,1,False,Standard
+Noida Sector 15,Noida Sector 15,28.5845,77.3195,Noida,Blue Line,1,False,Medium
+Noida Sector 16,Noida Sector 16,28.5785,77.3255,Noida,Blue Line,1,False,Medium
+Noida Sector 18,Noida Sector 18,28.5708,77.3265,Noida,Blue Line,1,False,Medium
+Botanical Garden,Botanical Garden,28.5642,77.3345,Noida,Blue Line; Magenta Line,2,True,High
+Golf Course,Golf Course,28.5672,77.3465,Noida,Blue Line,1,False,Standard
+Noida City Centre,Noida City Centre,28.5745,77.3565,Noida,Blue Line,1,False,Standard
+Noida Sector 34,Noida Sector 34,28.5815,77.3655,Noida,Blue Line,1,False,Medium
+Noida Sector 52,Noida Sector 52,28.5915,77.3715,Noida,Blue Line,1,False,Medium
+Noida Sector 61,Noida Sector 61,28.6015,77.3725,Noida,Blue Line,1,False,Medium
+Noida Sector 59,Noida Sector 59,28.6125,77.3735,Noida,Blue Line,1,False,Medium
+Noida Sector 62,Noida Sector 62,28.6225,77.3705,Noida,Blue Line,1,False,Medium
+Noida Electronic City,Noida Electronic City,28.6285,77.3675,Noida,Blue Line,1,False,Standard
+Laxmi Nagar,Laxmi Nagar,28.6315,77.2775,East Delhi,Blue Branch Line,1,False,Standard
+Nirman Vihar,Nirman Vihar,28.6365,77.2865,East Delhi,Blue Branch Line,1,False,Standard
+Preet Vihar,Preet Vihar,28.6415,77.2955,East Delhi,Blue Branch Line,1,False,Standard
+Karkarduma,Karkarduma,28.6485,77.3045,East Delhi,Blue Branch Line; Pink Line,2,True,High
+Anand Vihar ISBT,Anand Vihar ISBT,28.6468,77.316,East Delhi,Blue Branch Line; Pink Line,2,True,High
+Kaushambi,Kaushambi,28.6455,77.3245,Ghaziabad,Blue Branch Line,1,False,Standard
+Vaishali,Vaishali,28.6498,77.3395,Ghaziabad,Blue Branch Line,1,False,Standard
+Lal Quila,Lal Quila,28.6565,77.2385,Central Delhi,Violet Line,1,False,Standard
+Jama Masjid,Jama Masjid,28.6505,77.2375,Central Delhi,Violet Line,1,False,Standard
+Delhi Gate,Delhi Gate,28.6405,77.2405,Central Delhi,Violet Line,1,False,Standard
+ITO,ITO,28.6315,77.2408,Central Delhi,Violet Line,1,False,Standard
+Janpath,Janpath,28.6225,77.2185,Central Delhi,Violet Line,1,False,Standard
+Khan Market,Khan Market,28.6015,77.2285,Central Delhi,Violet Line,1,False,Standard
+Jawaharlal Nehru Stadium,Jawaharlal Nehru Stadium,28.5885,77.2345,South Delhi,Violet Line,1,False,Standard
+Jangpura,Jangpura,28.5805,77.2395,South Delhi,Violet Line,1,False,Standard
+Lajpat Nagar,Lajpat Nagar,28.5708,77.2375,South Delhi,Violet Line; Pink Line,2,True,High
+Moolchand,Moolchand,28.5655,77.2345,South Delhi,Violet Line,1,False,Standard
+Kailash Colony,Kailash Colony,28.5555,77.2415,South Delhi,Violet Line,1,False,Standard
+Nehru Place,Nehru Place,28.5515,77.2515,South Delhi,Violet Line,1,False,Standard
+Kalkaji Mandir,Kalkaji Mandir,28.5495,77.2585,South Delhi,Violet Line; Magenta Line,2,True,High
+Govind Puri,Govind Puri,28.5365,77.2645,South Delhi,Violet Line,1,False,Standard
+Harkesh Nagar Okhla,Harkesh Nagar Okhla,28.5285,77.2765,South Delhi,Violet Line,1,False,Standard
+Jasola Apollo,Jasola Apollo,28.5245,77.2845,South Delhi,Violet Line,1,False,Standard
+Sarita Vihar,Sarita Vihar,28.5145,77.2915,South Delhi,Violet Line,1,False,Standard
+Mohan Estate,Mohan Estate,28.5045,77.2995,South Delhi,Violet Line,1,False,Standard
+Tughlakabad,Tughlakabad,28.4945,77.3065,South Delhi,Violet Line,1,False,Standard
+Badarpur Border,Badarpur Border,28.4865,77.3085,South Delhi,Violet Line,1,False,Standard
+Sarai,Sarai,28.4725,77.3115,Faridabad,Violet Line,1,False,Standard
+NHPC Chowk,NHPC Chowk,28.4595,77.3125,Faridabad,Violet Line,1,False,Standard
+Mewala Maharajpur,Mewala Maharajpur,28.4485,77.3125,Faridabad,Violet Line,1,False,Standard
+Sector 28 Faridabad,Sector 28 Faridabad,28.4355,77.3125,Faridabad,Violet Line,1,False,Medium
+Badkal Mor,Badkal Mor,28.4215,77.3135,Faridabad,Violet Line,1,False,Standard
+Old Faridabad,Old Faridabad,28.4105,77.3155,Faridabad,Violet Line,1,False,Standard
+Neelam Chowk Ajronda,Neelam Chowk Ajronda,28.3985,77.3175,Faridabad,Violet Line,1,False,Standard
+Bata Chowk,Bata Chowk,28.3855,77.3195,Faridabad,Violet Line,1,False,Standard
+Escorts Mujesar,Escorts Mujesar,28.3725,77.3225,Faridabad,Violet Line,1,False,Standard
+Sant Surdas,Sant Surdas,28.3585,77.3255,Faridabad,Violet Line,1,False,Standard
+Raja Nahar Singh,Raja Nahar Singh,28.3415,77.3295,Faridabad,Violet Line,1,False,Standard
+Ashok Park Main,Ashok Park Main,28.6715,77.1575,North West Delhi,Green Line; Green Branch Line,2,True,High
+Punjabi Bagh,Punjabi Bagh,28.6705,77.1435,West Delhi,Green Line,1,False,Standard
+Shivaji Park,Shivaji Park,28.6725,77.1325,West Delhi,Green Line,1,False,Standard
+Madipur,Madipur,28.6735,77.1215,West Delhi,Green Line,1,False,Standard
+Paschim Vihar East,Paschim Vihar East,28.6745,77.1105,West Delhi,Green Line,1,False,Standard
+Paschim Vihar West,Paschim Vihar West,28.6765,77.0985,West Delhi,Green Line,1,False,Standard
+Peeragarhi,Peeragarhi,28.6795,77.0865,West Delhi,Green Line,1,False,Standard
+Udyog Nagar,Udyog Nagar,28.6825,77.0755,West Delhi,Green Line,1,False,Standard
+Maharaja Surajmal Stadium,Maharaja Surajmal Stadium,28.6855,77.0635,West Delhi,Green Line,1,False,Standard
+Nangloi,Nangloi,28.6875,77.0515,West Delhi,Green Line,1,False,Standard
+Nangloi Railway Station,Nangloi Railway Station,28.6885,77.0405,West Delhi,Green Line,1,False,Standard
+Rajdhani Park,Rajdhani Park,28.6905,77.0285,West Delhi,Green Line,1,False,Standard
+Mundka,Mundka,28.6925,77.0165,West Delhi,Green Line,1,False,Standard
+Mundka Industrial Area,Mundka Industrial Area,28.6945,77.0015,West Delhi,Green Line,1,False,Medium
+Ghevra Metro Station,Ghevra Metro Station,28.6965,76.9855,West Delhi,Green Line,1,False,Standard
+Tikri Kalan,Tikri Kalan,28.6975,76.9695,West Delhi,Green Line,1,False,Standard
+Tikri Border,Tikri Border,28.6985,76.9535,West Delhi,Green Line,1,False,Standard
+Pandit Shree Ram Sharma,Pandit Shree Ram Sharma,28.6965,76.9395,Bahadurgarh,Green Line,1,False,Standard
+Bahadurgarh City,Bahadurgarh City,28.6945,76.9245,Bahadurgarh,Green Line,1,False,Standard
+Brigadier Hoshiar Singh,Brigadier Hoshiar Singh,28.6915,76.9105,Bahadurgarh,Green Line,1,False,Standard
+Satguru Ram Singh Marg,Satguru Ram Singh Marg,28.6605,77.1535,West Delhi,Green Branch Line,1,False,Standard
+Majlis Park,Majlis Park,28.7185,77.1795,North Delhi,Pink Line,1,False,Standard
+Shalimar Bagh,Shalimar Bagh,28.7015,77.1655,North West Delhi,Pink Line,1,False,Standard
+Shakurpur,Shakurpur,28.6895,77.1455,North West Delhi,Pink Line,1,False,Standard
+Punjabi Bagh West,Punjabi Bagh West,28.6725,77.1385,West Delhi,Pink Line,1,False,Standard
+ESI Hospital,ESI Hospital,28.6615,77.1315,West Delhi,Pink Line,1,False,Standard
+Maya Puri,Maya Puri,28.6395,77.1285,West Delhi,Pink Line,1,False,Standard
+Naraina Vihar,Naraina Vihar,28.6285,77.1355,West Delhi,Pink Line,1,False,Standard
+Delhi Cantt,Delhi Cantt,28.5995,77.1425,South West Delhi,Pink Line,1,False,Standard
+Durgabai Deshmukh South Campus,Durgabai Deshmukh South Campus,28.5885,77.1625,South Delhi,Pink Line,1,False,Standard
+Sir M. Vishweshwaraiah Moti Bagh,Sir M. Vishweshwaraiah Moti Bagh,28.5825,77.1735,South Delhi,Pink Line,1,False,Standard
+Bhikaji Cama Place,Bhikaji Cama Place,28.5735,77.1865,South Delhi,Pink Line,1,False,Standard
+Sarojini Nagar,Sarojini Nagar,28.574,77.1985,South Delhi,Pink Line,1,False,Standard
+South Extension,South Extension,28.5725,77.2235,South Delhi,Pink Line,1,False,Standard
+Vinobapuri,Vinobapuri,28.5685,77.2485,South Delhi,Pink Line,1,False,Standard
+Ashram,Ashram,28.5705,77.2595,South Delhi,Pink Line,1,False,Standard
+Sarai Kale Khan - Nizamuddin,Sarai Kale Khan - Nizamuddin,28.5885,77.2605,South Delhi,Pink Line,1,False,Standard
+Mayur Vihar Pocket 1,Mayur Vihar Pocket 1,28.6085,77.2995,East Delhi,Pink Line,1,False,Standard
+Trilokpuri Sanjay Lake,Trilokpuri Sanjay Lake,28.6145,77.3045,East Delhi,Pink Line,1,False,Standard
+East Vinod Nagar,East Vinod Nagar,28.6215,77.3085,East Delhi,Pink Line,1,False,Standard
+Mandawali - West Vinod Nagar,Mandawali - West Vinod Nagar,28.6295,77.3075,East Delhi,Pink Line,1,False,Standard
+IP Extension,IP Extension,28.6365,77.3055,East Delhi,Pink Line,1,False,Standard
+Karkarduma Court,Karkarduma Court,28.6545,77.2985,East Delhi,Pink Line,1,False,Standard
+Krishna Nagar,Krishna Nagar,28.6595,77.2895,East Delhi,Pink Line,1,False,Standard
+East Azad Nagar,East Azad Nagar,28.6645,77.2835,East Delhi,Pink Line,1,False,Standard
+Jaffrabad,Jaffrabad,28.6795,77.2745,North East Delhi,Pink Line,1,False,Standard
+Maujpur - Babarpur,Maujpur - Babarpur,28.6865,77.2715,North East Delhi,Pink Line,1,False,Standard
+Gokulpuri,Gokulpuri,28.6945,77.2725,North East Delhi,Pink Line,1,False,Standard
+Johri Enclave,Johri Enclave,28.7035,77.2745,North East Delhi,Pink Line,1,False,Standard
+Shiv Vihar,Shiv Vihar,28.7115,77.2785,North East Delhi,Pink Line,1,False,Standard
+Janakpuri South,Janakpuri South,28.6185,77.0865,West Delhi,Magenta Line,1,False,Standard
+Dashrath Puri,Dashrath Puri,28.6085,77.0885,South West Delhi,Magenta Line,1,False,Standard
+Palam,Palam,28.5915,77.0905,South West Delhi,Magenta Line,1,False,Standard
+Sadar Bazaar Cantonment,Sadar Bazaar Cantonment,28.5815,77.1065,South West Delhi,Magenta Line,1,False,Standard
+Terminal 1 IGI Airport,Terminal 1 IGI Airport,28.5635,77.1235,South West Delhi,Magenta Line,1,False,Standard
+Shankar Vihar,Shankar Vihar,28.5525,77.1425,South West Delhi,Magenta Line,1,False,Standard
+Vasant Vihar,Vasant Vihar,28.5555,77.1605,South Delhi,Magenta Line,1,False,Standard
+Munirka,Munirka,28.5565,77.1725,South Delhi,Magenta Line,1,False,Standard
+RK Puram,RK Puram,28.5535,77.1855,South Delhi,Magenta Line,1,False,Standard
+IIT Delhi,IIT Delhi,28.5465,77.1955,South Delhi,Magenta Line,1,False,Standard
+Panchsheel Park,Panchsheel Park,28.5415,77.2185,South Delhi,Magenta Line,1,False,Standard
+Chirag Delhi,Chirag Delhi,28.5395,77.2305,South Delhi,Magenta Line,1,False,Standard
+Greater Kailash,Greater Kailash,28.5385,77.2425,South Delhi,Magenta Line,1,False,Standard
+Nehru Enclave,Nehru Enclave,28.5435,77.2515,South Delhi,Magenta Line,1,False,Standard
+Okhla NSIC,Okhla NSIC,28.5525,77.2685,South Delhi,Magenta Line,1,False,Standard
+Sukhdev Vihar,Sukhdev Vihar,28.5615,77.2765,South Delhi,Magenta Line,1,False,Standard
+Jamia Millia Islamia,Jamia Millia Islamia,28.5625,77.2865,South Delhi,Magenta Line,1,False,Standard
+Okhla Vihar,Okhla Vihar,28.5595,77.2965,South Delhi,Magenta Line,1,False,Standard
+Jasola Vihar Shaheen Bagh,Jasola Vihar Shaheen Bagh,28.5485,77.3045,South Delhi,Magenta Line,1,False,Standard
+Kalindi Kunj,Kalindi Kunj,28.5435,77.3115,South Delhi,Magenta Line,1,False,Standard
+Okhla Bird Sanctuary,Okhla Bird Sanctuary,28.5475,77.3235,Noida,Magenta Line,1,False,Standard
+Shivaji Stadium,Shivaji Stadium,28.6295,77.2115,Central Delhi,Airport Express Line,1,False,Standard
+Dhaula Kuan,Dhaula Kuan,28.5915,77.1625,South Delhi,Airport Express Line,1,False,Standard
+Delhi Aerocity,Delhi Aerocity,28.5505,77.1215,South West Delhi,Airport Express Line,1,False,Standard
+Airport (Terminal 3),Airport (Terminal 3),28.5565,77.0865,South West Delhi,Airport Express Line,1,False,Standard
+Yashobhoomi Dwarka Sector 25,Yashobhoomi Dwarka Sector 25,28.5465,77.0425,South West Delhi,Airport Express Line,1,False,Medium
+Nangli,Nangli,28.6185,76.9955,South West Delhi,Grey Line,1,False,Standard
+Najafgarh,Najafgarh,28.6135,76.9825,South West Delhi,Grey Line,1,False,Standard
+Dhansa Bus Stand,Dhansa Bus Stand,28.6085,76.9715,South West Delhi,Grey Line,1,False,Standard
+Phase 2,Phase 2,28.4905,77.0895,Gurugram,Rapid Metro Gurgaon,1,False,Standard
+Belvedere Towers,Belvedere Towers,28.4955,77.0875,Gurugram,Rapid Metro Gurgaon,1,False,Standard
+Cyber City,Cyber City,28.4985,77.0895,Gurugram,Rapid Metro Gurgaon,1,False,Standard
+Moulsari Avenue,Moulsari Avenue,28.5025,77.0965,Gurugram,Rapid Metro Gurgaon,1,False,Standard
+Phase 3,Phase 3,28.4915,77.1005,Gurugram,Rapid Metro Gurgaon,1,False,Standard
+Sector 42-43,Sector 42-43,28.4685,77.0955,Gurugram,Rapid Metro Gurgaon,1,False,Medium
+Sector 53-54,Sector 53-54,28.4555,77.0985,Gurugram,Rapid Metro Gurgaon,1,False,Medium
+Sector 54 Chowk,Sector 54 Chowk,28.4415,77.1025,Gurugram,Rapid Metro Gurgaon,1,False,Medium
+Sector 55-56,Sector 55-56,28.4285,77.1085,Gurugram,Rapid Metro Gurgaon,1,False,Medium
+Noida Sector 51,Noida Sector 51,28.5915,77.3735,Noida,Aqua Line,1,False,Medium
+Noida Sector 50,Noida Sector 50,28.5835,77.3755,Noida,Aqua Line,1,False,Medium
+Noida Sector 76,Noida Sector 76,28.5725,77.3785,Noida,Aqua Line,1,False,Medium
+Noida Sector 101,Noida Sector 101,28.5585,77.3825,Noida,Aqua Line,1,False,Medium
+Noida Sector 81,Noida Sector 81,28.5445,77.3865,Noida,Aqua Line,1,False,Medium
+NSEZ,NSEZ,28.5315,77.3915,Noida,Aqua Line,1,False,Standard
+Noida Sector 83,Noida Sector 83,28.5175,77.3975,Noida,Aqua Line,1,False,Medium
+Noida Sector 137,Noida Sector 137,28.5035,77.4045,Noida,Aqua Line,1,False,Medium
+Noida Sector 142,Noida Sector 142,28.4895,77.4115,Noida,Aqua Line,1,False,Medium
+Pari Chowk,Pari Chowk,28.4655,77.5095,Greater Noida,Aqua Line,1,False,Standard
+Depot,Depot,28.4415,77.5255,Greater Noida,Aqua Line,1,False,Standard

@@ -1,0 +1,84 @@
+station,degree,degree_centrality,closeness_centrality,betweenness_centrality,betweenness_phase1,pagerank,clustering_coefficient,is_articulation_point,zone,lines,is_interchange,eigenvector_centrality
+Challegatta,1,0.0122,0.0458,0.0,0.0,0.0077,0,False,West Bengaluru,Purple Line,False,0.0002
+Kengeri,2,0.0244,0.048,0.0244,0.0299,0.014,0,True,West Bengaluru,Purple Line,False,0.0004
+Kengeri Bus Terminal,2,0.0244,0.0503,0.0482,0.0588,0.0131,0,True,West Bengaluru,Purple Line,False,0.0008
+Pattanagere,2,0.0244,0.0528,0.0714,0.0868,0.0126,0,True,West Bengaluru,Purple Line,False,0.0014
+Jnanabharathi,2,0.0244,0.0554,0.0939,0.114,0.0124,0,True,West Bengaluru,Purple Line,False,0.0024
+Rajarajeshwari Nagar,2,0.0244,0.0583,0.1159,0.1402,0.0122,0,True,West Bengaluru,Purple Line,False,0.0041
+Nayandahalli,2,0.0244,0.0614,0.1373,0.1655,0.0121,0,True,West Bengaluru,Purple Line,False,0.0071
+Mysore Road,2,0.0244,0.0648,0.1581,0.19,0.0121,0,True,West Bengaluru,Purple Line,False,0.0123
+Deepanjali Nagar,2,0.0244,0.0684,0.1783,0.2135,0.012,0,True,West Bengaluru,Purple Line,False,0.0213
+Attiguppe,2,0.0244,0.0723,0.1978,0.2361,0.012,0,True,West Bengaluru,Purple Line,False,0.037
+Vijayanagar,2,0.0244,0.0766,0.2168,0.2578,0.0119,0,True,West Bengaluru,Purple Line,False,0.064
+Hosahalli,2,0.0244,0.0812,0.2352,0.2786,0.0118,0,True,Central West,Purple Line,False,0.1109
+Magadi Road,2,0.0244,0.0862,0.2529,0.2985,0.0115,0,True,Central West,Purple Line,False,0.1922
+Krantivira Sangolli Rayanna Railway Station,2,0.0244,0.0917,0.2701,0.3175,0.0111,0,True,Central Bengaluru,Purple Line,False,0.3329
+Nadaprabhu Kempegowda Station Majestic,4,0.0488,0.0977,0.7359,0.7526,0.0206,0,True,Central Bengaluru,Purple Line; Green Line,True,0.5766
+Sir M. Visveshwaraya Central College,2,0.0244,0.0934,0.3857,0.4369,0.0111,0,True,Central Bengaluru,Purple Line,False,0.3329
+Vidhana Soudha,2,0.0244,0.0892,0.3734,0.4251,0.0115,0,True,Central Bengaluru,Purple Line,False,0.1922
+Cubbon Park,2,0.0244,0.0852,0.3604,0.4125,0.0118,0,True,Central Bengaluru,Purple Line,False,0.1109
+MG Road,2,0.0244,0.0814,0.3469,0.3989,0.0119,0,True,Central Bengaluru,Purple Line,False,0.064
+Trinity,2,0.0244,0.0778,0.3327,0.3844,0.012,0,True,Central Bengaluru,Purple Line,False,0.037
+Halasuru,2,0.0244,0.0743,0.318,0.3691,0.012,0,True,East Bengaluru,Purple Line,False,0.0213
+Indiranagar,2,0.0244,0.0711,0.3026,0.3528,0.012,0,True,East Bengaluru,Purple Line,False,0.0123
+Swami Vivekananda Road,2,0.0244,0.0679,0.2867,0.3356,0.012,0,True,East Bengaluru,Purple Line,False,0.0071
+Baiyappanahalli,2,0.0244,0.065,0.2701,0.3175,0.012,0,True,East Bengaluru,Purple Line,False,0.0041
+Benniganahalli,2,0.0244,0.0622,0.2529,0.2985,0.012,0,True,East Bengaluru,Purple Line,False,0.0024
+KR Pura (Krishnarajapuram),2,0.0244,0.0595,0.2352,0.2786,0.0121,0,True,East Bengaluru,Purple Line,False,0.0014
+Singayyanapalya,2,0.0244,0.057,0.2168,0.2578,0.0121,0,True,East Bengaluru,Purple Line,False,0.0008
+Garudacharpalya,2,0.0244,0.0546,0.1978,0.2361,0.0121,0,True,East Bengaluru,Purple Line,False,0.0005
+Hoodi,2,0.0244,0.0523,0.1783,0.2135,0.0121,0,True,East Bengaluru,Purple Line,False,0.0003
+Seetharampalya,2,0.0244,0.0502,0.1581,0.19,0.0121,0,True,Whitefield IT Hub,Purple Line,False,0.0002
+Kundalahalli,2,0.0244,0.0482,0.1373,0.1655,0.0122,0,True,Whitefield IT Hub,Purple Line,False,0.0001
+Nallurhalli,2,0.0244,0.0462,0.1159,0.1402,0.0122,0,True,Whitefield IT Hub,Purple Line,False,0.0001
+Sri Sathya Sai Hospital,2,0.0244,0.0444,0.0939,0.114,0.0124,0,True,Whitefield IT Hub,Purple Line,False,0.0
+Pattandur Agrahara,2,0.0244,0.0427,0.0714,0.0868,0.0126,0,True,Whitefield IT Hub,Purple Line,False,0.0
+Kadugodi Tree Park,2,0.0244,0.041,0.0482,0.0588,0.0131,0,True,Whitefield IT Hub,Purple Line,False,0.0
+Hopefarm Channasandra,2,0.0244,0.0395,0.0244,0.0299,0.014,0,True,Whitefield IT Hub,Purple Line,False,0.0
+Whitefield (Kadugodi),1,0.0122,0.038,0.0,0.0,0.0077,0,False,Whitefield IT Hub,Purple Line,False,0.0
+Madavara (BIEC),1,0.0122,0.0433,0.0,0.0,0.0077,0,False,North Bengaluru,Green Line,False,0.0001
+Chikkabidarakallu,2,0.0244,0.0452,0.0244,0.0299,0.014,0,True,North Bengaluru,Green Line,False,0.0001
+Manjunath Nagar,2,0.0244,0.0473,0.0482,0.0588,0.0131,0,True,North Bengaluru,Green Line,False,0.0003
+Nagasandra,2,0.0244,0.0495,0.0714,0.0868,0.0126,0,True,North Bengaluru,Green Line,False,0.0005
+Dasarahalli,2,0.0244,0.0518,0.0939,0.114,0.0124,0,True,North Bengaluru,Green Line,False,0.0008
+Jalahalli,2,0.0244,0.0543,0.1159,0.1402,0.0122,0,True,North Bengaluru,Green Line,False,0.0014
+Peenya Industry,2,0.0244,0.057,0.1373,0.1655,0.0121,0,True,Peenya Industrial Zone,Green Line,False,0.0024
+Peenya,2,0.0244,0.0599,0.1581,0.19,0.0121,0,True,Peenya Industrial Zone,Green Line,False,0.0041
+Goraguntepalya,2,0.0244,0.0629,0.1783,0.2135,0.0121,0,True,North Bengaluru,Green Line,False,0.0071
+Yeshwanthpur,2,0.0244,0.0662,0.1978,0.2361,0.012,0,True,North Bengaluru,Green Line,False,0.0123
+Sandal Soap Factory,2,0.0244,0.0698,0.2168,0.2578,0.012,0,True,North Bengaluru,Green Line,False,0.0213
+Mahalakshmi,2,0.0244,0.0736,0.2352,0.2786,0.012,0,True,North Bengaluru,Green Line,False,0.037
+Rajajinagar,2,0.0244,0.0777,0.2529,0.2985,0.0119,0,True,Central West,Green Line,False,0.064
+Kuvempu Road,2,0.0244,0.0822,0.2701,0.3175,0.0118,0,True,Central West,Green Line,False,0.1109
+Srirampura,2,0.0244,0.087,0.2867,0.3356,0.0115,0,True,Central West,Green Line,False,0.1922
+Sampige Road (Mantri Square),2,0.0244,0.0921,0.3026,0.3528,0.0111,0,True,Central Bengaluru,Green Line,False,0.3329
+Chickpete,2,0.0244,0.0951,0.4628,0.3356,0.0111,0,True,Central Bengaluru,Green Line,False,0.3332
+Krishna Rajendra Market,2,0.0244,0.0924,0.4553,0.3175,0.0115,0,True,Central Bengaluru,Green Line,False,0.1929
+National College,2,0.0244,0.0897,0.4472,0.2985,0.0116,0,True,South Bengaluru,Green Line,False,0.1123
+Lalbagh,2,0.0244,0.087,0.4384,0.2786,0.0117,0,True,South Bengaluru,Green Line,False,0.0664
+South End Circle,2,0.0244,0.0842,0.4291,0.2578,0.0116,0,True,South Bengaluru,Green Line,False,0.0411
+Jayanagar,2,0.0244,0.0814,0.4192,0.2361,0.0114,0,True,South Bengaluru,Green Line,False,0.0285
+Rashtreeya Vidyalaya Road (RV Road),3,0.0366,0.0787,0.4447,0.2135,0.0164,0,True,South Bengaluru,Green Line; Yellow Line,True,0.0248
+Banashankari,2,0.0244,0.0739,0.1581,0.19,0.0115,0,True,South Bengaluru,Green Line,False,0.0143
+Jaya Prakash Nagar (JP Nagar),2,0.0244,0.0696,0.1373,0.1655,0.0118,0,True,South Bengaluru,Green Line,False,0.0083
+Yelachenahalli,2,0.0244,0.0657,0.1159,0.1402,0.012,0,True,South Bengaluru,Green Line,False,0.0048
+Konanakunte Cross,2,0.0244,0.062,0.0939,0.114,0.0123,0,True,South Bengaluru,Green Line,False,0.0028
+Doddakallasandra,2,0.0244,0.0587,0.0714,0.0868,0.0126,0,True,South Bengaluru,Green Line,False,0.0016
+Vajrahalli,2,0.0244,0.0556,0.0482,0.0588,0.0131,0,True,South Bengaluru,Green Line,False,0.0009
+Thalaghattapura,2,0.0244,0.0528,0.0244,0.0299,0.0139,0,True,South Bengaluru,Green Line,False,0.0005
+Silk Institute,1,0.0122,0.0502,0.0,0.0,0.0077,0,False,South Bengaluru,Green Line,False,0.0002
+Ragigudda,2,0.0244,0.0749,0.2867,0.0,0.0114,0,True,South Bengaluru,Yellow Line,False,0.0143
+Jayadeva Hospital,2,0.0244,0.0713,0.2701,0.0,0.0117,0,True,South Bengaluru,Yellow Line,False,0.0083
+BTM Layout,2,0.0244,0.0679,0.2529,0.0,0.0119,0,True,South Bengaluru,Yellow Line,False,0.0048
+Central Silk Board,2,0.0244,0.0648,0.2352,0.0,0.0119,0,True,South East Hub,Yellow Line,False,0.0028
+Bommanahalli,2,0.0244,0.0618,0.2168,0.0,0.012,0,True,South East,Yellow Line,False,0.0016
+Hongasandra,2,0.0244,0.059,0.1978,0.0,0.012,0,True,South East,Yellow Line,False,0.0009
+Kudlu Gate,2,0.0244,0.0564,0.1783,0.0,0.0121,0,True,South East,Yellow Line,False,0.0005
+Singasandra,2,0.0244,0.0539,0.1581,0.0,0.0121,0,True,South East,Yellow Line,False,0.0003
+Hosa Road,2,0.0244,0.0515,0.1373,0.0,0.0121,0,True,South East,Yellow Line,False,0.0002
+Beratena Agrahara,2,0.0244,0.0493,0.1159,0.0,0.0122,0,True,South East,Yellow Line,False,0.0001
+Electronic City,2,0.0244,0.0473,0.0939,0.0,0.0124,0,True,Electronics City Tech Hub,Yellow Line,False,0.0001
+Infosys Foundation Konappana Agrahara,2,0.0244,0.0453,0.0714,0.0,0.0126,0,True,Electronics City Tech Hub,Yellow Line,False,0.0
+Huskur Road,2,0.0244,0.0435,0.0482,0.0,0.0131,0,True,Electronics City Tech Hub,Yellow Line,False,0.0
+Hebbagodi,2,0.0244,0.0417,0.0244,0.0,0.014,0,True,Electronics City Tech Hub,Yellow Line,False,0.0
+Bommasandra,1,0.0122,0.0401,0.0,0.0,0.0077,0,False,Industrial Suburb,Yellow Line,False,0.0

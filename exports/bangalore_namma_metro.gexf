@@ -1,0 +1,2351 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2026-09-25">
+    <creator>NetworkX 2.6.3</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="15" title="line" type="string" />
+      <attribute id="16" title="line_color" type="string" />
+      <attribute id="17" title="distance" type="double" />
+      <attribute id="18" title="time" type="double" />
+      <attribute id="19" title="status" type="string" />
+    </attributes>
+    <attributes class="node" mode="static">
+      <attribute id="0" title="name" type="string" />
+      <attribute id="1" title="lat" type="double" />
+      <attribute id="2" title="lon" type="double" />
+      <attribute id="3" title="zone" type="string" />
+      <attribute id="4" title="lines" type="string" />
+      <attribute id="5" title="line_count" type="long" />
+      <attribute id="6" title="is_interchange" type="boolean" />
+      <attribute id="7" title="footfall" type="string" />
+      <attribute id="8" title="degree" type="long" />
+      <attribute id="9" title="deg_centrality" type="double" />
+      <attribute id="10" title="closeness" type="double" />
+      <attribute id="11" title="betweenness" type="double" />
+      <attribute id="12" title="pagerank" type="double" />
+      <attribute id="13" title="clustering" type="double" />
+      <attribute id="14" title="is_cut_vertex" type="long" />
+    </attributes>
+    <nodes>
+      <node id="Challegatta" label="Challegatta">
+        <attvalues>
+          <attvalue for="0" value="Challegatta" />
+          <attvalue for="1" value="12.8988" />
+          <attvalue for="2" value="77.4665" />
+          <attvalue for="3" value="West Bengaluru" />
+          <attvalue for="4" value="Purple Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="1" />
+          <attvalue for="9" value="0.012195121951219513" />
+          <attvalue for="10" value="0.04578447794528197" />
+          <attvalue for="11" value="0.0" />
+          <attvalue for="12" value="0.007738968197359619" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="Kengeri" label="Kengeri">
+        <attvalues>
+          <attvalue for="0" value="Kengeri" />
+          <attvalue for="1" value="12.9082" />
+          <attvalue for="2" value="77.4764" />
+          <attvalue for="3" value="West Bengaluru" />
+          <attvalue for="4" value="Purple Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.047953216374269005" />
+          <attvalue for="11" value="0.024390243902439025" />
+          <attvalue for="12" value="0.01395703360399275" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Kengeri Bus Terminal" label="Kengeri Bus Terminal">
+        <attvalues>
+          <attvalue for="0" value="Kengeri Bus Terminal" />
+          <attvalue for="1" value="12.9155" />
+          <attvalue for="2" value="77.4855" />
+          <attvalue for="3" value="West Bengaluru" />
+          <attvalue for="4" value="Purple Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.05027590435315757" />
+          <attvalue for="11" value="0.04817825956037338" />
+          <attvalue for="12" value="0.013109839342528093" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Pattanagere" label="Pattanagere">
+        <attvalues>
+          <attvalue for="0" value="Pattanagere" />
+          <attvalue for="1" value="12.9238" />
+          <attvalue for="2" value="77.4985" />
+          <attvalue for="3" value="West Bengaluru" />
+          <attvalue for="4" value="Purple Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.05276705276705277" />
+          <attvalue for="11" value="0.07136404697380307" />
+          <attvalue for="12" value="0.012637343870984481" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Jnanabharathi" label="Jnanabharathi">
+        <attvalues>
+          <attvalue for="0" value="Jnanabharathi" />
+          <attvalue for="1" value="12.9345" />
+          <attvalue for="2" value="77.5095" />
+          <attvalue for="3" value="West Bengaluru" />
+          <attvalue for="4" value="Purple Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.05544286680189317" />
+          <attvalue for="11" value="0.0939476061427281" />
+          <attvalue for="12" value="0.012372784081758714" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Rajarajeshwari Nagar" label="Rajarajeshwari Nagar">
+        <attvalues>
+          <attvalue for="0" value="Rajarajeshwari Nagar" />
+          <attvalue for="1" value="12.9435" />
+          <attvalue for="2" value="77.5215" />
+          <attvalue for="3" value="West Bengaluru" />
+          <attvalue for="4" value="Purple Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.05832147937411095" />
+          <attvalue for="11" value="0.11592893706714845" />
+          <attvalue for="12" value="0.012222785931594553" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Nayandahalli" label="Nayandahalli">
+        <attvalues>
+          <attvalue for="0" value="Nayandahalli" />
+          <attvalue for="1" value="12.9515" />
+          <attvalue for="2" value="77.5315" />
+          <attvalue for="3" value="West Bengaluru" />
+          <attvalue for="4" value="Purple Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.06142322097378277" />
+          <attvalue for="11" value="0.13730803974706415" />
+          <attvalue for="12" value="0.0121344088969046" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Mysore Road" label="Mysore Road">
+        <attvalues>
+          <attvalue for="0" value="Mysore Road" />
+          <attvalue for="1" value="12.9548" />
+          <attvalue for="2" value="77.5412" />
+          <attvalue for="3" value="West Bengaluru" />
+          <attvalue for="4" value="Purple Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.06477093206951026" />
+          <attvalue for="11" value="0.15808491418247517" />
+          <attvalue for="12" value="0.012076461083092436" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Deepanjali Nagar" label="Deepanjali Nagar">
+        <attvalues>
+          <attvalue for="0" value="Deepanjali Nagar" />
+          <attvalue for="1" value="12.9575" />
+          <attvalue for="2" value="77.5495" />
+          <attvalue for="3" value="West Bengaluru" />
+          <attvalue for="4" value="Purple Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.06839032527105922" />
+          <attvalue for="11" value="0.1782595603733815" />
+          <attvalue for="12" value="0.012028490320577278" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Attiguppe" label="Attiguppe">
+        <attvalues>
+          <attvalue for="0" value="Attiguppe" />
+          <attvalue for="1" value="12.9615" />
+          <attvalue for="2" value="77.5585" />
+          <attvalue for="3" value="West Bengaluru" />
+          <attvalue for="4" value="Purple Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.07231040564373897" />
+          <attvalue for="11" value="0.1978319783197832" />
+          <attvalue for="12" value="0.011973565752000835" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Vijayanagar" label="Vijayanagar">
+        <attvalues>
+          <attvalue for="0" value="Vijayanagar" />
+          <attvalue for="1" value="12.9645" />
+          <attvalue for="2" value="77.5675" />
+          <attvalue for="3" value="West Bengaluru" />
+          <attvalue for="4" value="Purple Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.0765639589169001" />
+          <attvalue for="11" value="0.21680216802168023" />
+          <attvalue for="12" value="0.01189230223551259" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Hosahalli" label="Hosahalli">
+        <attvalues>
+          <attvalue for="0" value="Hosahalli" />
+          <attvalue for="1" value="12.9685" />
+          <attvalue for="2" value="77.5755" />
+          <attvalue for="3" value="Central West" />
+          <attvalue for="4" value="Purple Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.08118811881188119" />
+          <attvalue for="11" value="0.23517012947907256" />
+          <attvalue for="12" value="0.011756018529999" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Magadi Road" label="Magadi Road">
+        <attvalues>
+          <attvalue for="0" value="Magadi Road" />
+          <attvalue for="1" value="12.9735" />
+          <attvalue for="2" value="77.5835" />
+          <attvalue for="3" value="Central West" />
+          <attvalue for="4" value="Purple Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.08622502628811778" />
+          <attvalue for="11" value="0.2529358626919603" />
+          <attvalue for="12" value="0.011516614504102329" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Krantivira Sangolli Rayanna Railway Station" label="Krantivira Sangolli Rayanna Railway Station">
+        <attvalues>
+          <attvalue for="0" value="Krantivira Sangolli Rayanna Railway Station" />
+          <attvalue for="1" value="12.9765" />
+          <attvalue for="2" value="77.5925" />
+          <attvalue for="3" value="Central Bengaluru" />
+          <attvalue for="4" value="Purple Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.09172259507829977" />
+          <attvalue for="11" value="0.27009936766034326" />
+          <attvalue for="12" value="0.011089594619270839" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Nadaprabhu Kempegowda Station Majestic" label="Nadaprabhu Kempegowda Station Majestic">
+        <attvalues>
+          <attvalue for="0" value="Nadaprabhu Kempegowda Station Majestic" />
+          <attvalue for="1" value="12.9757" />
+          <attvalue for="2" value="77.5728" />
+          <attvalue for="3" value="Central Bengaluru" />
+          <attvalue for="4" value="Purple Line; Green Line" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="true" />
+          <attvalue for="7" value="Apex Mega Hub" />
+          <attvalue for="8" value="4" />
+          <attvalue for="9" value="0.04878048780487805" />
+          <attvalue for="10" value="0.09773539928486293" />
+          <attvalue for="11" value="0.7359229147847034" />
+          <attvalue for="12" value="0.020648491949951428" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Sir M. Visveshwaraya Central College" label="Sir M. Visveshwaraya Central College">
+        <attvalues>
+          <attvalue for="0" value="Sir M. Visveshwaraya Central College" />
+          <attvalue for="1" value="12.9745" />
+          <attvalue for="2" value="77.5865" />
+          <attvalue for="3" value="Central Bengaluru" />
+          <attvalue for="4" value="Purple Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.09339407744874716" />
+          <attvalue for="11" value="0.3857271906052394" />
+          <attvalue for="12" value="0.011088437119412679" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Vidhana Soudha" label="Vidhana Soudha">
+        <attvalues>
+          <attvalue for="0" value="Vidhana Soudha" />
+          <attvalue for="1" value="12.9795" />
+          <attvalue for="2" value="77.5925" />
+          <attvalue for="3" value="Central Bengaluru" />
+          <attvalue for="4" value="Purple Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.08922742110990206" />
+          <attvalue for="11" value="0.37338151159289373" />
+          <attvalue for="12" value="0.011513890975024348" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Cubbon Park" label="Cubbon Park">
+        <attvalues>
+          <attvalue for="0" value="Cubbon Park" />
+          <attvalue for="1" value="12.9815" />
+          <attvalue for="2" value="77.5995" />
+          <attvalue for="3" value="Central Bengaluru" />
+          <attvalue for="4" value="Purple Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.08523908523908524" />
+          <attvalue for="11" value="0.3604336043360434" />
+          <attvalue for="12" value="0.011750767726144236" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="MG Road" label="MG Road">
+        <attvalues>
+          <attvalue for="0" value="MG Road" />
+          <attvalue for="1" value="12.9755" />
+          <attvalue for="2" value="77.6068" />
+          <attvalue for="3" value="Central Bengaluru" />
+          <attvalue for="4" value="Purple Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="High" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.0814299900695134" />
+          <attvalue for="11" value="0.34688346883468835" />
+          <attvalue for="12" value="0.011882670931991135" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Trinity" label="Trinity">
+        <attvalues>
+          <attvalue for="0" value="Trinity" />
+          <attvalue for="1" value="12.9725" />
+          <attvalue for="2" value="77.6165" />
+          <attvalue for="3" value="Central Bengaluru" />
+          <attvalue for="4" value="Purple Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.0777988614800759" />
+          <attvalue for="11" value="0.3327311050888287" />
+          <attvalue for="12" value="0.011956154665216929" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Halasuru" label="Halasuru">
+        <attvalues>
+          <attvalue for="0" value="Halasuru" />
+          <attvalue for="1" value="12.9775" />
+          <attvalue for="2" value="77.6255" />
+          <attvalue for="3" value="East Bengaluru" />
+          <attvalue for="4" value="Purple Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.0743427017225748" />
+          <attvalue for="11" value="0.3179765130984643" />
+          <attvalue for="12" value="0.011997154361077733" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Indiranagar" label="Indiranagar">
+        <attvalues>
+          <attvalue for="0" value="Indiranagar" />
+          <attvalue for="1" value="12.9785" />
+          <attvalue for="2" value="77.6385" />
+          <attvalue for="3" value="East Bengaluru" />
+          <attvalue for="4" value="Purple Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="High" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.07105719237435008" />
+          <attvalue for="11" value="0.3026196928635953" />
+          <attvalue for="12" value="0.012020140500465645" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Swami Vivekananda Road" label="Swami Vivekananda Road">
+        <attvalues>
+          <attvalue for="0" value="Swami Vivekananda Road" />
+          <attvalue for="1" value="12.9855" />
+          <attvalue for="2" value="77.6475" />
+          <attvalue for="3" value="East Bengaluru" />
+          <attvalue for="4" value="Purple Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.06793703396851698" />
+          <attvalue for="11" value="0.2866606443842216" />
+          <attvalue for="12" value="0.012033225838458719" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Baiyappanahalli" label="Baiyappanahalli">
+        <attvalues>
+          <attvalue for="0" value="Baiyappanahalli" />
+          <attvalue for="1" value="12.9912" />
+          <attvalue for="2" value="77.6525" />
+          <attvalue for="3" value="East Bengaluru" />
+          <attvalue for="4" value="Purple Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="High" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.06497622820919176" />
+          <attvalue for="11" value="0.27009936766034326" />
+          <attvalue for="12" value="0.012041028729642725" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Benniganahalli" label="Benniganahalli">
+        <attvalues>
+          <attvalue for="0" value="Benniganahalli" />
+          <attvalue for="1" value="12.9965" />
+          <attvalue for="2" value="77.6625" />
+          <attvalue for="3" value="East Bengaluru" />
+          <attvalue for="4" value="Purple Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.0621683093252464" />
+          <attvalue for="11" value="0.2529358626919603" />
+          <attvalue for="12" value="0.012046303135612063" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="KR Pura (Krishnarajapuram)" label="KR Pura (Krishnarajapuram)">
+        <attvalues>
+          <attvalue for="0" value="KR Pura (Krishnarajapuram)" />
+          <attvalue for="1" value="12.9995" />
+          <attvalue for="2" value="77.6785" />
+          <attvalue for="3" value="East Bengaluru" />
+          <attvalue for="4" value="Purple Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.059506531204644414" />
+          <attvalue for="11" value="0.23517012947907256" />
+          <attvalue for="12" value="0.012050910611414724" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Singayyanapalya" label="Singayyanapalya">
+        <attvalues>
+          <attvalue for="0" value="Singayyanapalya" />
+          <attvalue for="1" value="12.9965" />
+          <attvalue for="2" value="77.6965" />
+          <attvalue for="3" value="East Bengaluru" />
+          <attvalue for="4" value="Purple Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.05698401667824878" />
+          <attvalue for="11" value="0.21680216802168023" />
+          <attvalue for="12" value="0.01205647732498105" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Garudacharpalya" label="Garudacharpalya">
+        <attvalues>
+          <attvalue for="0" value="Garudacharpalya" />
+          <attvalue for="1" value="12.9935" />
+          <attvalue for="2" value="77.7085" />
+          <attvalue for="3" value="East Bengaluru" />
+          <attvalue for="4" value="Purple Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.05459387483355526" />
+          <attvalue for="11" value="0.1978319783197832" />
+          <attvalue for="12" value="0.01206496799874621" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Hoodi" label="Hoodi">
+        <attvalues>
+          <attvalue for="0" value="Hoodi" />
+          <attvalue for="1" value="12.9915" />
+          <attvalue for="2" value="77.7185" />
+          <attvalue for="3" value="East Bengaluru" />
+          <attvalue for="4" value="Purple Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.05232929164007658" />
+          <attvalue for="11" value="0.1782595603733815" />
+          <attvalue for="12" value="0.012079379341097903" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Seetharampalya" label="Seetharampalya">
+        <attvalues>
+          <attvalue for="0" value="Seetharampalya" />
+          <attvalue for="1" value="12.9865" />
+          <attvalue for="2" value="77.7285" />
+          <attvalue for="3" value="Whitefield IT Hub" />
+          <attvalue for="4" value="Purple Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.05018359853121175" />
+          <attvalue for="11" value="0.15808491418247517" />
+          <attvalue for="12" value="0.012104797708160288" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Kundalahalli" label="Kundalahalli">
+        <attvalues>
+          <attvalue for="0" value="Kundalahalli" />
+          <attvalue for="1" value="12.9795" />
+          <attvalue for="2" value="77.7335" />
+          <attvalue for="3" value="Whitefield IT Hub" />
+          <attvalue for="4" value="Purple Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.048150322959483266" />
+          <attvalue for="11" value="0.13730803974706415" />
+          <attvalue for="12" value="0.0121501942883083" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Nallurhalli" label="Nallurhalli">
+        <attvalues>
+          <attvalue for="0" value="Nallurhalli" />
+          <attvalue for="1" value="12.9725" />
+          <attvalue for="2" value="77.7385" />
+          <attvalue for="3" value="Whitefield IT Hub" />
+          <attvalue for="4" value="Purple Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.046223224351747465" />
+          <attvalue for="11" value="0.11592893706714845" />
+          <attvalue for="12" value="0.012231591403947141" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Sri Sathya Sai Hospital" label="Sri Sathya Sai Hospital">
+        <attvalues>
+          <attvalue for="0" value="Sri Sathya Sai Hospital" />
+          <attvalue for="1" value="12.9655" />
+          <attvalue for="2" value="77.7445" />
+          <attvalue for="3" value="Whitefield IT Hub" />
+          <attvalue for="4" value="Purple Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.04439631835408771" />
+          <attvalue for="11" value="0.0939476061427281" />
+          <attvalue for="12" value="0.012377717448831708" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Pattandur Agrahara" label="Pattandur Agrahara">
+        <attvalues>
+          <attvalue for="0" value="Pattandur Agrahara" />
+          <attvalue for="1" value="12.9595" />
+          <attvalue for="2" value="77.7485" />
+          <attvalue for="3" value="Whitefield IT Hub" />
+          <attvalue for="4" value="Purple Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.04266389177939646" />
+          <attvalue for="11" value="0.07136404697380307" />
+          <attvalue for="12" value="0.012640146321156502" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Kadugodi Tree Park" label="Kadugodi Tree Park">
+        <attvalues>
+          <attvalue for="0" value="Kadugodi Tree Park" />
+          <attvalue for="1" value="12.9685" />
+          <attvalue for="2" value="77.7555" />
+          <attvalue for="3" value="Whitefield IT Hub" />
+          <attvalue for="4" value="Purple Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.04102051025512756" />
+          <attvalue for="11" value="0.04817825956037338" />
+          <attvalue for="12" value="0.013111499975859711" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Hopefarm Channasandra" label="Hopefarm Channasandra">
+        <attvalues>
+          <attvalue for="0" value="Hopefarm Channasandra" />
+          <attvalue for="1" value="12.9785" />
+          <attvalue for="2" value="77.7575" />
+          <attvalue for="3" value="Whitefield IT Hub" />
+          <attvalue for="4" value="Purple Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.03946102021174206" />
+          <attvalue for="11" value="0.024390243902439025" />
+          <attvalue for="12" value="0.013958138526365996" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Whitefield (Kadugodi)" label="Whitefield (Kadugodi)">
+        <attvalues>
+          <attvalue for="0" value="Whitefield (Kadugodi)" />
+          <attvalue for="1" value="12.9955" />
+          <attvalue for="2" value="77.7615" />
+          <attvalue for="3" value="Whitefield IT Hub" />
+          <attvalue for="4" value="Purple Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="High" />
+          <attvalue for="8" value="1" />
+          <attvalue for="9" value="0.012195121951219513" />
+          <attvalue for="10" value="0.03798054654932839" />
+          <attvalue for="11" value="0.0" />
+          <attvalue for="12" value="0.007739437789368207" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="Madavara (BIEC)" label="Madavara (BIEC)">
+        <attvalues>
+          <attvalue for="0" value="Madavara (BIEC)" />
+          <attvalue for="1" value="13.0645" />
+          <attvalue for="2" value="77.4825" />
+          <attvalue for="3" value="North Bengaluru" />
+          <attvalue for="4" value="Green Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="1" />
+          <attvalue for="9" value="0.012195121951219513" />
+          <attvalue for="10" value="0.04327176781002638" />
+          <attvalue for="11" value="0.0" />
+          <attvalue for="12" value="0.0077392953141476855" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="Chikkabidarakallu" label="Chikkabidarakallu">
+        <attvalues>
+          <attvalue for="0" value="Chikkabidarakallu" />
+          <attvalue for="1" value="13.0565" />
+          <attvalue for="2" value="77.4915" />
+          <attvalue for="3" value="North Bengaluru" />
+          <attvalue for="4" value="Green Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.04520396912899669" />
+          <attvalue for="11" value="0.024390243902439025" />
+          <attvalue for="12" value="0.013957803290553005" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Manjunath Nagar" label="Manjunath Nagar">
+        <attvalues>
+          <attvalue for="0" value="Manjunath Nagar" />
+          <attvalue for="1" value="13.0485" />
+          <attvalue for="2" value="77.4995" />
+          <attvalue for="3" value="North Bengaluru" />
+          <attvalue for="4" value="Green Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.04726224783861672" />
+          <attvalue for="11" value="0.04817825956037338" />
+          <attvalue for="12" value="0.013110996136152556" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Nagasandra" label="Nagasandra">
+        <attvalues>
+          <attvalue for="0" value="Nagasandra" />
+          <attvalue for="1" value="13.0425" />
+          <attvalue for="2" value="77.5045" />
+          <attvalue for="3" value="North Bengaluru" />
+          <attvalue for="4" value="Green Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.04945717732207479" />
+          <attvalue for="11" value="0.07136404697380307" />
+          <attvalue for="12" value="0.012639296051776149" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Dasarahalli" label="Dasarahalli">
+        <attvalues>
+          <attvalue for="0" value="Dasarahalli" />
+          <attvalue for="1" value="13.0375" />
+          <attvalue for="2" value="77.5125" />
+          <attvalue for="3" value="North Bengaluru" />
+          <attvalue for="4" value="Green Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.05180037902716361" />
+          <attvalue for="11" value="0.0939476061427281" />
+          <attvalue for="12" value="0.012376220654702758" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Jalahalli" label="Jalahalli">
+        <attvalues>
+          <attvalue for="0" value="Jalahalli" />
+          <attvalue for="1" value="13.0335" />
+          <attvalue for="2" value="77.5215" />
+          <attvalue for="3" value="North Bengaluru" />
+          <attvalue for="4" value="Green Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.054304635761589407" />
+          <attvalue for="11" value="0.11592893706714845" />
+          <attvalue for="12" value="0.012228919804788784" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Peenya Industry" label="Peenya Industry">
+        <attvalues>
+          <attvalue for="0" value="Peenya Industry" />
+          <attvalue for="1" value="13.0295" />
+          <attvalue for="2" value="77.5295" />
+          <attvalue for="3" value="Peenya Industrial Zone" />
+          <attvalue for="4" value="Green Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Medium-High Tech Commuter" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.05698401667824878" />
+          <attvalue for="11" value="0.13730803974706415" />
+          <attvalue for="12" value="0.01214540496677051" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Peenya" label="Peenya">
+        <attvalues>
+          <attvalue for="0" value="Peenya" />
+          <attvalue for="1" value="13.0245" />
+          <attvalue for="2" value="77.5365" />
+          <attvalue for="3" value="Peenya Industrial Zone" />
+          <attvalue for="4" value="Green Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Medium-High Tech Commuter" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.059854014598540145" />
+          <attvalue for="11" value="0.15808491418247517" />
+          <attvalue for="12" value="0.012096200315464987" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Goraguntepalya" label="Goraguntepalya">
+        <attvalues>
+          <attvalue for="0" value="Goraguntepalya" />
+          <attvalue for="1" value="13.0185" />
+          <attvalue for="2" value="77.5445" />
+          <attvalue for="3" value="North Bengaluru" />
+          <attvalue for="4" value="Green Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.06293169608595549" />
+          <attvalue for="11" value="0.1782595603733815" />
+          <attvalue for="12" value="0.012063939503352642" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Yeshwanthpur" label="Yeshwanthpur">
+        <attvalues>
+          <attvalue for="0" value="Yeshwanthpur" />
+          <attvalue for="1" value="13.0125" />
+          <attvalue for="2" value="77.5515" />
+          <attvalue for="3" value="North Bengaluru" />
+          <attvalue for="4" value="Green Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="High" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.06623586429725363" />
+          <attvalue for="11" value="0.1978319783197832" />
+          <attvalue for="12" value="0.012037236361452649" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Sandal Soap Factory" label="Sandal Soap Factory">
+        <attvalues>
+          <attvalue for="0" value="Sandal Soap Factory" />
+          <attvalue for="1" value="13.0075" />
+          <attvalue for="2" value="77.5555" />
+          <attvalue for="3" value="North Bengaluru" />
+          <attvalue for="4" value="Green Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.06978723404255319" />
+          <attvalue for="11" value="0.21680216802168023" />
+          <attvalue for="12" value="0.012006666251447364" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Mahalakshmi" label="Mahalakshmi">
+        <attvalues>
+          <attvalue for="0" value="Mahalakshmi" />
+          <attvalue for="1" value="13.0015" />
+          <attvalue for="2" value="77.5595" />
+          <attvalue for="3" value="North Bengaluru" />
+          <attvalue for="4" value="Green Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.07360861759425494" />
+          <attvalue for="11" value="0.23517012947907256" />
+          <attvalue for="12" value="0.011961439722746674" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Rajajinagar" label="Rajajinagar">
+        <attvalues>
+          <attvalue for="0" value="Rajajinagar" />
+          <attvalue for="1" value="12.9945" />
+          <attvalue for="2" value="77.5575" />
+          <attvalue for="3" value="Central West" />
+          <attvalue for="4" value="Green Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.07772511848341232" />
+          <attvalue for="11" value="0.2529358626919603" />
+          <attvalue for="12" value="0.011885594471103256" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Kuvempu Road" label="Kuvempu Road">
+        <attvalues>
+          <attvalue for="0" value="Kuvempu Road" />
+          <attvalue for="1" value="12.9885" />
+          <attvalue for="2" value="77.5585" />
+          <attvalue for="3" value="Central West" />
+          <attvalue for="4" value="Green Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.08216432865731463" />
+          <attvalue for="11" value="0.27009936766034326" />
+          <attvalue for="12" value="0.011752361584172423" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Srirampura" label="Srirampura">
+        <attvalues>
+          <attvalue for="0" value="Srirampura" />
+          <attvalue for="1" value="12.9835" />
+          <attvalue for="2" value="77.5635" />
+          <attvalue for="3" value="Central West" />
+          <attvalue for="4" value="Green Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.08695652173913043" />
+          <attvalue for="11" value="0.2866606443842216" />
+          <attvalue for="12" value="0.01151471769009615" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Sampige Road (Mantri Square)" label="Sampige Road (Mantri Square)">
+        <attvalues>
+          <attvalue for="0" value="Sampige Road (Mantri Square)" />
+          <attvalue for="1" value="12.9795" />
+          <attvalue for="2" value="77.5685" />
+          <attvalue for="3" value="Central Bengaluru" />
+          <attvalue for="4" value="Green Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.09213483146067415" />
+          <attvalue for="11" value="0.3026196928635953" />
+          <attvalue for="12" value="0.0110887884733182" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Chickpete" label="Chickpete">
+        <attvalues>
+          <attvalue for="0" value="Chickpete" />
+          <attvalue for="1" value="12.9685" />
+          <attvalue for="2" value="77.5755" />
+          <attvalue for="3" value="Central Bengaluru" />
+          <attvalue for="4" value="Green Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.0951276102088167" />
+          <attvalue for="11" value="0.4628124059018368" />
+          <attvalue for="12" value="0.011065563398089591" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Krishna Rajendra Market" label="Krishna Rajendra Market">
+        <attvalues>
+          <attvalue for="0" value="Krishna Rajendra Market" />
+          <attvalue for="1" value="12.9615" />
+          <attvalue for="2" value="77.5765" />
+          <attvalue for="3" value="Central Bengaluru" />
+          <attvalue for="4" value="Green Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.09244644870349493" />
+          <attvalue for="11" value="0.4552845528455285" />
+          <attvalue for="12" value="0.011460070454264108" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="National College" label="National College">
+        <attvalues>
+          <attvalue for="0" value="National College" />
+          <attvalue for="1" value="12.9525" />
+          <attvalue for="2" value="77.5755" />
+          <attvalue for="3" value="South Bengaluru" />
+          <attvalue for="4" value="Green Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.08971553610503283" />
+          <attvalue for="11" value="0.44715447154471544" />
+          <attvalue for="12" value="0.01164700492803148" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Lalbagh" label="Lalbagh">
+        <attvalues>
+          <attvalue for="0" value="Lalbagh" />
+          <attvalue for="1" value="12.9465" />
+          <attvalue for="2" value="77.5815" />
+          <attvalue for="3" value="South Bengaluru" />
+          <attvalue for="4" value="Green Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.08695652173913043" />
+          <attvalue for="11" value="0.43842216199939776" />
+          <attvalue for="12" value="0.011692343692486092" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="South End Circle" label="South End Circle">
+        <attvalues>
+          <attvalue for="0" value="South End Circle" />
+          <attvalue for="1" value="12.9395" />
+          <attvalue for="2" value="77.5815" />
+          <attvalue for="3" value="South Bengaluru" />
+          <attvalue for="4" value="Green Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.08418891170431211" />
+          <attvalue for="11" value="0.4290876242095754" />
+          <attvalue for="12" value="0.011612088664494214" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Jayanagar" label="Jayanagar">
+        <attvalues>
+          <attvalue for="0" value="Jayanagar" />
+          <attvalue for="1" value="12.9315" />
+          <attvalue for="2" value="77.5825" />
+          <attvalue for="3" value="South Bengaluru" />
+          <attvalue for="4" value="Green Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.0814299900695134" />
+          <attvalue for="11" value="0.41915085817524844" />
+          <attvalue for="12" value="0.011377914540058764" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Rashtreeya Vidyalaya Road (RV Road)" label="Rashtreeya Vidyalaya Road (RV Road)">
+        <attvalues>
+          <attvalue for="0" value="Rashtreeya Vidyalaya Road (RV Road)" />
+          <attvalue for="1" value="12.9235" />
+          <attvalue for="2" value="77.5825" />
+          <attvalue for="3" value="South Bengaluru" />
+          <attvalue for="4" value="Green Line; Yellow Line" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="true" />
+          <attvalue for="7" value="High" />
+          <attvalue for="8" value="3" />
+          <attvalue for="9" value="0.03658536585365854" />
+          <attvalue for="10" value="0.07869481765834933" />
+          <attvalue for="11" value="0.4447455585666968" />
+          <attvalue for="12" value="0.016360757442303777" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Banashankari" label="Banashankari">
+        <attvalues>
+          <attvalue for="0" value="Banashankari" />
+          <attvalue for="1" value="12.9155" />
+          <attvalue for="2" value="77.5745" />
+          <attvalue for="3" value="South Bengaluru" />
+          <attvalue for="4" value="Green Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.0739404869251578" />
+          <attvalue for="11" value="0.15808491418247517" />
+          <attvalue for="12" value="0.011452075173473977" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Jaya Prakash Nagar (JP Nagar)" label="Jaya Prakash Nagar (JP Nagar)">
+        <attvalues>
+          <attvalue for="0" value="Jaya Prakash Nagar (JP Nagar)" />
+          <attvalue for="1" value="12.9075" />
+          <attvalue for="2" value="77.5735" />
+          <attvalue for="3" value="South Bengaluru" />
+          <attvalue for="4" value="Green Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.06960950764006792" />
+          <attvalue for="11" value="0.13730803974706415" />
+          <attvalue for="12" value="0.01178658427253004" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Yelachenahalli" label="Yelachenahalli">
+        <attvalues>
+          <attvalue for="0" value="Yelachenahalli" />
+          <attvalue for="1" value="12.8975" />
+          <attvalue for="2" value="77.5715" />
+          <attvalue for="3" value="South Bengaluru" />
+          <attvalue for="4" value="Green Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.0656525220176141" />
+          <attvalue for="11" value="0.11592893706714845" />
+          <attvalue for="12" value="0.012028760960331673" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Konanakunte Cross" label="Konanakunte Cross">
+        <attvalues>
+          <attvalue for="0" value="Konanakunte Cross" />
+          <attvalue for="1" value="12.8895" />
+          <attvalue for="2" value="77.5685" />
+          <attvalue for="3" value="South Bengaluru" />
+          <attvalue for="4" value="Green Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.06202723146747353" />
+          <attvalue for="11" value="0.0939476061427281" />
+          <attvalue for="12" value="0.012264079361985291" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Doddakallasandra" label="Doddakallasandra">
+        <attvalues>
+          <attvalue for="0" value="Doddakallasandra" />
+          <attvalue for="1" value="12.8795" />
+          <attvalue for="2" value="77.5615" />
+          <attvalue for="3" value="South Bengaluru" />
+          <attvalue for="4" value="Green Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.05869720830350752" />
+          <attvalue for="11" value="0.07136404697380307" />
+          <attvalue for="12" value="0.012575593031015677" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Vajrahalli" label="Vajrahalli">
+        <attvalues>
+          <attvalue for="0" value="Vajrahalli" />
+          <attvalue for="1" value="12.8705" />
+          <attvalue for="2" value="77.5555" />
+          <attvalue for="3" value="South Bengaluru" />
+          <attvalue for="4" value="Green Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.05563093622795115" />
+          <attvalue for="11" value="0.04817825956037338" />
+          <attvalue for="12" value="0.013073247968257167" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Thalaghattapura" label="Thalaghattapura">
+        <attvalues>
+          <attvalue for="0" value="Thalaghattapura" />
+          <attvalue for="1" value="12.8625" />
+          <attvalue for="2" value="77.5485" />
+          <attvalue for="3" value="South Bengaluru" />
+          <attvalue for="4" value="Green Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.05280103026400515" />
+          <attvalue for="11" value="0.024390243902439025" />
+          <attvalue for="12" value="0.013932687092736136" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Silk Institute" label="Silk Institute">
+        <attvalues>
+          <attvalue for="0" value="Silk Institute" />
+          <attvalue for="1" value="12.8525" />
+          <attvalue for="2" value="77.5415" />
+          <attvalue for="3" value="South Bengaluru" />
+          <attvalue for="4" value="Green Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="1" />
+          <attvalue for="9" value="0.012195121951219513" />
+          <attvalue for="10" value="0.05018359853121175" />
+          <attvalue for="11" value="0.0" />
+          <attvalue for="12" value="0.0077286209300754865" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="Ragigudda" label="Ragigudda">
+        <attvalues>
+          <attvalue for="0" value="Ragigudda" />
+          <attvalue for="1" value="12.9165" />
+          <attvalue for="2" value="77.5935" />
+          <attvalue for="3" value="South Bengaluru" />
+          <attvalue for="4" value="Yellow Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.07488584474885844" />
+          <attvalue for="11" value="0.2866606443842216" />
+          <attvalue for="12" value="0.011413606819740501" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Jayadeva Hospital" label="Jayadeva Hospital">
+        <attvalues>
+          <attvalue for="0" value="Jayadeva Hospital" />
+          <attvalue for="1" value="12.9185" />
+          <attvalue for="2" value="77.6065" />
+          <attvalue for="3" value="South Bengaluru" />
+          <attvalue for="4" value="Yellow Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.07130434782608695" />
+          <attvalue for="11" value="0.27009936766034326" />
+          <attvalue for="12" value="0.01169607049903945" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="BTM Layout" label="BTM Layout">
+        <attvalues>
+          <attvalue for="0" value="BTM Layout" />
+          <attvalue for="1" value="12.9145" />
+          <attvalue for="2" value="77.6185" />
+          <attvalue for="3" value="South Bengaluru" />
+          <attvalue for="4" value="Yellow Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.06793703396851698" />
+          <attvalue for="11" value="0.2529358626919603" />
+          <attvalue for="12" value="0.01185425572938143" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Central Silk Board" label="Central Silk Board">
+        <attvalues>
+          <attvalue for="0" value="Central Silk Board" />
+          <attvalue for="1" value="12.9175" />
+          <attvalue for="2" value="77.6235" />
+          <attvalue for="3" value="South East Hub" />
+          <attvalue for="4" value="Yellow Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.06477093206951026" />
+          <attvalue for="11" value="0.23517012947907256" />
+          <attvalue for="12" value="0.011943992592063543" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Bommanahalli" label="Bommanahalli">
+        <attvalues>
+          <attvalue for="0" value="Bommanahalli" />
+          <attvalue for="1" value="12.9065" />
+          <attvalue for="2" value="77.6325" />
+          <attvalue for="3" value="South East" />
+          <attvalue for="4" value="Yellow Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.06179351921627732" />
+          <attvalue for="11" value="0.21680216802168023" />
+          <attvalue for="12" value="0.01199695292097367" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Hongasandra" label="Hongasandra">
+        <attvalues>
+          <attvalue for="0" value="Hongasandra" />
+          <attvalue for="1" value="12.8965" />
+          <attvalue for="2" value="77.6395" />
+          <attvalue for="3" value="South East" />
+          <attvalue for="4" value="Yellow Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.058992805755395686" />
+          <attvalue for="11" value="0.1978319783197832" />
+          <attvalue for="12" value="0.012031828596903518" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Kudlu Gate" label="Kudlu Gate">
+        <attvalues>
+          <attvalue for="0" value="Kudlu Gate" />
+          <attvalue for="1" value="12.8865" />
+          <attvalue for="2" value="77.6465" />
+          <attvalue for="3" value="South East" />
+          <attvalue for="4" value="Yellow Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.056357388316151204" />
+          <attvalue for="11" value="0.1782595603733815" />
+          <attvalue for="12" value="0.012060928681946073" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Singasandra" label="Singasandra">
+        <attvalues>
+          <attvalue for="0" value="Singasandra" />
+          <attvalue for="1" value="12.8765" />
+          <attvalue for="2" value="77.6535" />
+          <attvalue for="3" value="South East" />
+          <attvalue for="4" value="Yellow Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.05387647831800263" />
+          <attvalue for="11" value="0.15808491418247517" />
+          <attvalue for="12" value="0.012094523794351537" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Hosa Road" label="Hosa Road">
+        <attvalues>
+          <attvalue for="0" value="Hosa Road" />
+          <attvalue for="1" value="12.8665" />
+          <attvalue for="2" value="77.6605" />
+          <attvalue for="3" value="South East" />
+          <attvalue for="4" value="Yellow Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.051539912005028284" />
+          <attvalue for="11" value="0.13730803974706415" />
+          <attvalue for="12" value="0.012144471032616054" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Beratena Agrahara" label="Beratena Agrahara">
+        <attvalues>
+          <attvalue for="0" value="Beratena Agrahara" />
+          <attvalue for="1" value="12.8565" />
+          <attvalue for="2" value="77.6675" />
+          <attvalue for="3" value="South East" />
+          <attvalue for="4" value="Yellow Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Standard Residential" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.049338146811071" />
+          <attvalue for="11" value="0.11592893706714845" />
+          <attvalue for="12" value="0.012228398833774136" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Electronic City" label="Electronic City">
+        <attvalues>
+          <attvalue for="0" value="Electronic City" />
+          <attvalue for="1" value="12.8465" />
+          <attvalue for="2" value="77.6745" />
+          <attvalue for="3" value="Electronics City Tech Hub" />
+          <attvalue for="4" value="Yellow Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="High" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.04726224783861672" />
+          <attvalue for="11" value="0.0939476061427281" />
+          <attvalue for="12" value="0.012375928774705074" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Infosys Foundation Konappana Agrahara" label="Infosys Foundation Konappana Agrahara">
+        <attvalues>
+          <attvalue for="0" value="Infosys Foundation Konappana Agrahara" />
+          <attvalue for="1" value="12.8365" />
+          <attvalue for="2" value="77.6815" />
+          <attvalue for="3" value="Electronics City Tech Hub" />
+          <attvalue for="4" value="Yellow Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Medium-High Tech Commuter" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.045303867403314914" />
+          <attvalue for="11" value="0.07136404697380307" />
+          <attvalue for="12" value="0.0126391302463257" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Huskur Road" label="Huskur Road">
+        <attvalues>
+          <attvalue for="0" value="Huskur Road" />
+          <attvalue for="1" value="12.8265" />
+          <attvalue for="2" value="77.6885" />
+          <attvalue for="3" value="Electronics City Tech Hub" />
+          <attvalue for="4" value="Yellow Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Medium-High Tech Commuter" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.04345521992580816" />
+          <attvalue for="11" value="0.04817825956037338" />
+          <attvalue for="12" value="0.013110897885678582" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Hebbagodi" label="Hebbagodi">
+        <attvalues>
+          <attvalue for="0" value="Hebbagodi" />
+          <attvalue for="1" value="12.8165" />
+          <attvalue for="2" value="77.6955" />
+          <attvalue for="3" value="Electronics City Tech Hub" />
+          <attvalue for="4" value="Yellow Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Medium-High Tech Commuter" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="0.024390243902439025" />
+          <attvalue for="10" value="0.04170905391658189" />
+          <attvalue for="11" value="0.024390243902439025" />
+          <attvalue for="12" value="0.013957737918417642" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="Bommasandra" label="Bommasandra">
+        <attvalues>
+          <attvalue for="0" value="Bommasandra" />
+          <attvalue for="1" value="12.8065" />
+          <attvalue for="2" value="77.7025" />
+          <attvalue for="3" value="Industrial Suburb" />
+          <attvalue for="4" value="Yellow Line" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="false" />
+          <attvalue for="7" value="Medium-High Tech Commuter" />
+          <attvalue for="8" value="1" />
+          <attvalue for="9" value="0.012195121951219513" />
+          <attvalue for="10" value="0.040058622374206154" />
+          <attvalue for="11" value="0.0" />
+          <attvalue for="12" value="0.00773926753099017" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Challegatta" target="Kengeri">
+        <attvalues>
+          <attvalue for="15" value="Purple Line" />
+          <attvalue for="16" value="#800080" />
+          <attvalue for="17" value="1.5" />
+          <attvalue for="18" value="3.9" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="Kengeri" target="Kengeri Bus Terminal">
+        <attvalues>
+          <attvalue for="15" value="Purple Line" />
+          <attvalue for="16" value="#800080" />
+          <attvalue for="17" value="1.28" />
+          <attvalue for="18" value="3.5" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="Kengeri Bus Terminal" target="Pattanagere">
+        <attvalues>
+          <attvalue for="15" value="Purple Line" />
+          <attvalue for="16" value="#800080" />
+          <attvalue for="17" value="1.68" />
+          <attvalue for="18" value="4.3" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="Pattanagere" target="Jnanabharathi">
+        <attvalues>
+          <attvalue for="15" value="Purple Line" />
+          <attvalue for="16" value="#800080" />
+          <attvalue for="17" value="1.68" />
+          <attvalue for="18" value="4.3" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="Jnanabharathi" target="Rajarajeshwari Nagar">
+        <attvalues>
+          <attvalue for="15" value="Purple Line" />
+          <attvalue for="16" value="#800080" />
+          <attvalue for="17" value="1.64" />
+          <attvalue for="18" value="4.2" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="Rajarajeshwari Nagar" target="Nayandahalli">
+        <attvalues>
+          <attvalue for="15" value="Purple Line" />
+          <attvalue for="16" value="#800080" />
+          <attvalue for="17" value="1.4" />
+          <attvalue for="18" value="3.8" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="Nayandahalli" target="Mysore Road">
+        <attvalues>
+          <attvalue for="15" value="Purple Line" />
+          <attvalue for="16" value="#800080" />
+          <attvalue for="17" value="1.11" />
+          <attvalue for="18" value="3.2" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="Mysore Road" target="Deepanjali Nagar">
+        <attvalues>
+          <attvalue for="15" value="Purple Line" />
+          <attvalue for="16" value="#800080" />
+          <attvalue for="17" value="0.95" />
+          <attvalue for="18" value="2.9" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="Deepanjali Nagar" target="Attiguppe">
+        <attvalues>
+          <attvalue for="15" value="Purple Line" />
+          <attvalue for="16" value="#800080" />
+          <attvalue for="17" value="1.07" />
+          <attvalue for="18" value="3.1" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="Attiguppe" target="Vijayanagar">
+        <attvalues>
+          <attvalue for="15" value="Purple Line" />
+          <attvalue for="16" value="#800080" />
+          <attvalue for="17" value="1.03" />
+          <attvalue for="18" value="3.1" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="Vijayanagar" target="Hosahalli">
+        <attvalues>
+          <attvalue for="15" value="Purple Line" />
+          <attvalue for="16" value="#800080" />
+          <attvalue for="17" value="0.97" />
+          <attvalue for="18" value="2.9" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="Hosahalli" target="Magadi Road">
+        <attvalues>
+          <attvalue for="15" value="Purple Line" />
+          <attvalue for="16" value="#800080" />
+          <attvalue for="17" value="1.03" />
+          <attvalue for="18" value="3.1" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="Magadi Road" target="Krantivira Sangolli Rayanna Railway Station">
+        <attvalues>
+          <attvalue for="15" value="Purple Line" />
+          <attvalue for="16" value="#800080" />
+          <attvalue for="17" value="1.03" />
+          <attvalue for="18" value="3.1" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="Krantivira Sangolli Rayanna Railway Station" target="Nadaprabhu Kempegowda Station Majestic">
+        <attvalues>
+          <attvalue for="15" value="Purple Line" />
+          <attvalue for="16" value="#800080" />
+          <attvalue for="17" value="2.14" />
+          <attvalue for="18" value="5.2" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="Nadaprabhu Kempegowda Station Majestic" target="Sir M. Visveshwaraya Central College">
+        <attvalues>
+          <attvalue for="15" value="Purple Line" />
+          <attvalue for="16" value="#800080" />
+          <attvalue for="17" value="1.49" />
+          <attvalue for="18" value="3.9" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="Nadaprabhu Kempegowda Station Majestic" target="Sampige Road (Mantri Square)">
+        <attvalues>
+          <attvalue for="15" value="Green Line" />
+          <attvalue for="16" value="#008000" />
+          <attvalue for="17" value="0.75" />
+          <attvalue for="18" value="2.5" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="Nadaprabhu Kempegowda Station Majestic" target="Chickpete">
+        <attvalues>
+          <attvalue for="15" value="Green Line" />
+          <attvalue for="16" value="#008000" />
+          <attvalue for="17" value="0.85" />
+          <attvalue for="18" value="2.7" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="Sir M. Visveshwaraya Central College" target="Vidhana Soudha">
+        <attvalues>
+          <attvalue for="15" value="Purple Line" />
+          <attvalue for="16" value="#800080" />
+          <attvalue for="17" value="0.86" />
+          <attvalue for="18" value="2.7" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="Vidhana Soudha" target="Cubbon Park">
+        <attvalues>
+          <attvalue for="15" value="Purple Line" />
+          <attvalue for="16" value="#800080" />
+          <attvalue for="17" value="0.79" />
+          <attvalue for="18" value="2.6" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="Cubbon Park" target="MG Road">
+        <attvalues>
+          <attvalue for="15" value="Purple Line" />
+          <attvalue for="16" value="#800080" />
+          <attvalue for="17" value="1.03" />
+          <attvalue for="18" value="3.1" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="MG Road" target="Trinity">
+        <attvalues>
+          <attvalue for="15" value="Purple Line" />
+          <attvalue for="16" value="#800080" />
+          <attvalue for="17" value="1.1" />
+          <attvalue for="18" value="3.2" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="Trinity" target="Halasuru">
+        <attvalues>
+          <attvalue for="15" value="Purple Line" />
+          <attvalue for="16" value="#800080" />
+          <attvalue for="17" value="1.12" />
+          <attvalue for="18" value="3.2" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="Halasuru" target="Indiranagar">
+        <attvalues>
+          <attvalue for="15" value="Purple Line" />
+          <attvalue for="16" value="#800080" />
+          <attvalue for="17" value="1.41" />
+          <attvalue for="18" value="3.8" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="Indiranagar" target="Swami Vivekananda Road">
+        <attvalues>
+          <attvalue for="15" value="Purple Line" />
+          <attvalue for="16" value="#800080" />
+          <attvalue for="17" value="1.25" />
+          <attvalue for="18" value="3.5" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="Swami Vivekananda Road" target="Baiyappanahalli">
+        <attvalues>
+          <attvalue for="15" value="Purple Line" />
+          <attvalue for="16" value="#800080" />
+          <attvalue for="17" value="0.83" />
+          <attvalue for="18" value="2.7" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="Baiyappanahalli" target="Benniganahalli">
+        <attvalues>
+          <attvalue for="15" value="Purple Line" />
+          <attvalue for="16" value="#800080" />
+          <attvalue for="17" value="1.23" />
+          <attvalue for="18" value="3.4" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="Benniganahalli" target="KR Pura (Krishnarajapuram)">
+        <attvalues>
+          <attvalue for="15" value="Purple Line" />
+          <attvalue for="16" value="#800080" />
+          <attvalue for="17" value="1.77" />
+          <attvalue for="18" value="4.5" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="KR Pura (Krishnarajapuram)" target="Singayyanapalya">
+        <attvalues>
+          <attvalue for="15" value="Purple Line" />
+          <attvalue for="16" value="#800080" />
+          <attvalue for="17" value="1.98" />
+          <attvalue for="18" value="4.9" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="Singayyanapalya" target="Garudacharpalya">
+        <attvalues>
+          <attvalue for="15" value="Purple Line" />
+          <attvalue for="16" value="#800080" />
+          <attvalue for="17" value="1.34" />
+          <attvalue for="18" value="3.6" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="Garudacharpalya" target="Hoodi">
+        <attvalues>
+          <attvalue for="15" value="Purple Line" />
+          <attvalue for="16" value="#800080" />
+          <attvalue for="17" value="1.11" />
+          <attvalue for="18" value="3.2" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="Hoodi" target="Seetharampalya">
+        <attvalues>
+          <attvalue for="15" value="Purple Line" />
+          <attvalue for="16" value="#800080" />
+          <attvalue for="17" value="1.22" />
+          <attvalue for="18" value="3.4" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="Seetharampalya" target="Kundalahalli">
+        <attvalues>
+          <attvalue for="15" value="Purple Line" />
+          <attvalue for="16" value="#800080" />
+          <attvalue for="17" value="0.95" />
+          <attvalue for="18" value="2.9" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="Kundalahalli" target="Nallurhalli">
+        <attvalues>
+          <attvalue for="15" value="Purple Line" />
+          <attvalue for="16" value="#800080" />
+          <attvalue for="17" value="0.95" />
+          <attvalue for="18" value="2.9" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="Nallurhalli" target="Sri Sathya Sai Hospital">
+        <attvalues>
+          <attvalue for="15" value="Purple Line" />
+          <attvalue for="16" value="#800080" />
+          <attvalue for="17" value="1.01" />
+          <attvalue for="18" value="3.0" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="Sri Sathya Sai Hospital" target="Pattandur Agrahara">
+        <attvalues>
+          <attvalue for="15" value="Purple Line" />
+          <attvalue for="16" value="#800080" />
+          <attvalue for="17" value="0.8" />
+          <attvalue for="18" value="2.6" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="Pattandur Agrahara" target="Kadugodi Tree Park">
+        <attvalues>
+          <attvalue for="15" value="Purple Line" />
+          <attvalue for="16" value="#800080" />
+          <attvalue for="17" value="1.26" />
+          <attvalue for="18" value="3.5" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="Kadugodi Tree Park" target="Hopefarm Channasandra">
+        <attvalues>
+          <attvalue for="15" value="Purple Line" />
+          <attvalue for="16" value="#800080" />
+          <attvalue for="17" value="1.13" />
+          <attvalue for="18" value="3.2" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="Hopefarm Channasandra" target="Whitefield (Kadugodi)">
+        <attvalues>
+          <attvalue for="15" value="Purple Line" />
+          <attvalue for="16" value="#800080" />
+          <attvalue for="17" value="1.94" />
+          <attvalue for="18" value="4.8" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="Madavara (BIEC)" target="Chikkabidarakallu">
+        <attvalues>
+          <attvalue for="15" value="Green Line" />
+          <attvalue for="16" value="#008000" />
+          <attvalue for="17" value="1.32" />
+          <attvalue for="18" value="3.6" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="Chikkabidarakallu" target="Manjunath Nagar">
+        <attvalues>
+          <attvalue for="15" value="Green Line" />
+          <attvalue for="16" value="#008000" />
+          <attvalue for="17" value="1.24" />
+          <attvalue for="18" value="3.5" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="Manjunath Nagar" target="Nagasandra">
+        <attvalues>
+          <attvalue for="15" value="Green Line" />
+          <attvalue for="16" value="#008000" />
+          <attvalue for="17" value="0.86" />
+          <attvalue for="18" value="2.7" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="Nagasandra" target="Dasarahalli">
+        <attvalues>
+          <attvalue for="15" value="Green Line" />
+          <attvalue for="16" value="#008000" />
+          <attvalue for="17" value="1.03" />
+          <attvalue for="18" value="3.1" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="Dasarahalli" target="Jalahalli">
+        <attvalues>
+          <attvalue for="15" value="Green Line" />
+          <attvalue for="16" value="#008000" />
+          <attvalue for="17" value="1.07" />
+          <attvalue for="18" value="3.1" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="Jalahalli" target="Peenya Industry">
+        <attvalues>
+          <attvalue for="15" value="Green Line" />
+          <attvalue for="16" value="#008000" />
+          <attvalue for="17" value="0.97" />
+          <attvalue for="18" value="2.9" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="Peenya Industry" target="Peenya">
+        <attvalues>
+          <attvalue for="15" value="Green Line" />
+          <attvalue for="16" value="#008000" />
+          <attvalue for="17" value="0.94" />
+          <attvalue for="18" value="2.9" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="Peenya" target="Goraguntepalya">
+        <attvalues>
+          <attvalue for="15" value="Green Line" />
+          <attvalue for="16" value="#008000" />
+          <attvalue for="17" value="1.09" />
+          <attvalue for="18" value="3.2" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="Goraguntepalya" target="Yeshwanthpur">
+        <attvalues>
+          <attvalue for="15" value="Green Line" />
+          <attvalue for="16" value="#008000" />
+          <attvalue for="17" value="1.01" />
+          <attvalue for="18" value="3.0" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="Yeshwanthpur" target="Sandal Soap Factory">
+        <attvalues>
+          <attvalue for="15" value="Green Line" />
+          <attvalue for="16" value="#008000" />
+          <attvalue for="17" value="0.75" />
+          <attvalue for="18" value="2.5" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="Sandal Soap Factory" target="Mahalakshmi">
+        <attvalues>
+          <attvalue for="15" value="Green Line" />
+          <attvalue for="16" value="#008000" />
+          <attvalue for="17" value="0.8" />
+          <attvalue for="18" value="2.6" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="Mahalakshmi" target="Rajajinagar">
+        <attvalues>
+          <attvalue for="15" value="Green Line" />
+          <attvalue for="16" value="#008000" />
+          <attvalue for="17" value="0.81" />
+          <attvalue for="18" value="2.6" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="Rajajinagar" target="Kuvempu Road">
+        <attvalues>
+          <attvalue for="15" value="Green Line" />
+          <attvalue for="16" value="#008000" />
+          <attvalue for="17" value="0.75" />
+          <attvalue for="18" value="2.5" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="51" source="Kuvempu Road" target="Srirampura">
+        <attvalues>
+          <attvalue for="15" value="Green Line" />
+          <attvalue for="16" value="#008000" />
+          <attvalue for="17" value="0.78" />
+          <attvalue for="18" value="2.6" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="52" source="Srirampura" target="Sampige Road (Mantri Square)">
+        <attvalues>
+          <attvalue for="15" value="Green Line" />
+          <attvalue for="16" value="#008000" />
+          <attvalue for="17" value="0.75" />
+          <attvalue for="18" value="2.5" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="53" source="Chickpete" target="Krishna Rajendra Market">
+        <attvalues>
+          <attvalue for="15" value="Green Line" />
+          <attvalue for="16" value="#008000" />
+          <attvalue for="17" value="0.79" />
+          <attvalue for="18" value="2.6" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="54" source="Krishna Rajendra Market" target="National College">
+        <attvalues>
+          <attvalue for="15" value="Green Line" />
+          <attvalue for="16" value="#008000" />
+          <attvalue for="17" value="1.01" />
+          <attvalue for="18" value="3.0" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="55" source="National College" target="Lalbagh">
+        <attvalues>
+          <attvalue for="15" value="Green Line" />
+          <attvalue for="16" value="#008000" />
+          <attvalue for="17" value="0.93" />
+          <attvalue for="18" value="2.9" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="56" source="Lalbagh" target="South End Circle">
+        <attvalues>
+          <attvalue for="15" value="Green Line" />
+          <attvalue for="16" value="#008000" />
+          <attvalue for="17" value="0.78" />
+          <attvalue for="18" value="2.6" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="57" source="South End Circle" target="Jayanagar">
+        <attvalues>
+          <attvalue for="15" value="Green Line" />
+          <attvalue for="16" value="#008000" />
+          <attvalue for="17" value="0.9" />
+          <attvalue for="18" value="2.8" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="58" source="Jayanagar" target="Rashtreeya Vidyalaya Road (RV Road)">
+        <attvalues>
+          <attvalue for="15" value="Green Line" />
+          <attvalue for="16" value="#008000" />
+          <attvalue for="17" value="0.89" />
+          <attvalue for="18" value="2.8" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="59" source="Rashtreeya Vidyalaya Road (RV Road)" target="Banashankari">
+        <attvalues>
+          <attvalue for="15" value="Green Line" />
+          <attvalue for="16" value="#008000" />
+          <attvalue for="17" value="1.24" />
+          <attvalue for="18" value="3.5" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="60" source="Rashtreeya Vidyalaya Road (RV Road)" target="Ragigudda">
+        <attvalues>
+          <attvalue for="15" value="Yellow Line" />
+          <attvalue for="16" value="#FFD700" />
+          <attvalue for="17" value="1.42" />
+          <attvalue for="18" value="3.8" />
+          <attvalue for="19" value="Phase 2 Ready" />
+        </attvalues>
+      </edge>
+      <edge id="61" source="Banashankari" target="Jaya Prakash Nagar (JP Nagar)">
+        <attvalues>
+          <attvalue for="15" value="Green Line" />
+          <attvalue for="16" value="#008000" />
+          <attvalue for="17" value="0.9" />
+          <attvalue for="18" value="2.8" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="62" source="Jaya Prakash Nagar (JP Nagar)" target="Yelachenahalli">
+        <attvalues>
+          <attvalue for="15" value="Green Line" />
+          <attvalue for="16" value="#008000" />
+          <attvalue for="17" value="1.13" />
+          <attvalue for="18" value="3.2" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="63" source="Yelachenahalli" target="Konanakunte Cross">
+        <attvalues>
+          <attvalue for="15" value="Green Line" />
+          <attvalue for="16" value="#008000" />
+          <attvalue for="17" value="0.95" />
+          <attvalue for="18" value="2.9" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="64" source="Konanakunte Cross" target="Doddakallasandra">
+        <attvalues>
+          <attvalue for="15" value="Green Line" />
+          <attvalue for="16" value="#008000" />
+          <attvalue for="17" value="1.35" />
+          <attvalue for="18" value="3.7" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="65" source="Doddakallasandra" target="Vajrahalli">
+        <attvalues>
+          <attvalue for="15" value="Green Line" />
+          <attvalue for="16" value="#008000" />
+          <attvalue for="17" value="1.19" />
+          <attvalue for="18" value="3.4" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="66" source="Vajrahalli" target="Thalaghattapura">
+        <attvalues>
+          <attvalue for="15" value="Green Line" />
+          <attvalue for="16" value="#008000" />
+          <attvalue for="17" value="1.17" />
+          <attvalue for="18" value="3.3" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="67" source="Thalaghattapura" target="Silk Institute">
+        <attvalues>
+          <attvalue for="15" value="Green Line" />
+          <attvalue for="16" value="#008000" />
+          <attvalue for="17" value="1.35" />
+          <attvalue for="18" value="3.7" />
+          <attvalue for="19" value="Operational" />
+        </attvalues>
+      </edge>
+      <edge id="68" source="Ragigudda" target="Jayadeva Hospital">
+        <attvalues>
+          <attvalue for="15" value="Yellow Line" />
+          <attvalue for="16" value="#FFD700" />
+          <attvalue for="17" value="1.43" />
+          <attvalue for="18" value="3.8" />
+          <attvalue for="19" value="Phase 2 Ready" />
+        </attvalues>
+      </edge>
+      <edge id="69" source="Jayadeva Hospital" target="BTM Layout">
+        <attvalues>
+          <attvalue for="15" value="Yellow Line" />
+          <attvalue for="16" value="#FFD700" />
+          <attvalue for="17" value="1.37" />
+          <attvalue for="18" value="3.7" />
+          <attvalue for="19" value="Phase 2 Ready" />
+        </attvalues>
+      </edge>
+      <edge id="70" source="BTM Layout" target="Central Silk Board">
+        <attvalues>
+          <attvalue for="15" value="Yellow Line" />
+          <attvalue for="16" value="#FFD700" />
+          <attvalue for="17" value="0.75" />
+          <attvalue for="18" value="2.5" />
+          <attvalue for="19" value="Phase 2 Ready" />
+        </attvalues>
+      </edge>
+      <edge id="71" source="Central Silk Board" target="Bommanahalli">
+        <attvalues>
+          <attvalue for="15" value="Yellow Line" />
+          <attvalue for="16" value="#FFD700" />
+          <attvalue for="17" value="1.56" />
+          <attvalue for="18" value="4.1" />
+          <attvalue for="19" value="Phase 2 Ready" />
+        </attvalues>
+      </edge>
+      <edge id="72" source="Bommanahalli" target="Hongasandra">
+        <attvalues>
+          <attvalue for="15" value="Yellow Line" />
+          <attvalue for="16" value="#FFD700" />
+          <attvalue for="17" value="1.35" />
+          <attvalue for="18" value="3.7" />
+          <attvalue for="19" value="Phase 2 Ready" />
+        </attvalues>
+      </edge>
+      <edge id="73" source="Hongasandra" target="Kudlu Gate">
+        <attvalues>
+          <attvalue for="15" value="Yellow Line" />
+          <attvalue for="16" value="#FFD700" />
+          <attvalue for="17" value="1.35" />
+          <attvalue for="18" value="3.7" />
+          <attvalue for="19" value="Phase 2 Ready" />
+        </attvalues>
+      </edge>
+      <edge id="74" source="Kudlu Gate" target="Singasandra">
+        <attvalues>
+          <attvalue for="15" value="Yellow Line" />
+          <attvalue for="16" value="#FFD700" />
+          <attvalue for="17" value="1.35" />
+          <attvalue for="18" value="3.7" />
+          <attvalue for="19" value="Phase 2 Ready" />
+        </attvalues>
+      </edge>
+      <edge id="75" source="Singasandra" target="Hosa Road">
+        <attvalues>
+          <attvalue for="15" value="Yellow Line" />
+          <attvalue for="16" value="#FFD700" />
+          <attvalue for="17" value="1.35" />
+          <attvalue for="18" value="3.7" />
+          <attvalue for="19" value="Phase 2 Ready" />
+        </attvalues>
+      </edge>
+      <edge id="76" source="Hosa Road" target="Beratena Agrahara">
+        <attvalues>
+          <attvalue for="15" value="Yellow Line" />
+          <attvalue for="16" value="#FFD700" />
+          <attvalue for="17" value="1.35" />
+          <attvalue for="18" value="3.7" />
+          <attvalue for="19" value="Phase 2 Ready" />
+        </attvalues>
+      </edge>
+      <edge id="77" source="Beratena Agrahara" target="Electronic City">
+        <attvalues>
+          <attvalue for="15" value="Yellow Line" />
+          <attvalue for="16" value="#FFD700" />
+          <attvalue for="17" value="1.35" />
+          <attvalue for="18" value="3.7" />
+          <attvalue for="19" value="Phase 2 Ready" />
+        </attvalues>
+      </edge>
+      <edge id="78" source="Electronic City" target="Infosys Foundation Konappana Agrahara">
+        <attvalues>
+          <attvalue for="15" value="Yellow Line" />
+          <attvalue for="16" value="#FFD700" />
+          <attvalue for="17" value="1.35" />
+          <attvalue for="18" value="3.7" />
+          <attvalue for="19" value="Phase 2 Ready" />
+        </attvalues>
+      </edge>
+      <edge id="79" source="Infosys Foundation Konappana Agrahara" target="Huskur Road">
+        <attvalues>
+          <attvalue for="15" value="Yellow Line" />
+          <attvalue for="16" value="#FFD700" />
+          <attvalue for="17" value="1.35" />
+          <attvalue for="18" value="3.7" />
+          <attvalue for="19" value="Phase 2 Ready" />
+        </attvalues>
+      </edge>
+      <edge id="80" source="Huskur Road" target="Hebbagodi">
+        <attvalues>
+          <attvalue for="15" value="Yellow Line" />
+          <attvalue for="16" value="#FFD700" />
+          <attvalue for="17" value="1.35" />
+          <attvalue for="18" value="3.7" />
+          <attvalue for="19" value="Phase 2 Ready" />
+        </attvalues>
+      </edge>
+      <edge id="81" source="Hebbagodi" target="Bommasandra">
+        <attvalues>
+          <attvalue for="15" value="Yellow Line" />
+          <attvalue for="16" value="#FFD700" />
+          <attvalue for="17" value="1.35" />
+          <attvalue for="18" value="3.7" />
+          <attvalue for="19" value="Phase 2 Ready" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

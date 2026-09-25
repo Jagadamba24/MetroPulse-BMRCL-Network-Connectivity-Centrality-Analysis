@@ -1,0 +1,86 @@
+station_1,station_2,shared_neighbors,jaccard_similarity
+Challegatta,Kengeri Bus Terminal,['Kengeri'],0.5
+Kadugodi Tree Park,Whitefield (Kadugodi),['Hopefarm Channasandra'],0.5
+Vajrahalli,Silk Institute,['Thalaghattapura'],0.5
+Madavara (BIEC),Manjunath Nagar,['Chikkabidarakallu'],0.5
+Huskur Road,Bommasandra,['Hebbagodi'],0.5
+Rajarajeshwari Nagar,Mysore Road,['Nayandahalli'],0.3333
+Kuvempu Road,Sampige Road (Mantri Square),['Srirampura'],0.3333
+Jayanagar,Ragigudda,['Rashtreeya Vidyalaya Road (RV Road)'],0.3333
+Jayanagar,Banashankari,['Rashtreeya Vidyalaya Road (RV Road)'],0.3333
+Lalbagh,Jayanagar,['South End Circle'],0.3333
+National College,South End Circle,['Lalbagh'],0.3333
+Krishna Rajendra Market,Lalbagh,['National College'],0.3333
+Chickpete,National College,['Krishna Rajendra Market'],0.3333
+Sampige Road (Mantri Square),Chickpete,['Nadaprabhu Kempegowda Station Majestic'],0.3333
+Rajajinagar,Srirampura,['Kuvempu Road'],0.3333
+Nagasandra,Jalahalli,['Dasarahalli'],0.3333
+Mahalakshmi,Kuvempu Road,['Rajajinagar'],0.3333
+Sandal Soap Factory,Rajajinagar,['Mahalakshmi'],0.3333
+Yeshwanthpur,Mahalakshmi,['Sandal Soap Factory'],0.3333
+Goraguntepalya,Sandal Soap Factory,['Yeshwanthpur'],0.3333
+Peenya,Yeshwanthpur,['Goraguntepalya'],0.3333
+Peenya Industry,Goraguntepalya,['Peenya'],0.3333
+Jalahalli,Peenya,['Peenya Industry'],0.3333
+Banashankari,Yelachenahalli,['Jaya Prakash Nagar (JP Nagar)'],0.3333
+Banashankari,Ragigudda,['Rashtreeya Vidyalaya Road (RV Road)'],0.3333
+Jaya Prakash Nagar (JP Nagar),Konanakunte Cross,['Yelachenahalli'],0.3333
+Yelachenahalli,Doddakallasandra,['Konanakunte Cross'],0.3333
+Infosys Foundation Konappana Agrahara,Hebbagodi,['Huskur Road'],0.3333
+Electronic City,Huskur Road,['Infosys Foundation Konappana Agrahara'],0.3333
+Beratena Agrahara,Infosys Foundation Konappana Agrahara,['Electronic City'],0.3333
+Hosa Road,Electronic City,['Beratena Agrahara'],0.3333
+Singasandra,Beratena Agrahara,['Hosa Road'],0.3333
+Kudlu Gate,Hosa Road,['Singasandra'],0.3333
+Hongasandra,Singasandra,['Kudlu Gate'],0.3333
+Bommanahalli,Kudlu Gate,['Hongasandra'],0.3333
+Central Silk Board,Hongasandra,['Bommanahalli'],0.3333
+BTM Layout,Bommanahalli,['Central Silk Board'],0.3333
+Jayadeva Hospital,Central Silk Board,['BTM Layout'],0.3333
+Ragigudda,BTM Layout,['Jayadeva Hospital'],0.3333
+Kengeri Bus Terminal,Jnanabharathi,['Pattanagere'],0.3333
+Doddakallasandra,Thalaghattapura,['Vajrahalli'],0.3333
+Konanakunte Cross,Vajrahalli,['Doddakallasandra'],0.3333
+Nayandahalli,Deepanjali Nagar,['Mysore Road'],0.3333
+Dasarahalli,Peenya Industry,['Jalahalli'],0.3333
+Manjunath Nagar,Dasarahalli,['Nagasandra'],0.3333
+Halasuru,Swami Vivekananda Road,['Indiranagar'],0.3333
+Trinity,Indiranagar,['Halasuru'],0.3333
+MG Road,Halasuru,['Trinity'],0.3333
+Cubbon Park,Trinity,['MG Road'],0.3333
+Vidhana Soudha,MG Road,['Cubbon Park'],0.3333
+Sir M. Visveshwaraya Central College,Chickpete,['Nadaprabhu Kempegowda Station Majestic'],0.3333
+Sir M. Visveshwaraya Central College,Sampige Road (Mantri Square),['Nadaprabhu Kempegowda Station Majestic'],0.3333
+Sir M. Visveshwaraya Central College,Cubbon Park,['Vidhana Soudha'],0.3333
+Krantivira Sangolli Rayanna Railway Station,Chickpete,['Nadaprabhu Kempegowda Station Majestic'],0.3333
+Krantivira Sangolli Rayanna Railway Station,Sampige Road (Mantri Square),['Nadaprabhu Kempegowda Station Majestic'],0.3333
+Krantivira Sangolli Rayanna Railway Station,Sir M. Visveshwaraya Central College,['Nadaprabhu Kempegowda Station Majestic'],0.3333
+Hosahalli,Krantivira Sangolli Rayanna Railway Station,['Magadi Road'],0.3333
+Vijayanagar,Magadi Road,['Hosahalli'],0.3333
+Attiguppe,Hosahalli,['Vijayanagar'],0.3333
+Deepanjali Nagar,Vijayanagar,['Attiguppe'],0.3333
+Mysore Road,Attiguppe,['Deepanjali Nagar'],0.3333
+Kengeri,Pattanagere,['Kengeri Bus Terminal'],0.3333
+Chikkabidarakallu,Nagasandra,['Manjunath Nagar'],0.3333
+Nallurhalli,Pattandur Agrahara,['Sri Sathya Sai Hospital'],0.3333
+Pattanagere,Rajarajeshwari Nagar,['Jnanabharathi'],0.3333
+Swami Vivekananda Road,Benniganahalli,['Baiyappanahalli'],0.3333
+Baiyappanahalli,KR Pura (Krishnarajapuram),['Benniganahalli'],0.3333
+Benniganahalli,Singayyanapalya,['KR Pura (Krishnarajapuram)'],0.3333
+KR Pura (Krishnarajapuram),Garudacharpalya,['Singayyanapalya'],0.3333
+Singayyanapalya,Hoodi,['Garudacharpalya'],0.3333
+Garudacharpalya,Seetharampalya,['Hoodi'],0.3333
+Jnanabharathi,Nayandahalli,['Rajarajeshwari Nagar'],0.3333
+Pattandur Agrahara,Hopefarm Channasandra,['Kadugodi Tree Park'],0.3333
+Indiranagar,Baiyappanahalli,['Swami Vivekananda Road'],0.3333
+Hoodi,Kundalahalli,['Seetharampalya'],0.3333
+Seetharampalya,Nallurhalli,['Kundalahalli'],0.3333
+Kundalahalli,Sri Sathya Sai Hospital,['Nallurhalli'],0.3333
+Sri Sathya Sai Hospital,Kadugodi Tree Park,['Pattandur Agrahara'],0.3333
+Rashtreeya Vidyalaya Road (RV Road),Jaya Prakash Nagar (JP Nagar),['Banashankari'],0.25
+Rashtreeya Vidyalaya Road (RV Road),Jayadeva Hospital,['Ragigudda'],0.25
+South End Circle,Rashtreeya Vidyalaya Road (RV Road),['Jayanagar'],0.25
+Magadi Road,Nadaprabhu Kempegowda Station Majestic,['Krantivira Sangolli Rayanna Railway Station'],0.2
+Nadaprabhu Kempegowda Station Majestic,Srirampura,['Sampige Road (Mantri Square)'],0.2
+Nadaprabhu Kempegowda Station Majestic,Krishna Rajendra Market,['Chickpete'],0.2
+Nadaprabhu Kempegowda Station Majestic,Vidhana Soudha,['Sir M. Visveshwaraya Central College'],0.2

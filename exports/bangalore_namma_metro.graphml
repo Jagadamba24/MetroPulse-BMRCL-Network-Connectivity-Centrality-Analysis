@@ -1,0 +1,2010 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="status" attr.type="string" for="edge" id="d19" />
+  <key attr.name="time" attr.type="double" for="edge" id="d18" />
+  <key attr.name="distance" attr.type="double" for="edge" id="d17" />
+  <key attr.name="line_color" attr.type="string" for="edge" id="d16" />
+  <key attr.name="line" attr.type="string" for="edge" id="d15" />
+  <key attr.name="is_cut_vertex" attr.type="long" for="node" id="d14" />
+  <key attr.name="clustering" attr.type="double" for="node" id="d13" />
+  <key attr.name="pagerank" attr.type="double" for="node" id="d12" />
+  <key attr.name="betweenness" attr.type="double" for="node" id="d11" />
+  <key attr.name="closeness" attr.type="double" for="node" id="d10" />
+  <key attr.name="deg_centrality" attr.type="double" for="node" id="d9" />
+  <key attr.name="degree" attr.type="long" for="node" id="d8" />
+  <key attr.name="footfall" attr.type="string" for="node" id="d7" />
+  <key attr.name="is_interchange" attr.type="boolean" for="node" id="d6" />
+  <key attr.name="line_count" attr.type="long" for="node" id="d5" />
+  <key attr.name="lines" attr.type="string" for="node" id="d4" />
+  <key attr.name="zone" attr.type="string" for="node" id="d3" />
+  <key attr.name="lon" attr.type="double" for="node" id="d2" />
+  <key attr.name="lat" attr.type="double" for="node" id="d1" />
+  <key attr.name="name" attr.type="string" for="node" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="Challegatta">
+      <data key="d0">Challegatta</data>
+      <data key="d1">12.8988</data>
+      <data key="d2">77.4665</data>
+      <data key="d3">West Bengaluru</data>
+      <data key="d4">Purple Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">1</data>
+      <data key="d9">0.012195121951219513</data>
+      <data key="d10">0.04578447794528197</data>
+      <data key="d11">0.0</data>
+      <data key="d12">0.007738968197359619</data>
+      <data key="d13">0.0</data>
+      <data key="d14">0</data>
+    </node>
+    <node id="Kengeri">
+      <data key="d0">Kengeri</data>
+      <data key="d1">12.9082</data>
+      <data key="d2">77.4764</data>
+      <data key="d3">West Bengaluru</data>
+      <data key="d4">Purple Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.047953216374269005</data>
+      <data key="d11">0.024390243902439025</data>
+      <data key="d12">0.01395703360399275</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Kengeri Bus Terminal">
+      <data key="d0">Kengeri Bus Terminal</data>
+      <data key="d1">12.9155</data>
+      <data key="d2">77.4855</data>
+      <data key="d3">West Bengaluru</data>
+      <data key="d4">Purple Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.05027590435315757</data>
+      <data key="d11">0.04817825956037338</data>
+      <data key="d12">0.013109839342528093</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Pattanagere">
+      <data key="d0">Pattanagere</data>
+      <data key="d1">12.9238</data>
+      <data key="d2">77.4985</data>
+      <data key="d3">West Bengaluru</data>
+      <data key="d4">Purple Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.05276705276705277</data>
+      <data key="d11">0.07136404697380307</data>
+      <data key="d12">0.012637343870984481</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Jnanabharathi">
+      <data key="d0">Jnanabharathi</data>
+      <data key="d1">12.9345</data>
+      <data key="d2">77.5095</data>
+      <data key="d3">West Bengaluru</data>
+      <data key="d4">Purple Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.05544286680189317</data>
+      <data key="d11">0.0939476061427281</data>
+      <data key="d12">0.012372784081758714</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Rajarajeshwari Nagar">
+      <data key="d0">Rajarajeshwari Nagar</data>
+      <data key="d1">12.9435</data>
+      <data key="d2">77.5215</data>
+      <data key="d3">West Bengaluru</data>
+      <data key="d4">Purple Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.05832147937411095</data>
+      <data key="d11">0.11592893706714845</data>
+      <data key="d12">0.012222785931594553</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Nayandahalli">
+      <data key="d0">Nayandahalli</data>
+      <data key="d1">12.9515</data>
+      <data key="d2">77.5315</data>
+      <data key="d3">West Bengaluru</data>
+      <data key="d4">Purple Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.06142322097378277</data>
+      <data key="d11">0.13730803974706415</data>
+      <data key="d12">0.0121344088969046</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Mysore Road">
+      <data key="d0">Mysore Road</data>
+      <data key="d1">12.9548</data>
+      <data key="d2">77.5412</data>
+      <data key="d3">West Bengaluru</data>
+      <data key="d4">Purple Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.06477093206951026</data>
+      <data key="d11">0.15808491418247517</data>
+      <data key="d12">0.012076461083092436</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Deepanjali Nagar">
+      <data key="d0">Deepanjali Nagar</data>
+      <data key="d1">12.9575</data>
+      <data key="d2">77.5495</data>
+      <data key="d3">West Bengaluru</data>
+      <data key="d4">Purple Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.06839032527105922</data>
+      <data key="d11">0.1782595603733815</data>
+      <data key="d12">0.012028490320577278</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Attiguppe">
+      <data key="d0">Attiguppe</data>
+      <data key="d1">12.9615</data>
+      <data key="d2">77.5585</data>
+      <data key="d3">West Bengaluru</data>
+      <data key="d4">Purple Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.07231040564373897</data>
+      <data key="d11">0.1978319783197832</data>
+      <data key="d12">0.011973565752000835</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Vijayanagar">
+      <data key="d0">Vijayanagar</data>
+      <data key="d1">12.9645</data>
+      <data key="d2">77.5675</data>
+      <data key="d3">West Bengaluru</data>
+      <data key="d4">Purple Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.0765639589169001</data>
+      <data key="d11">0.21680216802168023</data>
+      <data key="d12">0.01189230223551259</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Hosahalli">
+      <data key="d0">Hosahalli</data>
+      <data key="d1">12.9685</data>
+      <data key="d2">77.5755</data>
+      <data key="d3">Central West</data>
+      <data key="d4">Purple Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.08118811881188119</data>
+      <data key="d11">0.23517012947907256</data>
+      <data key="d12">0.011756018529999</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Magadi Road">
+      <data key="d0">Magadi Road</data>
+      <data key="d1">12.9735</data>
+      <data key="d2">77.5835</data>
+      <data key="d3">Central West</data>
+      <data key="d4">Purple Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.08622502628811778</data>
+      <data key="d11">0.2529358626919603</data>
+      <data key="d12">0.011516614504102329</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Krantivira Sangolli Rayanna Railway Station">
+      <data key="d0">Krantivira Sangolli Rayanna Railway Station</data>
+      <data key="d1">12.9765</data>
+      <data key="d2">77.5925</data>
+      <data key="d3">Central Bengaluru</data>
+      <data key="d4">Purple Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.09172259507829977</data>
+      <data key="d11">0.27009936766034326</data>
+      <data key="d12">0.011089594619270839</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Nadaprabhu Kempegowda Station Majestic">
+      <data key="d0">Nadaprabhu Kempegowda Station Majestic</data>
+      <data key="d1">12.9757</data>
+      <data key="d2">77.5728</data>
+      <data key="d3">Central Bengaluru</data>
+      <data key="d4">Purple Line; Green Line</data>
+      <data key="d5">2</data>
+      <data key="d6">True</data>
+      <data key="d7">Apex Mega Hub</data>
+      <data key="d8">4</data>
+      <data key="d9">0.04878048780487805</data>
+      <data key="d10">0.09773539928486293</data>
+      <data key="d11">0.7359229147847034</data>
+      <data key="d12">0.020648491949951428</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Sir M. Visveshwaraya Central College">
+      <data key="d0">Sir M. Visveshwaraya Central College</data>
+      <data key="d1">12.9745</data>
+      <data key="d2">77.5865</data>
+      <data key="d3">Central Bengaluru</data>
+      <data key="d4">Purple Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.09339407744874716</data>
+      <data key="d11">0.3857271906052394</data>
+      <data key="d12">0.011088437119412679</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Vidhana Soudha">
+      <data key="d0">Vidhana Soudha</data>
+      <data key="d1">12.9795</data>
+      <data key="d2">77.5925</data>
+      <data key="d3">Central Bengaluru</data>
+      <data key="d4">Purple Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.08922742110990206</data>
+      <data key="d11">0.37338151159289373</data>
+      <data key="d12">0.011513890975024348</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Cubbon Park">
+      <data key="d0">Cubbon Park</data>
+      <data key="d1">12.9815</data>
+      <data key="d2">77.5995</data>
+      <data key="d3">Central Bengaluru</data>
+      <data key="d4">Purple Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.08523908523908524</data>
+      <data key="d11">0.3604336043360434</data>
+      <data key="d12">0.011750767726144236</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="MG Road">
+      <data key="d0">MG Road</data>
+      <data key="d1">12.9755</data>
+      <data key="d2">77.6068</data>
+      <data key="d3">Central Bengaluru</data>
+      <data key="d4">Purple Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">High</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.0814299900695134</data>
+      <data key="d11">0.34688346883468835</data>
+      <data key="d12">0.011882670931991135</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Trinity">
+      <data key="d0">Trinity</data>
+      <data key="d1">12.9725</data>
+      <data key="d2">77.6165</data>
+      <data key="d3">Central Bengaluru</data>
+      <data key="d4">Purple Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.0777988614800759</data>
+      <data key="d11">0.3327311050888287</data>
+      <data key="d12">0.011956154665216929</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Halasuru">
+      <data key="d0">Halasuru</data>
+      <data key="d1">12.9775</data>
+      <data key="d2">77.6255</data>
+      <data key="d3">East Bengaluru</data>
+      <data key="d4">Purple Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.0743427017225748</data>
+      <data key="d11">0.3179765130984643</data>
+      <data key="d12">0.011997154361077733</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Indiranagar">
+      <data key="d0">Indiranagar</data>
+      <data key="d1">12.9785</data>
+      <data key="d2">77.6385</data>
+      <data key="d3">East Bengaluru</data>
+      <data key="d4">Purple Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">High</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.07105719237435008</data>
+      <data key="d11">0.3026196928635953</data>
+      <data key="d12">0.012020140500465645</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Swami Vivekananda Road">
+      <data key="d0">Swami Vivekananda Road</data>
+      <data key="d1">12.9855</data>
+      <data key="d2">77.6475</data>
+      <data key="d3">East Bengaluru</data>
+      <data key="d4">Purple Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.06793703396851698</data>
+      <data key="d11">0.2866606443842216</data>
+      <data key="d12">0.012033225838458719</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Baiyappanahalli">
+      <data key="d0">Baiyappanahalli</data>
+      <data key="d1">12.9912</data>
+      <data key="d2">77.6525</data>
+      <data key="d3">East Bengaluru</data>
+      <data key="d4">Purple Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">High</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.06497622820919176</data>
+      <data key="d11">0.27009936766034326</data>
+      <data key="d12">0.012041028729642725</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Benniganahalli">
+      <data key="d0">Benniganahalli</data>
+      <data key="d1">12.9965</data>
+      <data key="d2">77.6625</data>
+      <data key="d3">East Bengaluru</data>
+      <data key="d4">Purple Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.0621683093252464</data>
+      <data key="d11">0.2529358626919603</data>
+      <data key="d12">0.012046303135612063</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="KR Pura (Krishnarajapuram)">
+      <data key="d0">KR Pura (Krishnarajapuram)</data>
+      <data key="d1">12.9995</data>
+      <data key="d2">77.6785</data>
+      <data key="d3">East Bengaluru</data>
+      <data key="d4">Purple Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.059506531204644414</data>
+      <data key="d11">0.23517012947907256</data>
+      <data key="d12">0.012050910611414724</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Singayyanapalya">
+      <data key="d0">Singayyanapalya</data>
+      <data key="d1">12.9965</data>
+      <data key="d2">77.6965</data>
+      <data key="d3">East Bengaluru</data>
+      <data key="d4">Purple Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.05698401667824878</data>
+      <data key="d11">0.21680216802168023</data>
+      <data key="d12">0.01205647732498105</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Garudacharpalya">
+      <data key="d0">Garudacharpalya</data>
+      <data key="d1">12.9935</data>
+      <data key="d2">77.7085</data>
+      <data key="d3">East Bengaluru</data>
+      <data key="d4">Purple Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.05459387483355526</data>
+      <data key="d11">0.1978319783197832</data>
+      <data key="d12">0.01206496799874621</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Hoodi">
+      <data key="d0">Hoodi</data>
+      <data key="d1">12.9915</data>
+      <data key="d2">77.7185</data>
+      <data key="d3">East Bengaluru</data>
+      <data key="d4">Purple Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.05232929164007658</data>
+      <data key="d11">0.1782595603733815</data>
+      <data key="d12">0.012079379341097903</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Seetharampalya">
+      <data key="d0">Seetharampalya</data>
+      <data key="d1">12.9865</data>
+      <data key="d2">77.7285</data>
+      <data key="d3">Whitefield IT Hub</data>
+      <data key="d4">Purple Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.05018359853121175</data>
+      <data key="d11">0.15808491418247517</data>
+      <data key="d12">0.012104797708160288</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Kundalahalli">
+      <data key="d0">Kundalahalli</data>
+      <data key="d1">12.9795</data>
+      <data key="d2">77.7335</data>
+      <data key="d3">Whitefield IT Hub</data>
+      <data key="d4">Purple Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.048150322959483266</data>
+      <data key="d11">0.13730803974706415</data>
+      <data key="d12">0.0121501942883083</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Nallurhalli">
+      <data key="d0">Nallurhalli</data>
+      <data key="d1">12.9725</data>
+      <data key="d2">77.7385</data>
+      <data key="d3">Whitefield IT Hub</data>
+      <data key="d4">Purple Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.046223224351747465</data>
+      <data key="d11">0.11592893706714845</data>
+      <data key="d12">0.012231591403947141</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Sri Sathya Sai Hospital">
+      <data key="d0">Sri Sathya Sai Hospital</data>
+      <data key="d1">12.9655</data>
+      <data key="d2">77.7445</data>
+      <data key="d3">Whitefield IT Hub</data>
+      <data key="d4">Purple Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.04439631835408771</data>
+      <data key="d11">0.0939476061427281</data>
+      <data key="d12">0.012377717448831708</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Pattandur Agrahara">
+      <data key="d0">Pattandur Agrahara</data>
+      <data key="d1">12.9595</data>
+      <data key="d2">77.7485</data>
+      <data key="d3">Whitefield IT Hub</data>
+      <data key="d4">Purple Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.04266389177939646</data>
+      <data key="d11">0.07136404697380307</data>
+      <data key="d12">0.012640146321156502</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Kadugodi Tree Park">
+      <data key="d0">Kadugodi Tree Park</data>
+      <data key="d1">12.9685</data>
+      <data key="d2">77.7555</data>
+      <data key="d3">Whitefield IT Hub</data>
+      <data key="d4">Purple Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.04102051025512756</data>
+      <data key="d11">0.04817825956037338</data>
+      <data key="d12">0.013111499975859711</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Hopefarm Channasandra">
+      <data key="d0">Hopefarm Channasandra</data>
+      <data key="d1">12.9785</data>
+      <data key="d2">77.7575</data>
+      <data key="d3">Whitefield IT Hub</data>
+      <data key="d4">Purple Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.03946102021174206</data>
+      <data key="d11">0.024390243902439025</data>
+      <data key="d12">0.013958138526365996</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Whitefield (Kadugodi)">
+      <data key="d0">Whitefield (Kadugodi)</data>
+      <data key="d1">12.9955</data>
+      <data key="d2">77.7615</data>
+      <data key="d3">Whitefield IT Hub</data>
+      <data key="d4">Purple Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">High</data>
+      <data key="d8">1</data>
+      <data key="d9">0.012195121951219513</data>
+      <data key="d10">0.03798054654932839</data>
+      <data key="d11">0.0</data>
+      <data key="d12">0.007739437789368207</data>
+      <data key="d13">0.0</data>
+      <data key="d14">0</data>
+    </node>
+    <node id="Madavara (BIEC)">
+      <data key="d0">Madavara (BIEC)</data>
+      <data key="d1">13.0645</data>
+      <data key="d2">77.4825</data>
+      <data key="d3">North Bengaluru</data>
+      <data key="d4">Green Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">1</data>
+      <data key="d9">0.012195121951219513</data>
+      <data key="d10">0.04327176781002638</data>
+      <data key="d11">0.0</data>
+      <data key="d12">0.0077392953141476855</data>
+      <data key="d13">0.0</data>
+      <data key="d14">0</data>
+    </node>
+    <node id="Chikkabidarakallu">
+      <data key="d0">Chikkabidarakallu</data>
+      <data key="d1">13.0565</data>
+      <data key="d2">77.4915</data>
+      <data key="d3">North Bengaluru</data>
+      <data key="d4">Green Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.04520396912899669</data>
+      <data key="d11">0.024390243902439025</data>
+      <data key="d12">0.013957803290553005</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Manjunath Nagar">
+      <data key="d0">Manjunath Nagar</data>
+      <data key="d1">13.0485</data>
+      <data key="d2">77.4995</data>
+      <data key="d3">North Bengaluru</data>
+      <data key="d4">Green Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.04726224783861672</data>
+      <data key="d11">0.04817825956037338</data>
+      <data key="d12">0.013110996136152556</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Nagasandra">
+      <data key="d0">Nagasandra</data>
+      <data key="d1">13.0425</data>
+      <data key="d2">77.5045</data>
+      <data key="d3">North Bengaluru</data>
+      <data key="d4">Green Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.04945717732207479</data>
+      <data key="d11">0.07136404697380307</data>
+      <data key="d12">0.012639296051776149</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Dasarahalli">
+      <data key="d0">Dasarahalli</data>
+      <data key="d1">13.0375</data>
+      <data key="d2">77.5125</data>
+      <data key="d3">North Bengaluru</data>
+      <data key="d4">Green Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.05180037902716361</data>
+      <data key="d11">0.0939476061427281</data>
+      <data key="d12">0.012376220654702758</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Jalahalli">
+      <data key="d0">Jalahalli</data>
+      <data key="d1">13.0335</data>
+      <data key="d2">77.5215</data>
+      <data key="d3">North Bengaluru</data>
+      <data key="d4">Green Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.054304635761589407</data>
+      <data key="d11">0.11592893706714845</data>
+      <data key="d12">0.012228919804788784</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Peenya Industry">
+      <data key="d0">Peenya Industry</data>
+      <data key="d1">13.0295</data>
+      <data key="d2">77.5295</data>
+      <data key="d3">Peenya Industrial Zone</data>
+      <data key="d4">Green Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Medium-High Tech Commuter</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.05698401667824878</data>
+      <data key="d11">0.13730803974706415</data>
+      <data key="d12">0.01214540496677051</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Peenya">
+      <data key="d0">Peenya</data>
+      <data key="d1">13.0245</data>
+      <data key="d2">77.5365</data>
+      <data key="d3">Peenya Industrial Zone</data>
+      <data key="d4">Green Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Medium-High Tech Commuter</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.059854014598540145</data>
+      <data key="d11">0.15808491418247517</data>
+      <data key="d12">0.012096200315464987</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Goraguntepalya">
+      <data key="d0">Goraguntepalya</data>
+      <data key="d1">13.0185</data>
+      <data key="d2">77.5445</data>
+      <data key="d3">North Bengaluru</data>
+      <data key="d4">Green Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.06293169608595549</data>
+      <data key="d11">0.1782595603733815</data>
+      <data key="d12">0.012063939503352642</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Yeshwanthpur">
+      <data key="d0">Yeshwanthpur</data>
+      <data key="d1">13.0125</data>
+      <data key="d2">77.5515</data>
+      <data key="d3">North Bengaluru</data>
+      <data key="d4">Green Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">High</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.06623586429725363</data>
+      <data key="d11">0.1978319783197832</data>
+      <data key="d12">0.012037236361452649</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Sandal Soap Factory">
+      <data key="d0">Sandal Soap Factory</data>
+      <data key="d1">13.0075</data>
+      <data key="d2">77.5555</data>
+      <data key="d3">North Bengaluru</data>
+      <data key="d4">Green Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.06978723404255319</data>
+      <data key="d11">0.21680216802168023</data>
+      <data key="d12">0.012006666251447364</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Mahalakshmi">
+      <data key="d0">Mahalakshmi</data>
+      <data key="d1">13.0015</data>
+      <data key="d2">77.5595</data>
+      <data key="d3">North Bengaluru</data>
+      <data key="d4">Green Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.07360861759425494</data>
+      <data key="d11">0.23517012947907256</data>
+      <data key="d12">0.011961439722746674</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Rajajinagar">
+      <data key="d0">Rajajinagar</data>
+      <data key="d1">12.9945</data>
+      <data key="d2">77.5575</data>
+      <data key="d3">Central West</data>
+      <data key="d4">Green Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.07772511848341232</data>
+      <data key="d11">0.2529358626919603</data>
+      <data key="d12">0.011885594471103256</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Kuvempu Road">
+      <data key="d0">Kuvempu Road</data>
+      <data key="d1">12.9885</data>
+      <data key="d2">77.5585</data>
+      <data key="d3">Central West</data>
+      <data key="d4">Green Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.08216432865731463</data>
+      <data key="d11">0.27009936766034326</data>
+      <data key="d12">0.011752361584172423</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Srirampura">
+      <data key="d0">Srirampura</data>
+      <data key="d1">12.9835</data>
+      <data key="d2">77.5635</data>
+      <data key="d3">Central West</data>
+      <data key="d4">Green Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.08695652173913043</data>
+      <data key="d11">0.2866606443842216</data>
+      <data key="d12">0.01151471769009615</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Sampige Road (Mantri Square)">
+      <data key="d0">Sampige Road (Mantri Square)</data>
+      <data key="d1">12.9795</data>
+      <data key="d2">77.5685</data>
+      <data key="d3">Central Bengaluru</data>
+      <data key="d4">Green Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.09213483146067415</data>
+      <data key="d11">0.3026196928635953</data>
+      <data key="d12">0.0110887884733182</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Chickpete">
+      <data key="d0">Chickpete</data>
+      <data key="d1">12.9685</data>
+      <data key="d2">77.5755</data>
+      <data key="d3">Central Bengaluru</data>
+      <data key="d4">Green Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.0951276102088167</data>
+      <data key="d11">0.4628124059018368</data>
+      <data key="d12">0.011065563398089591</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Krishna Rajendra Market">
+      <data key="d0">Krishna Rajendra Market</data>
+      <data key="d1">12.9615</data>
+      <data key="d2">77.5765</data>
+      <data key="d3">Central Bengaluru</data>
+      <data key="d4">Green Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.09244644870349493</data>
+      <data key="d11">0.4552845528455285</data>
+      <data key="d12">0.011460070454264108</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="National College">
+      <data key="d0">National College</data>
+      <data key="d1">12.9525</data>
+      <data key="d2">77.5755</data>
+      <data key="d3">South Bengaluru</data>
+      <data key="d4">Green Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.08971553610503283</data>
+      <data key="d11">0.44715447154471544</data>
+      <data key="d12">0.01164700492803148</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Lalbagh">
+      <data key="d0">Lalbagh</data>
+      <data key="d1">12.9465</data>
+      <data key="d2">77.5815</data>
+      <data key="d3">South Bengaluru</data>
+      <data key="d4">Green Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.08695652173913043</data>
+      <data key="d11">0.43842216199939776</data>
+      <data key="d12">0.011692343692486092</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="South End Circle">
+      <data key="d0">South End Circle</data>
+      <data key="d1">12.9395</data>
+      <data key="d2">77.5815</data>
+      <data key="d3">South Bengaluru</data>
+      <data key="d4">Green Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.08418891170431211</data>
+      <data key="d11">0.4290876242095754</data>
+      <data key="d12">0.011612088664494214</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Jayanagar">
+      <data key="d0">Jayanagar</data>
+      <data key="d1">12.9315</data>
+      <data key="d2">77.5825</data>
+      <data key="d3">South Bengaluru</data>
+      <data key="d4">Green Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.0814299900695134</data>
+      <data key="d11">0.41915085817524844</data>
+      <data key="d12">0.011377914540058764</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Rashtreeya Vidyalaya Road (RV Road)">
+      <data key="d0">Rashtreeya Vidyalaya Road (RV Road)</data>
+      <data key="d1">12.9235</data>
+      <data key="d2">77.5825</data>
+      <data key="d3">South Bengaluru</data>
+      <data key="d4">Green Line; Yellow Line</data>
+      <data key="d5">2</data>
+      <data key="d6">True</data>
+      <data key="d7">High</data>
+      <data key="d8">3</data>
+      <data key="d9">0.03658536585365854</data>
+      <data key="d10">0.07869481765834933</data>
+      <data key="d11">0.4447455585666968</data>
+      <data key="d12">0.016360757442303777</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Banashankari">
+      <data key="d0">Banashankari</data>
+      <data key="d1">12.9155</data>
+      <data key="d2">77.5745</data>
+      <data key="d3">South Bengaluru</data>
+      <data key="d4">Green Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.0739404869251578</data>
+      <data key="d11">0.15808491418247517</data>
+      <data key="d12">0.011452075173473977</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Jaya Prakash Nagar (JP Nagar)">
+      <data key="d0">Jaya Prakash Nagar (JP Nagar)</data>
+      <data key="d1">12.9075</data>
+      <data key="d2">77.5735</data>
+      <data key="d3">South Bengaluru</data>
+      <data key="d4">Green Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.06960950764006792</data>
+      <data key="d11">0.13730803974706415</data>
+      <data key="d12">0.01178658427253004</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Yelachenahalli">
+      <data key="d0">Yelachenahalli</data>
+      <data key="d1">12.8975</data>
+      <data key="d2">77.5715</data>
+      <data key="d3">South Bengaluru</data>
+      <data key="d4">Green Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.0656525220176141</data>
+      <data key="d11">0.11592893706714845</data>
+      <data key="d12">0.012028760960331673</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Konanakunte Cross">
+      <data key="d0">Konanakunte Cross</data>
+      <data key="d1">12.8895</data>
+      <data key="d2">77.5685</data>
+      <data key="d3">South Bengaluru</data>
+      <data key="d4">Green Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.06202723146747353</data>
+      <data key="d11">0.0939476061427281</data>
+      <data key="d12">0.012264079361985291</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Doddakallasandra">
+      <data key="d0">Doddakallasandra</data>
+      <data key="d1">12.8795</data>
+      <data key="d2">77.5615</data>
+      <data key="d3">South Bengaluru</data>
+      <data key="d4">Green Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.05869720830350752</data>
+      <data key="d11">0.07136404697380307</data>
+      <data key="d12">0.012575593031015677</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Vajrahalli">
+      <data key="d0">Vajrahalli</data>
+      <data key="d1">12.8705</data>
+      <data key="d2">77.5555</data>
+      <data key="d3">South Bengaluru</data>
+      <data key="d4">Green Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.05563093622795115</data>
+      <data key="d11">0.04817825956037338</data>
+      <data key="d12">0.013073247968257167</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Thalaghattapura">
+      <data key="d0">Thalaghattapura</data>
+      <data key="d1">12.8625</data>
+      <data key="d2">77.5485</data>
+      <data key="d3">South Bengaluru</data>
+      <data key="d4">Green Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.05280103026400515</data>
+      <data key="d11">0.024390243902439025</data>
+      <data key="d12">0.013932687092736136</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Silk Institute">
+      <data key="d0">Silk Institute</data>
+      <data key="d1">12.8525</data>
+      <data key="d2">77.5415</data>
+      <data key="d3">South Bengaluru</data>
+      <data key="d4">Green Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">1</data>
+      <data key="d9">0.012195121951219513</data>
+      <data key="d10">0.05018359853121175</data>
+      <data key="d11">0.0</data>
+      <data key="d12">0.0077286209300754865</data>
+      <data key="d13">0.0</data>
+      <data key="d14">0</data>
+    </node>
+    <node id="Ragigudda">
+      <data key="d0">Ragigudda</data>
+      <data key="d1">12.9165</data>
+      <data key="d2">77.5935</data>
+      <data key="d3">South Bengaluru</data>
+      <data key="d4">Yellow Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.07488584474885844</data>
+      <data key="d11">0.2866606443842216</data>
+      <data key="d12">0.011413606819740501</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Jayadeva Hospital">
+      <data key="d0">Jayadeva Hospital</data>
+      <data key="d1">12.9185</data>
+      <data key="d2">77.6065</data>
+      <data key="d3">South Bengaluru</data>
+      <data key="d4">Yellow Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.07130434782608695</data>
+      <data key="d11">0.27009936766034326</data>
+      <data key="d12">0.01169607049903945</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="BTM Layout">
+      <data key="d0">BTM Layout</data>
+      <data key="d1">12.9145</data>
+      <data key="d2">77.6185</data>
+      <data key="d3">South Bengaluru</data>
+      <data key="d4">Yellow Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.06793703396851698</data>
+      <data key="d11">0.2529358626919603</data>
+      <data key="d12">0.01185425572938143</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Central Silk Board">
+      <data key="d0">Central Silk Board</data>
+      <data key="d1">12.9175</data>
+      <data key="d2">77.6235</data>
+      <data key="d3">South East Hub</data>
+      <data key="d4">Yellow Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.06477093206951026</data>
+      <data key="d11">0.23517012947907256</data>
+      <data key="d12">0.011943992592063543</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Bommanahalli">
+      <data key="d0">Bommanahalli</data>
+      <data key="d1">12.9065</data>
+      <data key="d2">77.6325</data>
+      <data key="d3">South East</data>
+      <data key="d4">Yellow Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.06179351921627732</data>
+      <data key="d11">0.21680216802168023</data>
+      <data key="d12">0.01199695292097367</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Hongasandra">
+      <data key="d0">Hongasandra</data>
+      <data key="d1">12.8965</data>
+      <data key="d2">77.6395</data>
+      <data key="d3">South East</data>
+      <data key="d4">Yellow Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.058992805755395686</data>
+      <data key="d11">0.1978319783197832</data>
+      <data key="d12">0.012031828596903518</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Kudlu Gate">
+      <data key="d0">Kudlu Gate</data>
+      <data key="d1">12.8865</data>
+      <data key="d2">77.6465</data>
+      <data key="d3">South East</data>
+      <data key="d4">Yellow Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.056357388316151204</data>
+      <data key="d11">0.1782595603733815</data>
+      <data key="d12">0.012060928681946073</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Singasandra">
+      <data key="d0">Singasandra</data>
+      <data key="d1">12.8765</data>
+      <data key="d2">77.6535</data>
+      <data key="d3">South East</data>
+      <data key="d4">Yellow Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.05387647831800263</data>
+      <data key="d11">0.15808491418247517</data>
+      <data key="d12">0.012094523794351537</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Hosa Road">
+      <data key="d0">Hosa Road</data>
+      <data key="d1">12.8665</data>
+      <data key="d2">77.6605</data>
+      <data key="d3">South East</data>
+      <data key="d4">Yellow Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.051539912005028284</data>
+      <data key="d11">0.13730803974706415</data>
+      <data key="d12">0.012144471032616054</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Beratena Agrahara">
+      <data key="d0">Beratena Agrahara</data>
+      <data key="d1">12.8565</data>
+      <data key="d2">77.6675</data>
+      <data key="d3">South East</data>
+      <data key="d4">Yellow Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Standard Residential</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.049338146811071</data>
+      <data key="d11">0.11592893706714845</data>
+      <data key="d12">0.012228398833774136</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Electronic City">
+      <data key="d0">Electronic City</data>
+      <data key="d1">12.8465</data>
+      <data key="d2">77.6745</data>
+      <data key="d3">Electronics City Tech Hub</data>
+      <data key="d4">Yellow Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">High</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.04726224783861672</data>
+      <data key="d11">0.0939476061427281</data>
+      <data key="d12">0.012375928774705074</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Infosys Foundation Konappana Agrahara">
+      <data key="d0">Infosys Foundation Konappana Agrahara</data>
+      <data key="d1">12.8365</data>
+      <data key="d2">77.6815</data>
+      <data key="d3">Electronics City Tech Hub</data>
+      <data key="d4">Yellow Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Medium-High Tech Commuter</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.045303867403314914</data>
+      <data key="d11">0.07136404697380307</data>
+      <data key="d12">0.0126391302463257</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Huskur Road">
+      <data key="d0">Huskur Road</data>
+      <data key="d1">12.8265</data>
+      <data key="d2">77.6885</data>
+      <data key="d3">Electronics City Tech Hub</data>
+      <data key="d4">Yellow Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Medium-High Tech Commuter</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.04345521992580816</data>
+      <data key="d11">0.04817825956037338</data>
+      <data key="d12">0.013110897885678582</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Hebbagodi">
+      <data key="d0">Hebbagodi</data>
+      <data key="d1">12.8165</data>
+      <data key="d2">77.6955</data>
+      <data key="d3">Electronics City Tech Hub</data>
+      <data key="d4">Yellow Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Medium-High Tech Commuter</data>
+      <data key="d8">2</data>
+      <data key="d9">0.024390243902439025</data>
+      <data key="d10">0.04170905391658189</data>
+      <data key="d11">0.024390243902439025</data>
+      <data key="d12">0.013957737918417642</data>
+      <data key="d13">0.0</data>
+      <data key="d14">1</data>
+    </node>
+    <node id="Bommasandra">
+      <data key="d0">Bommasandra</data>
+      <data key="d1">12.8065</data>
+      <data key="d2">77.7025</data>
+      <data key="d3">Industrial Suburb</data>
+      <data key="d4">Yellow Line</data>
+      <data key="d5">1</data>
+      <data key="d6">False</data>
+      <data key="d7">Medium-High Tech Commuter</data>
+      <data key="d8">1</data>
+      <data key="d9">0.012195121951219513</data>
+      <data key="d10">0.040058622374206154</data>
+      <data key="d11">0.0</data>
+      <data key="d12">0.00773926753099017</data>
+      <data key="d13">0.0</data>
+      <data key="d14">0</data>
+    </node>
+    <edge source="Challegatta" target="Kengeri">
+      <data key="d15">Purple Line</data>
+      <data key="d16">#800080</data>
+      <data key="d17">1.5</data>
+      <data key="d18">3.9</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Kengeri" target="Kengeri Bus Terminal">
+      <data key="d15">Purple Line</data>
+      <data key="d16">#800080</data>
+      <data key="d17">1.28</data>
+      <data key="d18">3.5</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Kengeri Bus Terminal" target="Pattanagere">
+      <data key="d15">Purple Line</data>
+      <data key="d16">#800080</data>
+      <data key="d17">1.68</data>
+      <data key="d18">4.3</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Pattanagere" target="Jnanabharathi">
+      <data key="d15">Purple Line</data>
+      <data key="d16">#800080</data>
+      <data key="d17">1.68</data>
+      <data key="d18">4.3</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Jnanabharathi" target="Rajarajeshwari Nagar">
+      <data key="d15">Purple Line</data>
+      <data key="d16">#800080</data>
+      <data key="d17">1.64</data>
+      <data key="d18">4.2</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Rajarajeshwari Nagar" target="Nayandahalli">
+      <data key="d15">Purple Line</data>
+      <data key="d16">#800080</data>
+      <data key="d17">1.4</data>
+      <data key="d18">3.8</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Nayandahalli" target="Mysore Road">
+      <data key="d15">Purple Line</data>
+      <data key="d16">#800080</data>
+      <data key="d17">1.11</data>
+      <data key="d18">3.2</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Mysore Road" target="Deepanjali Nagar">
+      <data key="d15">Purple Line</data>
+      <data key="d16">#800080</data>
+      <data key="d17">0.95</data>
+      <data key="d18">2.9</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Deepanjali Nagar" target="Attiguppe">
+      <data key="d15">Purple Line</data>
+      <data key="d16">#800080</data>
+      <data key="d17">1.07</data>
+      <data key="d18">3.1</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Attiguppe" target="Vijayanagar">
+      <data key="d15">Purple Line</data>
+      <data key="d16">#800080</data>
+      <data key="d17">1.03</data>
+      <data key="d18">3.1</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Vijayanagar" target="Hosahalli">
+      <data key="d15">Purple Line</data>
+      <data key="d16">#800080</data>
+      <data key="d17">0.97</data>
+      <data key="d18">2.9</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Hosahalli" target="Magadi Road">
+      <data key="d15">Purple Line</data>
+      <data key="d16">#800080</data>
+      <data key="d17">1.03</data>
+      <data key="d18">3.1</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Magadi Road" target="Krantivira Sangolli Rayanna Railway Station">
+      <data key="d15">Purple Line</data>
+      <data key="d16">#800080</data>
+      <data key="d17">1.03</data>
+      <data key="d18">3.1</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Krantivira Sangolli Rayanna Railway Station" target="Nadaprabhu Kempegowda Station Majestic">
+      <data key="d15">Purple Line</data>
+      <data key="d16">#800080</data>
+      <data key="d17">2.14</data>
+      <data key="d18">5.2</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Nadaprabhu Kempegowda Station Majestic" target="Sir M. Visveshwaraya Central College">
+      <data key="d15">Purple Line</data>
+      <data key="d16">#800080</data>
+      <data key="d17">1.49</data>
+      <data key="d18">3.9</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Nadaprabhu Kempegowda Station Majestic" target="Sampige Road (Mantri Square)">
+      <data key="d15">Green Line</data>
+      <data key="d16">#008000</data>
+      <data key="d17">0.75</data>
+      <data key="d18">2.5</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Nadaprabhu Kempegowda Station Majestic" target="Chickpete">
+      <data key="d15">Green Line</data>
+      <data key="d16">#008000</data>
+      <data key="d17">0.85</data>
+      <data key="d18">2.7</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Sir M. Visveshwaraya Central College" target="Vidhana Soudha">
+      <data key="d15">Purple Line</data>
+      <data key="d16">#800080</data>
+      <data key="d17">0.86</data>
+      <data key="d18">2.7</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Vidhana Soudha" target="Cubbon Park">
+      <data key="d15">Purple Line</data>
+      <data key="d16">#800080</data>
+      <data key="d17">0.79</data>
+      <data key="d18">2.6</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Cubbon Park" target="MG Road">
+      <data key="d15">Purple Line</data>
+      <data key="d16">#800080</data>
+      <data key="d17">1.03</data>
+      <data key="d18">3.1</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="MG Road" target="Trinity">
+      <data key="d15">Purple Line</data>
+      <data key="d16">#800080</data>
+      <data key="d17">1.1</data>
+      <data key="d18">3.2</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Trinity" target="Halasuru">
+      <data key="d15">Purple Line</data>
+      <data key="d16">#800080</data>
+      <data key="d17">1.12</data>
+      <data key="d18">3.2</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Halasuru" target="Indiranagar">
+      <data key="d15">Purple Line</data>
+      <data key="d16">#800080</data>
+      <data key="d17">1.41</data>
+      <data key="d18">3.8</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Indiranagar" target="Swami Vivekananda Road">
+      <data key="d15">Purple Line</data>
+      <data key="d16">#800080</data>
+      <data key="d17">1.25</data>
+      <data key="d18">3.5</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Swami Vivekananda Road" target="Baiyappanahalli">
+      <data key="d15">Purple Line</data>
+      <data key="d16">#800080</data>
+      <data key="d17">0.83</data>
+      <data key="d18">2.7</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Baiyappanahalli" target="Benniganahalli">
+      <data key="d15">Purple Line</data>
+      <data key="d16">#800080</data>
+      <data key="d17">1.23</data>
+      <data key="d18">3.4</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Benniganahalli" target="KR Pura (Krishnarajapuram)">
+      <data key="d15">Purple Line</data>
+      <data key="d16">#800080</data>
+      <data key="d17">1.77</data>
+      <data key="d18">4.5</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="KR Pura (Krishnarajapuram)" target="Singayyanapalya">
+      <data key="d15">Purple Line</data>
+      <data key="d16">#800080</data>
+      <data key="d17">1.98</data>
+      <data key="d18">4.9</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Singayyanapalya" target="Garudacharpalya">
+      <data key="d15">Purple Line</data>
+      <data key="d16">#800080</data>
+      <data key="d17">1.34</data>
+      <data key="d18">3.6</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Garudacharpalya" target="Hoodi">
+      <data key="d15">Purple Line</data>
+      <data key="d16">#800080</data>
+      <data key="d17">1.11</data>
+      <data key="d18">3.2</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Hoodi" target="Seetharampalya">
+      <data key="d15">Purple Line</data>
+      <data key="d16">#800080</data>
+      <data key="d17">1.22</data>
+      <data key="d18">3.4</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Seetharampalya" target="Kundalahalli">
+      <data key="d15">Purple Line</data>
+      <data key="d16">#800080</data>
+      <data key="d17">0.95</data>
+      <data key="d18">2.9</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Kundalahalli" target="Nallurhalli">
+      <data key="d15">Purple Line</data>
+      <data key="d16">#800080</data>
+      <data key="d17">0.95</data>
+      <data key="d18">2.9</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Nallurhalli" target="Sri Sathya Sai Hospital">
+      <data key="d15">Purple Line</data>
+      <data key="d16">#800080</data>
+      <data key="d17">1.01</data>
+      <data key="d18">3.0</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Sri Sathya Sai Hospital" target="Pattandur Agrahara">
+      <data key="d15">Purple Line</data>
+      <data key="d16">#800080</data>
+      <data key="d17">0.8</data>
+      <data key="d18">2.6</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Pattandur Agrahara" target="Kadugodi Tree Park">
+      <data key="d15">Purple Line</data>
+      <data key="d16">#800080</data>
+      <data key="d17">1.26</data>
+      <data key="d18">3.5</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Kadugodi Tree Park" target="Hopefarm Channasandra">
+      <data key="d15">Purple Line</data>
+      <data key="d16">#800080</data>
+      <data key="d17">1.13</data>
+      <data key="d18">3.2</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Hopefarm Channasandra" target="Whitefield (Kadugodi)">
+      <data key="d15">Purple Line</data>
+      <data key="d16">#800080</data>
+      <data key="d17">1.94</data>
+      <data key="d18">4.8</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Madavara (BIEC)" target="Chikkabidarakallu">
+      <data key="d15">Green Line</data>
+      <data key="d16">#008000</data>
+      <data key="d17">1.32</data>
+      <data key="d18">3.6</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Chikkabidarakallu" target="Manjunath Nagar">
+      <data key="d15">Green Line</data>
+      <data key="d16">#008000</data>
+      <data key="d17">1.24</data>
+      <data key="d18">3.5</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Manjunath Nagar" target="Nagasandra">
+      <data key="d15">Green Line</data>
+      <data key="d16">#008000</data>
+      <data key="d17">0.86</data>
+      <data key="d18">2.7</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Nagasandra" target="Dasarahalli">
+      <data key="d15">Green Line</data>
+      <data key="d16">#008000</data>
+      <data key="d17">1.03</data>
+      <data key="d18">3.1</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Dasarahalli" target="Jalahalli">
+      <data key="d15">Green Line</data>
+      <data key="d16">#008000</data>
+      <data key="d17">1.07</data>
+      <data key="d18">3.1</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Jalahalli" target="Peenya Industry">
+      <data key="d15">Green Line</data>
+      <data key="d16">#008000</data>
+      <data key="d17">0.97</data>
+      <data key="d18">2.9</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Peenya Industry" target="Peenya">
+      <data key="d15">Green Line</data>
+      <data key="d16">#008000</data>
+      <data key="d17">0.94</data>
+      <data key="d18">2.9</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Peenya" target="Goraguntepalya">
+      <data key="d15">Green Line</data>
+      <data key="d16">#008000</data>
+      <data key="d17">1.09</data>
+      <data key="d18">3.2</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Goraguntepalya" target="Yeshwanthpur">
+      <data key="d15">Green Line</data>
+      <data key="d16">#008000</data>
+      <data key="d17">1.01</data>
+      <data key="d18">3.0</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Yeshwanthpur" target="Sandal Soap Factory">
+      <data key="d15">Green Line</data>
+      <data key="d16">#008000</data>
+      <data key="d17">0.75</data>
+      <data key="d18">2.5</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Sandal Soap Factory" target="Mahalakshmi">
+      <data key="d15">Green Line</data>
+      <data key="d16">#008000</data>
+      <data key="d17">0.8</data>
+      <data key="d18">2.6</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Mahalakshmi" target="Rajajinagar">
+      <data key="d15">Green Line</data>
+      <data key="d16">#008000</data>
+      <data key="d17">0.81</data>
+      <data key="d18">2.6</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Rajajinagar" target="Kuvempu Road">
+      <data key="d15">Green Line</data>
+      <data key="d16">#008000</data>
+      <data key="d17">0.75</data>
+      <data key="d18">2.5</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Kuvempu Road" target="Srirampura">
+      <data key="d15">Green Line</data>
+      <data key="d16">#008000</data>
+      <data key="d17">0.78</data>
+      <data key="d18">2.6</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Srirampura" target="Sampige Road (Mantri Square)">
+      <data key="d15">Green Line</data>
+      <data key="d16">#008000</data>
+      <data key="d17">0.75</data>
+      <data key="d18">2.5</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Chickpete" target="Krishna Rajendra Market">
+      <data key="d15">Green Line</data>
+      <data key="d16">#008000</data>
+      <data key="d17">0.79</data>
+      <data key="d18">2.6</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Krishna Rajendra Market" target="National College">
+      <data key="d15">Green Line</data>
+      <data key="d16">#008000</data>
+      <data key="d17">1.01</data>
+      <data key="d18">3.0</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="National College" target="Lalbagh">
+      <data key="d15">Green Line</data>
+      <data key="d16">#008000</data>
+      <data key="d17">0.93</data>
+      <data key="d18">2.9</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Lalbagh" target="South End Circle">
+      <data key="d15">Green Line</data>
+      <data key="d16">#008000</data>
+      <data key="d17">0.78</data>
+      <data key="d18">2.6</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="South End Circle" target="Jayanagar">
+      <data key="d15">Green Line</data>
+      <data key="d16">#008000</data>
+      <data key="d17">0.9</data>
+      <data key="d18">2.8</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Jayanagar" target="Rashtreeya Vidyalaya Road (RV Road)">
+      <data key="d15">Green Line</data>
+      <data key="d16">#008000</data>
+      <data key="d17">0.89</data>
+      <data key="d18">2.8</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Rashtreeya Vidyalaya Road (RV Road)" target="Banashankari">
+      <data key="d15">Green Line</data>
+      <data key="d16">#008000</data>
+      <data key="d17">1.24</data>
+      <data key="d18">3.5</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Rashtreeya Vidyalaya Road (RV Road)" target="Ragigudda">
+      <data key="d15">Yellow Line</data>
+      <data key="d16">#FFD700</data>
+      <data key="d17">1.42</data>
+      <data key="d18">3.8</data>
+      <data key="d19">Phase 2 Ready</data>
+    </edge>
+    <edge source="Banashankari" target="Jaya Prakash Nagar (JP Nagar)">
+      <data key="d15">Green Line</data>
+      <data key="d16">#008000</data>
+      <data key="d17">0.9</data>
+      <data key="d18">2.8</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Jaya Prakash Nagar (JP Nagar)" target="Yelachenahalli">
+      <data key="d15">Green Line</data>
+      <data key="d16">#008000</data>
+      <data key="d17">1.13</data>
+      <data key="d18">3.2</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Yelachenahalli" target="Konanakunte Cross">
+      <data key="d15">Green Line</data>
+      <data key="d16">#008000</data>
+      <data key="d17">0.95</data>
+      <data key="d18">2.9</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Konanakunte Cross" target="Doddakallasandra">
+      <data key="d15">Green Line</data>
+      <data key="d16">#008000</data>
+      <data key="d17">1.35</data>
+      <data key="d18">3.7</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Doddakallasandra" target="Vajrahalli">
+      <data key="d15">Green Line</data>
+      <data key="d16">#008000</data>
+      <data key="d17">1.19</data>
+      <data key="d18">3.4</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Vajrahalli" target="Thalaghattapura">
+      <data key="d15">Green Line</data>
+      <data key="d16">#008000</data>
+      <data key="d17">1.17</data>
+      <data key="d18">3.3</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Thalaghattapura" target="Silk Institute">
+      <data key="d15">Green Line</data>
+      <data key="d16">#008000</data>
+      <data key="d17">1.35</data>
+      <data key="d18">3.7</data>
+      <data key="d19">Operational</data>
+    </edge>
+    <edge source="Ragigudda" target="Jayadeva Hospital">
+      <data key="d15">Yellow Line</data>
+      <data key="d16">#FFD700</data>
+      <data key="d17">1.43</data>
+      <data key="d18">3.8</data>
+      <data key="d19">Phase 2 Ready</data>
+    </edge>
+    <edge source="Jayadeva Hospital" target="BTM Layout">
+      <data key="d15">Yellow Line</data>
+      <data key="d16">#FFD700</data>
+      <data key="d17">1.37</data>
+      <data key="d18">3.7</data>
+      <data key="d19">Phase 2 Ready</data>
+    </edge>
+    <edge source="BTM Layout" target="Central Silk Board">
+      <data key="d15">Yellow Line</data>
+      <data key="d16">#FFD700</data>
+      <data key="d17">0.75</data>
+      <data key="d18">2.5</data>
+      <data key="d19">Phase 2 Ready</data>
+    </edge>
+    <edge source="Central Silk Board" target="Bommanahalli">
+      <data key="d15">Yellow Line</data>
+      <data key="d16">#FFD700</data>
+      <data key="d17">1.56</data>
+      <data key="d18">4.1</data>
+      <data key="d19">Phase 2 Ready</data>
+    </edge>
+    <edge source="Bommanahalli" target="Hongasandra">
+      <data key="d15">Yellow Line</data>
+      <data key="d16">#FFD700</data>
+      <data key="d17">1.35</data>
+      <data key="d18">3.7</data>
+      <data key="d19">Phase 2 Ready</data>
+    </edge>
+    <edge source="Hongasandra" target="Kudlu Gate">
+      <data key="d15">Yellow Line</data>
+      <data key="d16">#FFD700</data>
+      <data key="d17">1.35</data>
+      <data key="d18">3.7</data>
+      <data key="d19">Phase 2 Ready</data>
+    </edge>
+    <edge source="Kudlu Gate" target="Singasandra">
+      <data key="d15">Yellow Line</data>
+      <data key="d16">#FFD700</data>
+      <data key="d17">1.35</data>
+      <data key="d18">3.7</data>
+      <data key="d19">Phase 2 Ready</data>
+    </edge>
+    <edge source="Singasandra" target="Hosa Road">
+      <data key="d15">Yellow Line</data>
+      <data key="d16">#FFD700</data>
+      <data key="d17">1.35</data>
+      <data key="d18">3.7</data>
+      <data key="d19">Phase 2 Ready</data>
+    </edge>
+    <edge source="Hosa Road" target="Beratena Agrahara">
+      <data key="d15">Yellow Line</data>
+      <data key="d16">#FFD700</data>
+      <data key="d17">1.35</data>
+      <data key="d18">3.7</data>
+      <data key="d19">Phase 2 Ready</data>
+    </edge>
+    <edge source="Beratena Agrahara" target="Electronic City">
+      <data key="d15">Yellow Line</data>
+      <data key="d16">#FFD700</data>
+      <data key="d17">1.35</data>
+      <data key="d18">3.7</data>
+      <data key="d19">Phase 2 Ready</data>
+    </edge>
+    <edge source="Electronic City" target="Infosys Foundation Konappana Agrahara">
+      <data key="d15">Yellow Line</data>
+      <data key="d16">#FFD700</data>
+      <data key="d17">1.35</data>
+      <data key="d18">3.7</data>
+      <data key="d19">Phase 2 Ready</data>
+    </edge>
+    <edge source="Infosys Foundation Konappana Agrahara" target="Huskur Road">
+      <data key="d15">Yellow Line</data>
+      <data key="d16">#FFD700</data>
+      <data key="d17">1.35</data>
+      <data key="d18">3.7</data>
+      <data key="d19">Phase 2 Ready</data>
+    </edge>
+    <edge source="Huskur Road" target="Hebbagodi">
+      <data key="d15">Yellow Line</data>
+      <data key="d16">#FFD700</data>
+      <data key="d17">1.35</data>
+      <data key="d18">3.7</data>
+      <data key="d19">Phase 2 Ready</data>
+    </edge>
+    <edge source="Hebbagodi" target="Bommasandra">
+      <data key="d15">Yellow Line</data>
+      <data key="d16">#FFD700</data>
+      <data key="d17">1.35</data>
+      <data key="d18">3.7</data>
+      <data key="d19">Phase 2 Ready</data>
+    </edge>
+  </graph>
+</graphml>

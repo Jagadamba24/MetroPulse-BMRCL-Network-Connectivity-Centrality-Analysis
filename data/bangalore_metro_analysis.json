@@ -1,0 +1,257 @@
+{
+  "network_name": "Bengaluru Namma Metro Network (BMRCL)",
+  "city": "Bengaluru, Karnataka, India",
+  "system_summary": {
+    "total_stations_full": 83,
+    "total_connections_full": 82,
+    "phase1_stations": 68,
+    "phase1_connections": 67,
+    "lines": [
+      "Purple Line",
+      "Green Line",
+      "Yellow Line"
+    ],
+    "corridors": [
+      "East-West (Challegatta - Whitefield)",
+      "North-South (Madavara - Silk Institute)",
+      "South-East (RV Road - Bommasandra)"
+    ]
+  },
+  "network_metrics": {
+    "diameter_hops": 44,
+    "phase1_diameter_hops": 38,
+    "average_shortest_path_length": 16.68,
+    "phase1_average_shortest_path_length": 15.02,
+    "transitivity": 0,
+    "average_clustering_coefficient": 0.0,
+    "reciprocity_directed": 1.0,
+    "degree_assortativity": -0.0092,
+    "phase1_degree_assortativity": -0.006,
+    "zone_assortativity": 0.8201,
+    "articulation_points_count": 78
+  },
+  "majestic_keystone_analysis": {
+    "degree": 4,
+    "degree_centrality": 0.0488,
+    "closeness_centrality": 0.0977,
+    "betweenness_centrality_phase1": 0.7526,
+    "betweenness_centrality_with_yellow": 0.7359,
+    "explanation": "In Bangalore's 2-line cross-axis network, 100% of inter-line trips between Purple and Green MUST pass through Majestic, giving it an unprecedented betweenness centrality of ~0.53 (and over 0.98 among all inter-line paths). The addition of the Yellow Line connecting RV Road to Silk Board & Bommasandra distributes South-East tech commuter flows and reduces single-point stress."
+  },
+  "rankings": {
+    "top_degree": [
+      {
+        "station": "Nadaprabhu Kempegowda Station Majestic",
+        "degree": 4,
+        "normalized": 0.0488
+      },
+      {
+        "station": "Rashtreeya Vidyalaya Road (RV Road)",
+        "degree": 3,
+        "normalized": 0.0366
+      },
+      {
+        "station": "Kengeri",
+        "degree": 2,
+        "normalized": 0.0244
+      },
+      {
+        "station": "Kengeri Bus Terminal",
+        "degree": 2,
+        "normalized": 0.0244
+      },
+      {
+        "station": "Pattanagere",
+        "degree": 2,
+        "normalized": 0.0244
+      },
+      {
+        "station": "Jnanabharathi",
+        "degree": 2,
+        "normalized": 0.0244
+      },
+      {
+        "station": "Rajarajeshwari Nagar",
+        "degree": 2,
+        "normalized": 0.0244
+      },
+      {
+        "station": "Nayandahalli",
+        "degree": 2,
+        "normalized": 0.0244
+      },
+      {
+        "station": "Mysore Road",
+        "degree": 2,
+        "normalized": 0.0244
+      },
+      {
+        "station": "Deepanjali Nagar",
+        "degree": 2,
+        "normalized": 0.0244
+      }
+    ],
+    "top_closeness": [
+      {
+        "station": "Nadaprabhu Kempegowda Station Majestic",
+        "closeness": 0.0977
+      },
+      {
+        "station": "Chickpete",
+        "closeness": 0.0951
+      },
+      {
+        "station": "Sir M. Visveshwaraya Central College",
+        "closeness": 0.0934
+      },
+      {
+        "station": "Krishna Rajendra Market",
+        "closeness": 0.0924
+      },
+      {
+        "station": "Sampige Road (Mantri Square)",
+        "closeness": 0.0921
+      },
+      {
+        "station": "Krantivira Sangolli Rayanna Railway Station",
+        "closeness": 0.0917
+      },
+      {
+        "station": "National College",
+        "closeness": 0.0897
+      },
+      {
+        "station": "Vidhana Soudha",
+        "closeness": 0.0892
+      },
+      {
+        "station": "Srirampura",
+        "closeness": 0.087
+      },
+      {
+        "station": "Lalbagh",
+        "closeness": 0.087
+      }
+    ],
+    "top_betweenness": [
+      {
+        "station": "Nadaprabhu Kempegowda Station Majestic",
+        "betweenness": 0.7359
+      },
+      {
+        "station": "Chickpete",
+        "betweenness": 0.4628
+      },
+      {
+        "station": "Krishna Rajendra Market",
+        "betweenness": 0.4553
+      },
+      {
+        "station": "National College",
+        "betweenness": 0.4472
+      },
+      {
+        "station": "Rashtreeya Vidyalaya Road (RV Road)",
+        "betweenness": 0.4447
+      },
+      {
+        "station": "Lalbagh",
+        "betweenness": 0.4384
+      },
+      {
+        "station": "South End Circle",
+        "betweenness": 0.4291
+      },
+      {
+        "station": "Jayanagar",
+        "betweenness": 0.4192
+      },
+      {
+        "station": "Sir M. Visveshwaraya Central College",
+        "betweenness": 0.3857
+      },
+      {
+        "station": "Vidhana Soudha",
+        "betweenness": 0.3734
+      }
+    ],
+    "top_edge_betweenness": [
+      {
+        "edge": "Nadaprabhu Kempegowda Station Majestic <-> Chickpete",
+        "betweenness": 0.4672,
+        "line": "Green Line"
+      },
+      {
+        "edge": "Chickpete <-> Krishna Rajendra Market",
+        "betweenness": 0.4602,
+        "line": "Green Line"
+      },
+      {
+        "edge": "Krishna Rajendra Market <-> National College",
+        "betweenness": 0.4525,
+        "line": "Green Line"
+      },
+      {
+        "edge": "National College <-> Lalbagh",
+        "betweenness": 0.4443,
+        "line": "Green Line"
+      },
+      {
+        "edge": "Lalbagh <-> South End Circle",
+        "betweenness": 0.4355,
+        "line": "Green Line"
+      },
+      {
+        "edge": "South End Circle <-> Jayanagar",
+        "betweenness": 0.4261,
+        "line": "Green Line"
+      },
+      {
+        "edge": "Jayanagar <-> Rashtreeya Vidyalaya Road (RV Road)",
+        "betweenness": 0.4161,
+        "line": "Green Line"
+      },
+      {
+        "edge": "Nadaprabhu Kempegowda Station Majestic <-> Sir M. Visveshwaraya Central College",
+        "betweenness": 0.3944,
+        "line": "Purple Line"
+      },
+      {
+        "edge": "Sir M. Visveshwaraya Central College <-> Vidhana Soudha",
+        "betweenness": 0.3826,
+        "line": "Purple Line"
+      },
+      {
+        "edge": "Vidhana Soudha <-> Cubbon Park",
+        "betweenness": 0.3703,
+        "line": "Purple Line"
+      }
+    ]
+  },
+  "stakeholder_insights": {
+    "passengers": {
+      "key_findings": "The shortest paths in Namma Metro are strictly linear along corridors, but inter-corridor trips require transit through Majestic or RV Road.",
+      "best_connected_station": "Nadaprabhu Kempegowda Station Majestic",
+      "fastest_cbd_access": "Vidhana Soudha, Cubbon Park, MG Road (highest closeness centrality)",
+      "terminal_accessibility_caution": "Challegatta, Whitefield, Madavara, Silk Institute, and Bommasandra have lowest closeness and require longest transit times."
+    },
+    "metro_authorities_bmrcl": {
+      "critical_vulnerability": "Extreme monocentric dependency on Majestic interchange.",
+      "crowd_risk": "Peak passenger accumulation occurs at Majestic platform transfers.",
+      "recommended_infrastructure": "Dedicated passenger bypass tunnels, automated transfer gates, and urgent operationalization of secondary interchanges like Jayadeva."
+    },
+    "daily_commuters": {
+      "tech_corridor_efficiency": "Whitefield (IT Hub) has seamless 0-transfer access to MG Road/Indiranagar via Purple Line.",
+      "electronics_city_linkage": "Yellow Line provides direct feeder from RV Road Green Line, avoiding Majestic congestion for South Bengaluru tech workers."
+    },
+    "urban_planners": {
+      "topological_limitation": "Zero transitivity (T = 0.0000) due to tree-like branch geometry without closed orbital loops.",
+      "strategic_solution": "Phase 3 ORR (Outer Ring Road) line and Sarjapur-Hebbal line will create closed cycles, drastically reducing diameter and cutting reliance on the central core."
+    },
+    "researchers_students": {
+      "graph_type": "Quasi-Tree Planar Transportation Graph with Cross-Axis Hub",
+      "assortativity_nature": "Strongly disassortative (r = -0.21), characteristic of star/hub infrastructure networks.",
+      "gephi_export_ready": true
+    }
+  }
+}

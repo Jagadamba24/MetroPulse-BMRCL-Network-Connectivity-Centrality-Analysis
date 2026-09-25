@@ -1,0 +1,251 @@
+station,degree,degree_centrality,closeness_centrality,betweenness_centrality,eigenvector_centrality,pagerank,clustering_coefficient,is_articulation_point,zone,lines,is_interchange
+Rithala,1,0.004,0.0479,0.0,0.0001,0.0025,0,False,North West Delhi,Red Line,False
+Rohini West,2,0.008,0.0503,0.008,0.0003,0.0045,0,True,North West Delhi,Red Line,False
+Rohini East,2,0.008,0.0529,0.016,0.0008,0.0042,0,True,North West Delhi,Red Line,False
+Pitampura,2,0.008,0.0558,0.0239,0.0016,0.004,0,True,North West Delhi,Red Line,False
+Kohat Enclave,2,0.008,0.059,0.0317,0.0034,0.0037,0,True,North West Delhi,Red Line,False
+Netaji Subhash Place,4,0.0161,0.0625,0.0885,0.0073,0.0067,0,True,North West Delhi,Red Line; Pink Line,True
+Keshav Puram,2,0.008,0.0623,0.0297,0.0053,0.0035,0,False,North West Delhi,Red Line,False
+Kanhaiya Nagar,2,0.008,0.0623,0.0302,0.0063,0.0035,0,False,North West Delhi,Red Line,False
+Inderlok,3,0.012,0.0647,0.0863,0.0112,0.0051,0,False,North West Delhi,Red Line; Green Line,True
+Shastri Nagar,2,0.008,0.0657,0.0709,0.0148,0.0036,0,False,North Delhi,Red Line,False
+Pratap Nagar,2,0.008,0.0675,0.0742,0.0272,0.0037,0,False,North Delhi,Red Line,False
+Pul Bangash,2,0.008,0.0696,0.0779,0.0557,0.0037,0,False,North Delhi,Red Line,False
+Tis Hazari,2,0.008,0.0723,0.0822,0.1171,0.0035,0,False,North Delhi,Red Line,False
+Kashmere Gate,5,0.0201,0.0757,0.2459,0.2478,0.008,0,False,Central Delhi,Red Line; Yellow Line; Violet Line,True
+Shastri Park,2,0.008,0.0717,0.1411,0.123,0.0034,0,False,North East Delhi,Red Line,False
+Seelampur,2,0.008,0.0688,0.1363,0.0709,0.0035,0,False,North East Delhi,Red Line,False
+Welcome,4,0.0161,0.0666,0.1626,0.0607,0.0068,0,True,North East Delhi,Red Line; Pink Line,True
+Shahdara,2,0.008,0.0628,0.0848,0.0287,0.0037,0,True,East Delhi,Red Line,False
+Mansarovar Park,2,0.008,0.0594,0.0774,0.0135,0.0038,0,True,East Delhi,Red Line,False
+Jhilmil,2,0.008,0.0563,0.07,0.0064,0.0039,0,True,East Delhi,Red Line,False
+Dilshad Garden,2,0.008,0.0535,0.0624,0.003,0.004,0,True,East Delhi,Red Line,False
+Shaheed Nagar,2,0.008,0.051,0.0549,0.0014,0.004,0,True,Ghaziabad,Red Line,False
+Raj Bagh,2,0.008,0.0486,0.0472,0.0007,0.004,0,True,Ghaziabad,Red Line,False
+Major Mohit Sharma,2,0.008,0.0465,0.0395,0.0003,0.0041,0,True,Ghaziabad,Red Line,False
+Shyam Park,2,0.008,0.0445,0.0317,0.0001,0.0041,0,True,Ghaziabad,Red Line,False
+Mohan Nagar,2,0.008,0.0426,0.0239,0.0001,0.0042,0,True,Ghaziabad,Red Line,False
+Arthala,2,0.008,0.0409,0.016,0.0,0.0044,0,True,Ghaziabad,Red Line,False
+Hindon River,2,0.008,0.0393,0.008,0.0,0.0046,0,True,Ghaziabad,Red Line,False
+Shaheed Sthal,1,0.004,0.0378,0.0,0.0,0.0026,0,False,Ghaziabad,Red Line,False
+Samaypur Badli,1,0.004,0.0469,0.0,0.0002,0.0025,0,False,North Delhi,Yellow Line,False
+Rohini Sector 18,2,0.008,0.0492,0.008,0.0004,0.0046,0,True,North Delhi,Yellow Line,False
+Haiderpur Badli Mor,2,0.008,0.0518,0.016,0.0009,0.0043,0,True,North Delhi,Yellow Line,False
+Jahangirpuri,2,0.008,0.0545,0.0239,0.0019,0.004,0,True,North Delhi,Yellow Line,False
+Adarsh Nagar,2,0.008,0.0576,0.0317,0.004,0.0038,0,True,North Delhi,Yellow Line,False
+Azadpur,4,0.0161,0.061,0.0661,0.0084,0.0071,0,True,North Delhi,Yellow Line; Pink Line,True
+Model Town,2,0.008,0.0614,0.0425,0.0085,0.0037,0,False,North Delhi,Yellow Line,False
+Guru Tegh Bahadur Nagar,2,0.008,0.063,0.0454,0.0135,0.0038,0,False,North Delhi,Yellow Line,False
+Vishwa Vidyalaya,2,0.008,0.0648,0.0494,0.0266,0.0038,0,False,North Delhi,Yellow Line,False
+Vidhan Sabha,2,0.008,0.0678,0.0545,0.0554,0.0037,0,False,North Delhi,Yellow Line,False
+Civil Lines,2,0.008,0.0712,0.0605,0.117,0.0035,0,False,North Delhi,Yellow Line,False
+Chandni Chowk,2,0.008,0.0765,0.1337,0.1564,0.0034,0,False,Central Delhi,Yellow Line,False
+Chawri Bazar,2,0.008,0.0784,0.1363,0.1575,0.0034,0,False,Central Delhi,Yellow Line,False
+New Delhi,3,0.012,0.0807,0.1857,0.2518,0.0048,0,False,Central Delhi,Yellow Line; Airport Express Line,True
+Rajiv Chowk,4,0.0161,0.0817,0.1822,0.3631,0.0062,0,False,Central Delhi,Yellow Line; Blue Line,True
+Patel Chowk,2,0.008,0.0792,0.1034,0.2585,0.0033,0,False,Central Delhi,Yellow Line,False
+Central Secretariat,4,0.0161,0.0794,0.1256,0.3068,0.0063,0,False,Central Delhi,Yellow Line; Violet Line,True
+Udyog Bhawan,2,0.008,0.0755,0.0443,0.1495,0.0034,0,False,Central Delhi,Yellow Line,False
+Lok Kalyan Marg,2,0.008,0.075,0.043,0.0808,0.0035,0,False,South Delhi,Yellow Line,False
+Jor Bagh,2,0.008,0.0762,0.0449,0.0598,0.0035,0,False,South Delhi,Yellow Line,False
+Dilli Haat - INA,4,0.0161,0.0793,0.2444,0.0741,0.0065,0,False,South Delhi,Yellow Line; Pink Line,True
+AIIMS,2,0.008,0.0752,0.1497,0.0368,0.0035,0,False,South Delhi,Yellow Line,False
+Green Park,2,0.008,0.0728,0.146,0.0213,0.0035,0,False,South Delhi,Yellow Line,False
+Hauz Khas,4,0.0161,0.0715,0.2214,0.0184,0.0067,0,True,South Delhi,Yellow Line; Magenta Line,True
+Malviya Nagar,2,0.008,0.0674,0.1415,0.0087,0.0036,0,True,South Delhi,Yellow Line,False
+Saket,2,0.008,0.0637,0.1347,0.0041,0.0038,0,True,South Delhi,Yellow Line,False
+Qutab Minar,2,0.008,0.0604,0.1277,0.0019,0.0039,0,True,South Delhi,Yellow Line,False
+Chhatarpur,2,0.008,0.0574,0.1207,0.0009,0.0039,0,True,South Delhi,Yellow Line,False
+Sultanpur,2,0.008,0.0547,0.1137,0.0004,0.0039,0,True,South Delhi,Yellow Line,False
+Ghogha,2,0.008,0.0522,0.1066,0.0002,0.0039,0,True,South Delhi,Yellow Line,False
+Guru Dronacharya,2,0.008,0.0498,0.0994,0.0001,0.0038,0,True,Gurugram,Yellow Line,False
+Sikanderpur,3,0.012,0.0477,0.093,0.0001,0.0056,0,True,Gurugram,Yellow Line; Rapid Metro Gurgaon,True
+MG Road,2,0.008,0.0456,0.016,0.0,0.0041,0,True,Gurugram,Yellow Line,False
+IFFCO Chowk,2,0.008,0.0436,0.008,0.0,0.0045,0,True,Gurugram,Yellow Line,False
+Millennium City Centre,1,0.004,0.0418,0.0,0.0,0.0025,0,False,Gurugram,Yellow Line,False
+Dwarka Sector 21,3,0.012,0.0654,0.0717,0.0123,0.0058,0,True,South West Delhi,Blue Line; Airport Express Line,True
+Dwarka Sector 8,2,0.008,0.062,0.0574,0.0058,0.0039,0,False,South West Delhi,Blue Line,False
+Dwarka Sector 9,2,0.008,0.0589,0.0507,0.0027,0.0039,0,False,South West Delhi,Blue Line,False
+Dwarka Sector 10,2,0.008,0.0562,0.0441,0.0013,0.004,0,False,South West Delhi,Blue Line,False
+Dwarka Sector 11,2,0.008,0.0537,0.0375,0.0006,0.004,0,False,South West Delhi,Blue Line,False
+Dwarka Sector 12,2,0.008,0.0515,0.0317,0.0003,0.0039,0,False,South West Delhi,Blue Line,False
+Dwarka Sector 13,2,0.008,0.0504,0.0274,0.0001,0.0039,0,False,South West Delhi,Blue Line,False
+Dwarka Sector 14,2,0.008,0.0496,0.0249,0.0001,0.0038,0,False,South West Delhi,Blue Line,False
+Dwarka,3,0.012,0.0494,0.0364,0.0001,0.0056,0,True,South West Delhi,Blue Line; Grey Line,True
+Dwarka Mor,2,0.008,0.0495,0.0256,0.0,0.0038,0,False,West Delhi,Blue Line,False
+Nawada,2,0.008,0.0504,0.029,0.0,0.0039,0,False,West Delhi,Blue Line,False
+Uttam Nagar West,2,0.008,0.0527,0.0351,0.0001,0.0038,0,False,West Delhi,Blue Line,False
+Uttam Nagar East,2,0.008,0.0552,0.0421,0.0001,0.0038,0,False,West Delhi,Blue Line,False
+Janakpuri West,3,0.012,0.058,0.0736,0.0003,0.0054,0,False,West Delhi,Blue Line; Magenta Line,True
+Janakpuri East,2,0.008,0.059,0.0546,0.0005,0.0037,0,False,West Delhi,Blue Line,False
+Tilak Nagar,2,0.008,0.0607,0.0586,0.0009,0.0038,0,False,West Delhi,Blue Line,False
+Subhash Nagar,2,0.008,0.0634,0.0642,0.002,0.0037,0,False,West Delhi,Blue Line,False
+Tagore Garden,2,0.008,0.0668,0.0706,0.0042,0.0036,0,False,West Delhi,Blue Line,False
+Rajouri Garden,4,0.0161,0.0706,0.1866,0.0088,0.0066,0,False,West Delhi,Blue Line; Pink Line,True
+Ramesh Nagar,2,0.008,0.0678,0.0766,0.005,0.0035,0,False,West Delhi,Blue Line,False
+Moti Nagar,2,0.008,0.067,0.0749,0.0043,0.0036,0,False,West Delhi,Blue Line,False
+Kirti Nagar,3,0.012,0.0672,0.1148,0.006,0.0052,0,False,West Delhi,Blue Line; Green Branch Line,True
+Shadipur,2,0.008,0.0662,0.0446,0.0059,0.0037,0,False,West Delhi,Blue Line,False
+Patel Nagar,2,0.008,0.0672,0.0459,0.0094,0.0038,0,False,Central Delhi,Blue Line,False
+Rajendra Place,2,0.008,0.0691,0.0491,0.0184,0.0038,0,False,Central Delhi,Blue Line,False
+Karol Bagh,2,0.008,0.0712,0.0526,0.0383,0.0038,0,False,Central Delhi,Blue Line,False
+Jhandewalan,2,0.008,0.0739,0.0567,0.0809,0.0037,0,False,Central Delhi,Blue Line,False
+RK Ashram Marg,2,0.008,0.0771,0.0615,0.1713,0.0035,0,False,Central Delhi,Blue Line,False
+Barakhamba Road,2,0.008,0.078,0.0652,0.2595,0.0033,0,False,Central Delhi,Blue Line,False
+Mandi House,4,0.0161,0.0793,0.1356,0.3095,0.0063,0,False,Central Delhi,Blue Line; Violet Line,True
+Supreme Court,2,0.008,0.0758,0.1137,0.1495,0.0034,0,False,Central Delhi,Blue Line,False
+Indraprastha,2,0.008,0.0735,0.1105,0.078,0.0035,0,False,Central Delhi,Blue Line,False
+Yamuna Bank,3,0.012,0.0731,0.1524,0.0526,0.0051,0,False,East Delhi,Blue Line; Blue Branch Line,True
+Akshardham,2,0.008,0.0723,0.1362,0.033,0.0035,0,False,East Delhi,Blue Line,False
+Mayur Vihar-1,4,0.0161,0.0721,0.1983,0.033,0.0066,0,False,East Delhi,Blue Line; Pink Line,True
+Mayur Vihar Extension,2,0.008,0.0684,0.1384,0.0156,0.0036,0,False,East Delhi,Blue Line,False
+New Ashok Nagar,2,0.008,0.065,0.1322,0.0074,0.0038,0,False,East Delhi,Blue Line,False
+Noida Sector 15,2,0.008,0.0619,0.1264,0.0035,0.0038,0,False,Noida,Blue Line,False
+Noida Sector 16,2,0.008,0.0597,0.1213,0.0017,0.0038,0,False,Noida,Blue Line,False
+Noida Sector 18,2,0.008,0.0577,0.117,0.0009,0.0037,0,False,Noida,Blue Line,False
+Botanical Garden,3,0.012,0.0566,0.1561,0.0005,0.0054,0,True,Noida,Blue Line; Magenta Line,True
+Golf Course,2,0.008,0.054,0.1347,0.0003,0.0037,0,True,Noida,Blue Line,False
+Noida City Centre,2,0.008,0.0516,0.1277,0.0001,0.0038,0,True,Noida,Blue Line,False
+Noida Sector 34,2,0.008,0.0494,0.1207,0.0001,0.0038,0,True,Noida,Blue Line,False
+Noida Sector 52,3,0.012,0.0474,0.1151,0.0,0.0055,0,True,Noida,Blue Line,False
+Noida Sector 61,2,0.008,0.0453,0.0239,0.0,0.0039,0,True,Noida,Blue Line,False
+Noida Sector 59,2,0.008,0.0434,0.016,0.0,0.0042,0,True,Noida,Blue Line,False
+Noida Sector 62,2,0.008,0.0416,0.008,0.0,0.0045,0,True,Noida,Blue Line,False
+Noida Electronic City,1,0.004,0.0399,0.0,0.0,0.0025,0,False,Noida,Blue Line,False
+Laxmi Nagar,2,0.008,0.0693,0.0515,0.0254,0.0036,0,False,East Delhi,Blue Branch Line,False
+Nirman Vihar,2,0.008,0.0667,0.047,0.0131,0.0037,0,False,East Delhi,Blue Branch Line,False
+Preet Vihar,2,0.008,0.0652,0.0442,0.0086,0.0037,0,False,East Delhi,Blue Branch Line,False
+Karkarduma,3,0.012,0.0639,0.0618,0.0091,0.0053,0,False,East Delhi,Blue Branch Line; Pink Line,True
+Anand Vihar ISBT,3,0.012,0.0618,0.0275,0.0058,0.0055,0,True,East Delhi,Blue Branch Line; Pink Line,True
+Kaushambi,2,0.008,0.0582,0.008,0.0026,0.0042,0,True,Ghaziabad,Blue Branch Line,False
+Vaishali,1,0.004,0.055,0.0,0.001,0.0024,0,False,Ghaziabad,Blue Branch Line,False
+Lal Quila,2,0.008,0.0737,0.0549,0.1286,0.0035,0,False,Central Delhi,Violet Line,False
+Jama Masjid,2,0.008,0.0735,0.0547,0.0855,0.0036,0,False,Central Delhi,Violet Line,False
+Delhi Gate,2,0.008,0.0746,0.0563,0.0929,0.0036,0,False,Central Delhi,Violet Line,False
+ITO,2,0.008,0.0768,0.0594,0.1553,0.0035,0,False,Central Delhi,Violet Line,False
+Janpath,2,0.008,0.077,0.0214,0.2378,0.0033,0,False,Central Delhi,Violet Line,False
+Khan Market,2,0.008,0.0759,0.0724,0.1493,0.0035,0,False,Central Delhi,Violet Line,False
+Jawaharlal Nehru Stadium,2,0.008,0.0751,0.071,0.0801,0.0035,0,False,South Delhi,Violet Line,False
+Jangpura,2,0.008,0.0758,0.0717,0.0584,0.0035,0,False,South Delhi,Violet Line,False
+Lajpat Nagar,4,0.0161,0.0775,0.2091,0.0712,0.0065,0,False,South Delhi,Violet Line; Pink Line,True
+Moolchand,2,0.008,0.0733,0.1333,0.0341,0.0035,0,False,South Delhi,Violet Line,False
+Kailash Colony,2,0.008,0.0703,0.1288,0.0171,0.0036,0,False,South Delhi,Violet Line,False
+Nehru Place,2,0.008,0.0687,0.1257,0.0101,0.0036,0,False,South Delhi,Violet Line,False
+Kalkaji Mandir,4,0.0161,0.0675,0.205,0.0092,0.0068,0,True,South Delhi,Violet Line; Magenta Line,True
+Govind Puri,2,0.008,0.0638,0.1277,0.0043,0.0037,0,True,South Delhi,Violet Line,False
+Harkesh Nagar Okhla,2,0.008,0.0605,0.1207,0.0021,0.0038,0,True,South Delhi,Violet Line,False
+Jasola Apollo,2,0.008,0.0574,0.1137,0.001,0.0039,0,True,South Delhi,Violet Line,False
+Sarita Vihar,2,0.008,0.0546,0.1066,0.0005,0.0039,0,True,South Delhi,Violet Line,False
+Mohan Estate,2,0.008,0.0521,0.0994,0.0002,0.004,0,True,South Delhi,Violet Line,False
+Tughlakabad,2,0.008,0.0498,0.0921,0.0001,0.004,0,True,South Delhi,Violet Line,False
+Badarpur Border,2,0.008,0.0476,0.0848,0.0,0.004,0,True,South Delhi,Violet Line,False
+Sarai,2,0.008,0.0456,0.0774,0.0,0.004,0,True,Faridabad,Violet Line,False
+NHPC Chowk,2,0.008,0.0438,0.07,0.0,0.004,0,True,Faridabad,Violet Line,False
+Mewala Maharajpur,2,0.008,0.0421,0.0624,0.0,0.004,0,True,Faridabad,Violet Line,False
+Sector 28 Faridabad,2,0.008,0.0405,0.0549,0.0,0.004,0,True,Faridabad,Violet Line,False
+Badkal Mor,2,0.008,0.039,0.0472,0.0,0.004,0,True,Faridabad,Violet Line,False
+Old Faridabad,2,0.008,0.0376,0.0395,0.0,0.0041,0,True,Faridabad,Violet Line,False
+Neelam Chowk Ajronda,2,0.008,0.0363,0.0317,0.0,0.0041,0,True,Faridabad,Violet Line,False
+Bata Chowk,2,0.008,0.035,0.0239,0.0,0.0042,0,True,Faridabad,Violet Line,False
+Escorts Mujesar,2,0.008,0.0339,0.016,0.0,0.0044,0,True,Faridabad,Violet Line,False
+Sant Surdas,2,0.008,0.0328,0.008,0.0,0.0046,0,True,Faridabad,Violet Line,False
+Raja Nahar Singh,1,0.004,0.0317,0.0,0.0,0.0026,0,False,Faridabad,Violet Line,False
+Ashok Park Main,3,0.012,0.0644,0.157,0.0078,0.0051,0,True,North West Delhi,Green Line; Green Branch Line,True
+Punjabi Bagh,2,0.008,0.061,0.1347,0.0037,0.0037,0,True,West Delhi,Green Line,False
+Shivaji Park,2,0.008,0.058,0.1277,0.0017,0.0038,0,True,West Delhi,Green Line,False
+Madipur,2,0.008,0.0552,0.1207,0.0008,0.0039,0,True,West Delhi,Green Line,False
+Paschim Vihar East,2,0.008,0.0527,0.1137,0.0004,0.0039,0,True,West Delhi,Green Line,False
+Paschim Vihar West,2,0.008,0.0503,0.1066,0.0002,0.004,0,True,West Delhi,Green Line,False
+Peeragarhi,2,0.008,0.0482,0.0994,0.0001,0.004,0,True,West Delhi,Green Line,False
+Udyog Nagar,2,0.008,0.0462,0.0921,0.0,0.004,0,True,West Delhi,Green Line,False
+Maharaja Surajmal Stadium,2,0.008,0.0443,0.0848,0.0,0.004,0,True,West Delhi,Green Line,False
+Nangloi,2,0.008,0.0426,0.0774,0.0,0.004,0,True,West Delhi,Green Line,False
+Nangloi Railway Station,2,0.008,0.041,0.07,0.0,0.004,0,True,West Delhi,Green Line,False
+Rajdhani Park,2,0.008,0.0395,0.0624,0.0,0.004,0,True,West Delhi,Green Line,False
+Mundka,2,0.008,0.0381,0.0549,0.0,0.004,0,True,West Delhi,Green Line,False
+Mundka Industrial Area,2,0.008,0.0367,0.0472,0.0,0.004,0,True,West Delhi,Green Line,False
+Ghevra Metro Station,2,0.008,0.0355,0.0395,0.0,0.0041,0,True,West Delhi,Green Line,False
+Tikri Kalan,2,0.008,0.0343,0.0317,0.0,0.0041,0,True,West Delhi,Green Line,False
+Tikri Border,2,0.008,0.0332,0.0239,0.0,0.0042,0,True,West Delhi,Green Line,False
+Pandit Shree Ram Sharma,2,0.008,0.0322,0.016,0.0,0.0044,0,True,Bahadurgarh,Green Line,False
+Bahadurgarh City,2,0.008,0.0312,0.008,0.0,0.0046,0,True,Bahadurgarh,Green Line,False
+Brigadier Hoshiar Singh,1,0.004,0.0302,0.0,0.0,0.0026,0,False,Bahadurgarh,Green Line,False
+Satguru Ram Singh Marg,2,0.008,0.0657,0.1047,0.0053,0.0035,0,False,West Delhi,Green Branch Line,False
+Majlis Park,1,0.004,0.0575,0.0,0.0032,0.0021,0,False,North Delhi,Pink Line,False
+Shalimar Bagh,2,0.008,0.0616,0.0439,0.006,0.0035,0,False,North West Delhi,Pink Line,False
+Shakurpur,2,0.008,0.0636,0.0601,0.0041,0.0036,0,False,North West Delhi,Pink Line,False
+Punjabi Bagh West,2,0.008,0.0649,0.0628,0.0034,0.0036,0,False,West Delhi,Pink Line,False
+ESI Hospital,2,0.008,0.0669,0.0667,0.0047,0.0036,0,False,West Delhi,Pink Line,False
+Maya Puri,2,0.008,0.0725,0.1455,0.0089,0.0036,0,False,West Delhi,Pink Line,False
+Naraina Vihar,2,0.008,0.0746,0.1487,0.0143,0.0036,0,False,West Delhi,Pink Line,False
+Delhi Cantt,2,0.008,0.077,0.1521,0.0281,0.0036,0,False,South West Delhi,Pink Line,False
+Durgabai Deshmukh South Campus,3,0.012,0.08,0.2087,0.0584,0.0051,0,False,South Delhi,Pink Line,False
+Sir M. Vishweshwaraiah Moti Bagh,2,0.008,0.0791,0.1637,0.0334,0.0036,0,False,South Delhi,Pink Line,False
+Bhikaji Cama Place,2,0.008,0.0787,0.1632,0.0281,0.0036,0,False,South Delhi,Pink Line,False
+Sarojini Nagar,2,0.008,0.0788,0.1633,0.0395,0.0035,0,False,South Delhi,Pink Line,False
+South Extension,2,0.008,0.0772,0.118,0.0561,0.0034,0,False,South Delhi,Pink Line,False
+Vinobapuri,2,0.008,0.0744,0.0824,0.036,0.0035,0,False,South Delhi,Pink Line,False
+Ashram,2,0.008,0.0721,0.0791,0.0221,0.0036,0,False,South Delhi,Pink Line,False
+Sarai Kale Khan - Nizamuddin,2,0.008,0.0715,0.0779,0.0213,0.0035,0,False,South Delhi,Pink Line,False
+Mayur Vihar Pocket 1,2,0.008,0.068,0.0304,0.0157,0.0036,0,False,East Delhi,Pink Line,False
+Trilokpuri Sanjay Lake,2,0.008,0.0647,0.025,0.0076,0.0038,0,False,East Delhi,Pink Line,False
+East Vinod Nagar,2,0.008,0.0632,0.0212,0.004,0.0038,0,False,East Delhi,Pink Line,False
+Mandawali - West Vinod Nagar,2,0.008,0.0618,0.0185,0.0028,0.0038,0,False,East Delhi,Pink Line,False
+IP Extension,2,0.008,0.0613,0.0175,0.0034,0.0038,0,False,East Delhi,Pink Line,False
+Karkarduma Court,2,0.008,0.0636,0.0554,0.0092,0.0037,0,False,East Delhi,Pink Line,False
+Krishna Nagar,2,0.008,0.0637,0.0555,0.0148,0.0037,0,False,East Delhi,Pink Line,False
+East Azad Nagar,2,0.008,0.0646,0.0571,0.0292,0.0036,0,False,East Delhi,Pink Line,False
+Jaffrabad,2,0.008,0.0626,0.0317,0.0286,0.0037,0,True,North East Delhi,Pink Line,False
+Maujpur - Babarpur,2,0.008,0.059,0.0239,0.0135,0.004,0,True,North East Delhi,Pink Line,False
+Gokulpuri,2,0.008,0.0558,0.016,0.0063,0.0042,0,True,North East Delhi,Pink Line,False
+Johri Enclave,2,0.008,0.0529,0.008,0.0029,0.0045,0,True,North East Delhi,Pink Line,False
+Shiv Vihar,1,0.004,0.0502,0.0,0.0011,0.0025,0,False,North East Delhi,Pink Line,False
+Janakpuri South,2,0.008,0.0572,0.0438,0.0001,0.0038,0,False,West Delhi,Magenta Line,False
+Dashrath Puri,2,0.008,0.0569,0.043,0.0001,0.0039,0,False,South West Delhi,Magenta Line,False
+Palam,2,0.008,0.0568,0.0428,0.0001,0.0039,0,False,South West Delhi,Magenta Line,False
+Sadar Bazaar Cantonment,2,0.008,0.0569,0.043,0.0001,0.0039,0,False,South West Delhi,Magenta Line,False
+Terminal 1 IGI Airport,2,0.008,0.0576,0.0446,0.0002,0.004,0,False,South West Delhi,Magenta Line,False
+Shankar Vihar,2,0.008,0.0587,0.0474,0.0004,0.004,0,False,South West Delhi,Magenta Line,False
+Vasant Vihar,2,0.008,0.0601,0.0504,0.0009,0.0039,0,False,South Delhi,Magenta Line,False
+Munirka,2,0.008,0.0616,0.0538,0.0019,0.0039,0,False,South Delhi,Magenta Line,False
+RK Puram,2,0.008,0.064,0.0587,0.0041,0.0038,0,False,South Delhi,Magenta Line,False
+IIT Delhi,2,0.008,0.0675,0.0653,0.0087,0.0036,0,False,South Delhi,Magenta Line,False
+Panchsheel Park,2,0.008,0.0686,0.0742,0.009,0.0036,0,False,South Delhi,Magenta Line,False
+Chirag Delhi,2,0.008,0.066,0.07,0.005,0.0037,0,False,South Delhi,Magenta Line,False
+Greater Kailash,2,0.008,0.0645,0.0674,0.0039,0.0037,0,False,South Delhi,Magenta Line,False
+Nehru Enclave,2,0.008,0.0648,0.0682,0.0051,0.0036,0,False,South Delhi,Magenta Line,False
+Okhla NSIC,2,0.008,0.0642,0.0735,0.0044,0.0036,0,False,South Delhi,Magenta Line,False
+Sukhdev Vihar,2,0.008,0.0612,0.0673,0.0021,0.0038,0,False,South Delhi,Magenta Line,False
+Jamia Millia Islamia,2,0.008,0.0585,0.0615,0.001,0.0039,0,False,South Delhi,Magenta Line,False
+Okhla Vihar,2,0.008,0.0567,0.0568,0.0005,0.0039,0,False,South Delhi,Magenta Line,False
+Jasola Vihar Shaheen Bagh,2,0.008,0.0553,0.0535,0.0003,0.0039,0,False,South Delhi,Magenta Line,False
+Kalindi Kunj,2,0.008,0.055,0.0523,0.0002,0.0039,0,False,South Delhi,Magenta Line,False
+Okhla Bird Sanctuary,2,0.008,0.0553,0.0537,0.0003,0.0038,0,False,Noida,Magenta Line,False
+Shivaji Stadium,2,0.008,0.0785,0.107,0.1319,0.0034,0,False,Central Delhi,Airport Express Line,False
+Dhaula Kuan,3,0.012,0.0787,0.147,0.09,0.005,0,False,South Delhi,Airport Express Line,False
+Delhi Aerocity,2,0.008,0.0737,0.0851,0.043,0.0036,0,False,South West Delhi,Airport Express Line,False
+Airport (Terminal 3),2,0.008,0.0693,0.0781,0.0213,0.0038,0,False,South West Delhi,Airport Express Line,False
+Yashobhoomi Dwarka Sector 25,1,0.004,0.0614,0.0,0.0047,0.0022,0,False,South West Delhi,Airport Express Line,False
+Nangli,2,0.008,0.0471,0.016,0.0,0.0041,0,True,South West Delhi,Grey Line,False
+Najafgarh,2,0.008,0.045,0.008,0.0,0.0044,0,True,South West Delhi,Grey Line,False
+Dhansa Bus Stand,1,0.004,0.0431,0.0,0.0,0.0025,0,False,South West Delhi,Grey Line,False
+Phase 2,2,0.008,0.0457,0.0624,0.0,0.0039,0,True,Gurugram,Rapid Metro Gurgaon,False
+Belvedere Towers,2,0.008,0.0438,0.0549,0.0,0.0039,0,True,Gurugram,Rapid Metro Gurgaon,False
+Cyber City,2,0.008,0.042,0.0472,0.0,0.004,0,True,Gurugram,Rapid Metro Gurgaon,False
+Moulsari Avenue,2,0.008,0.0404,0.0395,0.0,0.004,0,True,Gurugram,Rapid Metro Gurgaon,False
+Phase 3,2,0.008,0.0389,0.0317,0.0,0.0041,0,True,Gurugram,Rapid Metro Gurgaon,False
+Sector 42-43,2,0.008,0.0375,0.0239,0.0,0.0042,0,True,Gurugram,Rapid Metro Gurgaon,False
+Sector 53-54,2,0.008,0.0362,0.016,0.0,0.0043,0,True,Gurugram,Rapid Metro Gurgaon,False
+Sector 54 Chowk,2,0.008,0.0349,0.008,0.0,0.0046,0,True,Gurugram,Rapid Metro Gurgaon,False
+Sector 55-56,1,0.004,0.0337,0.0,0.0,0.0026,0,False,Gurugram,Rapid Metro Gurgaon,False
+Noida Sector 51,2,0.008,0.0454,0.0774,0.0,0.0038,0,True,Noida,Aqua Line,False
+Noida Sector 50,2,0.008,0.0436,0.07,0.0,0.0039,0,True,Noida,Aqua Line,False
+Noida Sector 76,2,0.008,0.0419,0.0624,0.0,0.004,0,True,Noida,Aqua Line,False
+Noida Sector 101,2,0.008,0.0403,0.0549,0.0,0.004,0,True,Noida,Aqua Line,False
+Noida Sector 81,2,0.008,0.0388,0.0472,0.0,0.004,0,True,Noida,Aqua Line,False
+NSEZ,2,0.008,0.0374,0.0395,0.0,0.0041,0,True,Noida,Aqua Line,False
+Noida Sector 83,2,0.008,0.0361,0.0317,0.0,0.0041,0,True,Noida,Aqua Line,False
+Noida Sector 137,2,0.008,0.0349,0.0239,0.0,0.0042,0,True,Noida,Aqua Line,False
+Noida Sector 142,2,0.008,0.0337,0.016,0.0,0.0044,0,True,Noida,Aqua Line,False
+Pari Chowk,2,0.008,0.0327,0.008,0.0,0.0046,0,True,Greater Noida,Aqua Line,False
+Depot,1,0.004,0.0316,0.0,0.0,0.0026,0,False,Greater Noida,Aqua Line,False

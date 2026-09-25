@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bengaluru Namma Metro: Urban Transportation Network Analysis</title>
+  <meta name="description" content="Network analysis of Bengaluru Namma Metro (BMRCL) using NetworkX graph theory: Degree, Closeness, Betweenness Centrality, Transitivity, Reciprocity, and Assortativity.">
+  
+  <!-- Modern Typography from Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Leaflet CSS for Geographic Transit Map -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+  
+  <!-- Custom Styling -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top App Navigation Header -->
+  <header class="app-header">
+    <div class="logo-group">
+      <div class="logo-icon">NM</div>
+      <div class="logo-text">
+        <h1>Bengaluru Namma Metro Network</h1>
+        <p>A Complex Network Analysis of Urban Transportation</p>
+      </div>
+    </div>
+
+    <!-- Stakeholder Navigation Tabs -->
+    <nav class="stakeholder-tabs" aria-label="Stakeholder Modes">
+      <button class="tab-btn active" data-tab="commuter" id="tabCommuter">
+        <span>🚇</span> Commuters & Passengers
+      </button>
+      <button class="tab-btn" data-tab="authority" id="tabAuthority">
+        <span>🏢</span> Metro Authorities (BMRCL)
+      </button>
+      <button class="tab-btn" data-tab="planner" id="tabPlanner">
+        <span>📐</span> Urban Planners
+      </button>
+      <button class="tab-btn" data-tab="researcher" id="tabResearcher">
+        <span>🔬</span> Researchers & Students
+      </button>
+    </nav>
+
+    <div class="header-actions">
+      <div class="badge-network">
+        <span class="badge-pulse"></span>
+        <span id="networkStatusText">Phase 2 Full Network Active</span>
+      </div>
+      <button class="btn-outline" id="togglePhaseBtn" title="Toggle between Phase 1 (Purple+Green) and Full Network (with Yellow Line)">
+        Toggle Phase 1 / 2
+      </button>
+    </div>
+  </header>
+
+  <!-- Global Metrics Summary Banner -->
+  <section class="metrics-banner" aria-label="Key Topological Metrics">
+    <div class="metric-card glass-panel purple">
+      <span class="metric-title">Total Stations</span>
+      <span class="metric-value" id="metricStations">83</span>
+      <span class="metric-desc">Purple (37), Green (32), Yellow (16)</span>
+    </div>
+    <div class="metric-card glass-panel green">
+      <span class="metric-title">Network Diameter</span>
+      <span class="metric-value" id="metricDiameter">44 Hops</span>
+      <span class="metric-desc">Longest shortest path between terminals</span>
+    </div>
+    <div class="metric-card glass-panel yellow">
+      <span class="metric-title">Avg Shortest Path</span>
+      <span class="metric-value" id="metricAvgPath">16.68</span>
+      <span class="metric-desc">Mean station hops per city-wide journey</span>
+    </div>
+    <div class="metric-card glass-panel red">
+      <span class="metric-title">Majestic Betweenness</span>
+      <span class="metric-value" id="metricMajesticB">73.6%</span>
+      <span class="metric-desc">Shortest paths routed via Majestic hub</span>
+    </div>
+    <div class="metric-card glass-panel cyan">
+      <span class="metric-title">Transitivity & Reciprocity</span>
+      <span class="metric-value">T: 0.00 | R: 1.0</span>
+      <span class="metric-desc">Quasi-Tree Graph | Twin-Track Bidirectional</span>
+    </div>
+  </section>
+
+  <!-- Main Dashboard Grid -->
+  <main class="dashboard-container">
+    
+    <!-- Left Column: Visual Network Workspace -->
+    <section class="visualizer-area">
+      <div class="vis-toolbar glass-panel">
+        <div class="vis-controls-left">
+          <div class="vis-mode-switch">
+            <button class="vis-mode-btn active" id="btnModeGeo">
+              <span>🗺️</span> Geographic Map
+            </button>
+            <button class="vis-mode-btn" id="btnModeGraph">
+              <span>🕸️</span> Topological Graph
+            </button>
+          </div>
+
+          <!-- Map Clarity Controls -->
+          <button class="vis-toggle-chip" id="btnToggleLabels" title="Toggle Station Name Labels on the Map (Zoom in to view)">
+            <span>🏷️</span> Labels: OFF
+          </button>
+          <button class="vis-toggle-chip" id="btnFitRoute" title="Fit current route on screen">
+            <span>🔍</span> Focus Route
+          </button>
+
+          <!-- Node scaling controls for graph view -->
+          <div id="nodeScalingSelectWrap" style="display: none; align-items: center; gap: 0.4rem; margin-left: 0.5rem;">
+            <label style="font-size: 0.75rem; color: var(--text-muted);">Size nodes by:</label>
+            <select class="select-station" id="selectNodeScale" style="padding: 0.25rem 0.5rem; width: auto; font-size: 0.75rem;">
+              <option value="betweenness">Betweenness Centrality</option>
+              <option value="degree">Degree Centrality</option>
+              <option value="closeness">Closeness Centrality</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Line Visibility Toggles -->
+        <div class="line-vis-toggles" id="mapLineToggles">
+          <button class="vis-toggle-chip active" data-line="Purple Line" style="border-color: var(--purple-line);"><span class="legend-dot purple"></span> Purple</button>
+          <button class="vis-toggle-chip active" data-line="Green Line" style="border-color: var(--green-line);"><span class="legend-dot green"></span> Green</button>
+          <button class="vis-toggle-chip active" data-line="Yellow Line" style="border-color: var(--yellow-line);"><span class="legend-dot yellow"></span> Yellow</button>
+          <div class="legend-item" style="font-size: 0.72rem; margin-left: 0.4rem;"><span class="legend-dot interchange"></span> Hub</div>
+        </div>
+      </div>
+
+      <!-- Map & Graph Viewport Container -->
+      <div class="map-viewport">
+        <!-- Leaflet Map Container -->
+        <div id="leafletMap"></div>
+
+        <!-- Custom Interactive Canvas for Force-Directed Network Graph -->
+        <canvas id="networkCanvas"></canvas>
+
+        <!-- Canvas Controls -->
+        <div class="canvas-controls" id="canvasControls" style="display: none;">
+          <button class="ctrl-btn" id="btnResetGraph">Reset Layout</button>
+          <button class="ctrl-btn" id="btnFocusMajestic">Focus Majestic</button>
+        </div>
+
+        <!-- Floating Station Tooltip Card -->
+        <div class="station-tooltip-card glass-panel" id="stationTooltip">
+          <div class="st-title" id="tipStationName">Station Name</div>
+          <div class="st-line-badges" id="tipLines"></div>
+          <div style="font-size: 0.72rem; color: var(--text-muted);" id="tipZone">Zone: Central Bengaluru</div>
+          <div class="st-metrics-grid">
+            <div class="st-metric-item">
+              <span class="st-metric-label">Degree Centrality</span>
+              <span class="st-metric-val" id="tipDegree">4 (0.0488)</span>
+            </div>
+            <div class="st-metric-item">
+              <span class="st-metric-label">Betweenness Centrality</span>
+              <span class="st-metric-val" id="tipBetweenness">0.7359</span>
+            </div>
+            <div class="st-metric-item">
+              <span class="st-metric-label">Closeness Centrality</span>
+              <span class="st-metric-val" id="tipCloseness">0.0977</span>
+            </div>
+            <div class="st-metric-item">
+              <span class="st-metric-label">Vulnerability Status</span>
+              <span class="st-metric-val" id="tipCutVertex" style="color: #f87171;">Cut Vertex</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Live Centrality, Closeness, Betweenness & Station Features (Prominently Placed Below Map) -->
+      <div class="panel-section glass-panel" id="stationCentralityLiveBox" style="margin-top: 0.5rem; border-color: rgba(56, 189, 248, 0.25);">
+        <div class="section-header">
+          <h3 class="section-title"><span class="icon">⚡</span> Station Centrality & Feature Comparison</h3>
+          <span class="badge-network" style="font-size: 0.68rem; padding: 0.15rem 0.5rem;">Live Dynamic Sync</span>
+        </div>
+
+        <!-- Side-by-side From vs To Centrality Cards -->
+        <div class="centrality-dual-cards" id="centDualCards">
+          <!-- Origin Station Card -->
+          <div class="station-cent-card from" id="cardFromStation">
+            <span class="cent-card-role from">🟢 Origin (From)</span>
+            <div class="cent-card-title" id="cardFromTitle">Whitefield (Kadugodi)</div>
+            <div id="cardFromLinePills" style="display:flex; gap: 0.25rem; flex-wrap: wrap;"></div>
+            
+            <div class="cent-metrics-mini-grid">
+              <div class="cent-mini-item">
+                <span class="cent-mini-label">Degree Centrality</span>
+                <span class="cent-mini-val" id="valFromDegree">1 (0.0122)</span>
+                <div class="metric-bar-track"><div class="metric-bar-fill degree" id="barFromDegree" style="width: 25%;"></div></div>
+                <span class="cent-mini-sub" id="subFromDegree">Terminal Spur</span>
+              </div>
+              <div class="cent-mini-item">
+                <span class="cent-mini-label">Closeness Centrality</span>
+                <span class="cent-mini-val" id="valFromCloseness">0.0384</span>
+                <div class="metric-bar-track"><div class="metric-bar-fill closeness" id="barFromCloseness" style="width: 38%;"></div></div>
+                <span class="cent-mini-sub" id="subFromCloseness">Accessibility</span>
+              </div>
+              <div class="cent-mini-item">
+                <span class="cent-mini-label">Betweenness Centrality</span>
+                <span class="cent-mini-val" id="valFromBetweenness">0.0000</span>
+                <div class="metric-bar-track"><div class="metric-bar-fill betweenness" id="barFromBetweenness" style="width: 2%;"></div></div>
+                <span class="cent-mini-sub" id="subFromBetweenness">Leaf Station</span>
+              </div>
+              <div class="cent-mini-item">
+                <span class="cent-mini-label">Eigenvector Centrality</span>
+                <span class="cent-mini-val" id="valFromEigen">0.0002</span>
+                <div class="metric-bar-track"><div class="metric-bar-fill degree" id="barFromEigen" style="width: 2%;"></div></div>
+                <span class="cent-mini-sub" id="subFromEigen">Prestige / Hub Influence</span>
+              </div>
+              <div class="cent-mini-item">
+                <span class="cent-mini-label">Vulnerability</span>
+                <span class="cent-mini-val vulnerable" id="valFromVuln">Cut Vertex</span>
+                <div class="metric-bar-track"><div class="metric-bar-fill vulnerable" id="barFromVuln" style="width: 100%;"></div></div>
+                <span class="cent-mini-sub">Single Rail Path</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Destination Station Card -->
+          <div class="station-cent-card to" id="cardToStation">
+            <span class="cent-card-role to">🎯 Destination (To)</span>
+            <div class="cent-card-title" id="cardToTitle">Electronic City</div>
+            <div id="cardToLinePills" style="display:flex; gap: 0.25rem; flex-wrap: wrap;"></div>
+
+            <div class="cent-metrics-mini-grid">
+              <div class="cent-mini-item">
+                <span class="cent-mini-label">Degree Centrality</span>
+                <span class="cent-mini-val" id="valToDegree">2 (0.0244)</span>
+                <div class="metric-bar-track"><div class="metric-bar-fill degree" id="barToDegree" style="width: 50%;"></div></div>
+                <span class="cent-mini-sub" id="subToDegree">Corridor Transit</span>
+              </div>
+              <div class="cent-mini-item">
+                <span class="cent-mini-label">Closeness Centrality</span>
+                <span class="cent-mini-val" id="valToCloseness">0.0412</span>
+                <div class="metric-bar-track"><div class="metric-bar-fill closeness" id="barToCloseness" style="width: 42%;"></div></div>
+                <span class="cent-mini-sub" id="subToCloseness">Accessibility</span>
+              </div>
+              <div class="cent-mini-item">
+                <span class="cent-mini-label">Betweenness Centrality</span>
+                <span class="cent-mini-val" id="valToBetweenness">0.0125</span>
+                <div class="metric-bar-track"><div class="metric-bar-fill betweenness" id="barToBetweenness" style="width: 12%;"></div></div>
+                <span class="cent-mini-sub" id="subToBetweenness">Local Arterial</span>
+              </div>
+              <div class="cent-mini-item">
+                <span class="cent-mini-label">Eigenvector Centrality</span>
+                <span class="cent-mini-val" id="valToEigen">0.0051</span>
+                <div class="metric-bar-track"><div class="metric-bar-fill degree" id="barToEigen" style="width: 5%;"></div></div>
+                <span class="cent-mini-sub" id="subToEigen">Prestige / Hub Influence</span>
+              </div>
+              <div class="cent-mini-item">
+                <span class="cent-mini-label">Vulnerability</span>
+                <span class="cent-mini-val vulnerable" id="valToVuln">Cut Vertex</span>
+                <div class="metric-bar-track"><div class="metric-bar-fill vulnerable" id="barToVuln" style="width: 100%;"></div></div>
+                <span class="cent-mini-sub">Single Rail Path</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Path Bottleneck Alert Banner -->
+        <div class="path-bottleneck-banner" id="pathBottleneckBanner">
+          <span>⚠️</span>
+          <div>
+            <strong>Peak Journey Bottleneck:</strong>
+            <span id="textBottleneckStation">Nadaprabhu Kempegowda Station Majestic</span>
+            <span style="font-weight: 700; color: #ffd700;" id="valBottleneckScore">(Betweenness: 0.7359 | 73.6% load)</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Right Column: Contextual Stakeholder Workspace Sidebar -->
+    <aside class="sidebar-panel">
+
+      <!-- ================= 1. COMMUTER & PASSENGER VIEW ================= -->
+      <div class="stakeholder-content" id="viewCommuter">
+        
+        <!-- Interactive Route Planner -->
+        <div class="panel-section glass-panel">
+          <div class="section-header">
+            <h2 class="section-title"><span class="icon">📍</span> Namma Metro Route Planner</h2>
+            <span style="font-size: 0.7rem; color: var(--text-muted);">Shortest Path (Dijkstra)</span>
+          </div>
+
+          <!-- Quick Line Filters -->
+          <div class="filter-chips-row" id="lineFilterChips">
+            <button class="filter-chip active" data-filter="all">All Lines</button>
+            <button class="filter-chip purple" data-filter="Purple Line">🟣 Purple</button>
+            <button class="filter-chip green" data-filter="Green Line">🟢 Green</button>
+            <button class="filter-chip yellow" data-filter="Yellow Line">🟡 Yellow</button>
+            <button class="filter-chip" data-filter="interchange">🔄 Interchanges</button>
+          </div>
+
+          <!-- From and To Interactive Inputs with Swap Button -->
+          <div class="from-to-container">
+            <!-- Starting Station (FROM) -->
+            <div class="station-input-wrap">
+              <div class="input-header">
+                <span class="input-label-badge from">🟢 From (Departure)</span>
+                <span id="badgeFromLine" style="font-size: 0.65rem; color: #a7f3d0; font-weight: 600;"></span>
+              </div>
+              <div class="station-combobox">
+                <input type="text" class="search-input-box" id="inputOriginSearch" placeholder="🔍 Type station name..." list="stationsDatalistOrigin" autocomplete="off">
+                <datalist id="stationsDatalistOrigin"></datalist>
+                <select class="select-station" id="selectOrigin" title="Browse by line"></select>
+              </div>
+            </div>
+
+            <!-- Swap Button -->
+            <div class="swap-row">
+              <button class="btn-swap-stations" id="btnSwapStations" title="Swap From and To Stations">
+                ⇄
+              </button>
+            </div>
+
+            <!-- Destination Station (TO) -->
+            <div class="station-input-wrap">
+              <div class="input-header">
+                <span class="input-label-badge to">🎯 To (Arrival)</span>
+                <span id="badgeToLine" style="font-size: 0.65rem; color: #fca5a5; font-weight: 600;"></span>
+              </div>
+              <div class="station-combobox">
+                <input type="text" class="search-input-box" id="inputDestSearch" placeholder="🔍 Type station name..." list="stationsDatalistDest" autocomplete="off">
+                <datalist id="stationsDatalistDest"></datalist>
+                <select class="select-station" id="selectDest" title="Browse by line"></select>
+              </div>
+            </div>
+          </div>
+
+          <!-- Map Selection Tip -->
+          <div class="map-pick-banner">
+            <span>🗺️</span>
+            <span><strong>Map Pick:</strong> Click any station directly on the map to set it as <strong>FROM</strong> or <strong>TO</strong>!</span>
+          </div>
+
+          <button class="btn-primary" id="btnFindRoute">
+            <span>🚀</span> Calculate Optimal Route
+          </button>
+
+          <!-- Route Itinerary Output -->
+          <div id="routeResultArea" style="display: flex; flex-direction: column; gap: 0.75rem; margin-top: 0.5rem;">
+            <div class="route-summary-box">
+              <div class="route-stat">
+                <span class="route-stat-val" id="routeTimeVal">58 mins</span>
+                <span class="route-stat-lbl">Est. Travel Time</span>
+              </div>
+              <div class="route-stat">
+                <span class="route-stat-val" id="routeDistVal">31.4 km</span>
+                <span class="route-stat-lbl">Distance</span>
+              </div>
+              <div class="route-stat">
+                <span class="route-stat-val" id="routeStopsVal">26</span>
+                <span class="route-stat-lbl">Total Stations</span>
+              </div>
+            </div>
+
+            <div class="interchange-alert" id="interchangeAlert">
+              <span>⚠️</span>
+              <div>
+                <strong>Interchange Required:</strong>
+                <p id="interchangeText">Change at Nadaprabhu Kempegowda Station Majestic from Purple Line to Green Line, then transfer at RV Road to Yellow Line.</p>
+              </div>
+            </div>
+
+            <div class="itinerary-list" id="itineraryList"></div>
+          </div>
+        </div>
+
+        <!-- Frequent Tech Commutes Quick Select -->
+        <div class="panel-section glass-panel">
+          <div class="section-header">
+            <h3 class="section-title"><span class="icon">⚡</span> Popular Commuter Corridors</h3>
+          </div>
+          <div class="quick-routes">
+            <button class="route-chip" data-from="Whitefield (Kadugodi)" data-to="MG Road">Whitefield ➔ MG Road</button>
+            <button class="route-chip" data-from="Electronic City" data-to="Nadaprabhu Kempegowda Station Majestic">Electronic City ➔ Majestic</button>
+            <button class="route-chip" data-from="Peenya" data-to="Central Silk Board">Peenya ➔ Silk Board</button>
+            <button class="route-chip" data-from="Kengeri" data-to="Indiranagar">Kengeri ➔ Indiranagar</button>
+            <button class="route-chip" data-from="Yeshwanthpur" data-to="Whitefield (Kadugodi)">Yeshwanthpur ➔ Whitefield</button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ================= 2. METRO AUTHORITIES (BMRCL) VIEW ================= -->
+      <div class="stakeholder-content" id="viewAuthority" style="display: none;">
+        
+        <!-- Centrality Leaderboard -->
+        <div class="panel-section glass-panel">
+          <div class="section-header">
+            <h2 class="section-title"><span class="icon">📊</span> Centrality Leaderboard</h2>
+            <select class="select-station" id="selectMetricSort" style="width: auto; padding: 0.2rem 0.5rem; font-size: 0.75rem;">
+              <option value="betweenness">Betweenness (Bottlenecks)</option>
+              <option value="degree">Degree (Connections)</option>
+              <option value="closeness">Closeness (Accessibility)</option>
+            </select>
+          </div>
+          <div class="ranking-table-wrap">
+            <table class="ranking-table" id="rankingTable">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Station Name</th>
+                  <th>Score</th>
+                  <th>Lines</th>
+                </tr>
+              </thead>
+              <tbody id="rankingTableBody"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- The Majestic Keystone Problem -->
+        <div class="panel-section glass-panel">
+          <div class="section-header">
+            <h3 class="section-title"><span class="icon">🚨</span> Majestic Keystone Vulnerability</h3>
+          </div>
+          <p style="font-size: 0.78rem; color: var(--text-muted); line-height: 1.45;">
+            In Namma Metro's cross-axis topology, <strong>73.6% of all city-wide shortest paths</strong> pass through <span style="color: var(--yellow-line); font-weight: 600;">Nadaprabhu Kempegowda Station Majestic</span>. It handles 100% of inter-line trips between Purple and Green corridors.
+          </p>
+          <div style="background: rgba(245, 158, 11, 0.1); border-left: 3px solid var(--yellow-line); padding: 0.5rem 0.75rem; border-radius: 4px; font-size: 0.75rem; color: #fbbf24;">
+            <strong>Authority Directive:</strong> Implement dedicated platform crowd segregation, automated transfer gates, and accelerate secondary interchanges (Jayadeva, Silk Board) to siphon load.
+          </div>
+        </div>
+
+        <!-- Disruption & Vulnerability Simulator -->
+        <div class="panel-section glass-panel">
+          <div class="section-header">
+            <h3 class="section-title"><span class="icon">⚠️</span> Disruption & Closure Simulator</h3>
+          </div>
+          <p style="font-size: 0.75rem; color: var(--text-muted);">
+            Test network fault tolerance by simulating the sudden closure of a critical station or interchange.
+          </p>
+          <div class="form-group">
+            <label class="form-label" for="selectDisruptStation">Select Station to Disable</label>
+            <select class="select-station" id="selectDisruptStation"></select>
+          </div>
+          <button class="btn-primary btn-danger" id="btnSimulateDisruption">
+            <span>💥</span> Simulate Station Closure
+          </button>
+          
+          <div class="disruption-results" id="disruptionResultsArea" style="display: none;">
+            <div class="disruption-stat-grid">
+              <div class="disruption-stat">
+                <span class="num" id="disruptComponents">4</span>
+                <span class="lbl">Disconnected Sub-Networks</span>
+              </div>
+              <div class="disruption-stat">
+                <span class="num" id="disruptIsolated">78.5%</span>
+                <span class="lbl">Passenger Trips Halted</span>
+              </div>
+            </div>
+            <p style="font-size: 0.74rem; color: #fca5a5;" id="disruptSummaryText">
+              Network fragmented into 4 isolated corridor stubs. Inter-line transit across Bengaluru is paralyzed!
+            </p>
+            <button class="btn-outline" id="btnResetDisruption">Restore Full Network</button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ================= 3. URBAN PLANNERS VIEW ================= -->
+      <div class="stakeholder-content" id="viewPlanner" style="display: none;">
+        
+        <!-- Network Expansion Impact -->
+        <div class="panel-section glass-panel">
+          <div class="section-header">
+            <h2 class="section-title"><span class="icon">📐</span> Phase 1 vs Phase 2 Expansion</h2>
+          </div>
+          <div class="ranking-table-wrap">
+            <table class="ranking-table">
+              <thead>
+                <tr>
+                  <th>Metric</th>
+                  <th>Phase 1 (2 Lines)</th>
+                  <th>Phase 2 (+Yellow)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Total Stations</td>
+                  <td>68</td>
+                  <td style="color: #34d399; font-weight: 600;">83 (+15)</td>
+                </tr>
+                <tr>
+                  <td>Network Diameter</td>
+                  <td>38 Hops</td>
+                  <td>44 Hops</td>
+                </tr>
+                <tr>
+                  <td>Avg Shortest Path</td>
+                  <td>15.02 Hops</td>
+                  <td>16.68 Hops</td>
+                </tr>
+                <tr>
+                  <td>Majestic Betweenness</td>
+                  <td>0.7526 (75.3%)</td>
+                  <td style="color: #38bdf8; font-weight: 600;">0.7359 (73.6%)</td>
+                </tr>
+                <tr>
+                  <td>Degree Assortativity</td>
+                  <td>-0.0060</td>
+                  <td>-0.0092</td>
+                </tr>
+                <tr>
+                  <td>Zone Assortativity</td>
+                  <td>0.7845</td>
+                  <td style="color: var(--yellow-line); font-weight: 600;">0.8201 (High)</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Assortativity & Spatial Segregation Insight -->
+        <div class="panel-section glass-panel">
+          <div class="section-header">
+            <h3 class="section-title"><span class="icon">🔍</span> Assortativity & Gaps</h3>
+          </div>
+          <p style="font-size: 0.75rem; color: var(--text-muted); line-height: 1.45;">
+            <strong>Zone Assortativity = +0.8201:</strong> Stations have strong homophily within geographic quadrants. However, <strong>Transitivity = 0.0000</strong> reveals an utter absence of closed triangles or orbital circuits. Commuters between East and South must travel deeply into the central core.
+          </p>
+        </div>
+
+        <!-- Hypothetical New Link Simulator -->
+        <div class="panel-section glass-panel">
+          <div class="section-header">
+            <h3 class="section-title"><span class="icon">💡</span> Propose New Metro Link</h3>
+          </div>
+          <p style="font-size: 0.75rem; color: var(--text-muted);">
+            Simulate the impact of proposed Phase 3 Outer Ring Road / Sarjapur cross-connectors on network resilience:
+          </p>
+          <div class="form-group">
+            <label class="form-label">Link From Station</label>
+            <select class="select-station" id="selectNewLinkA">
+              <option value="Indiranagar">Indiranagar (Purple Line)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Link To Station</label>
+            <select class="select-station" id="selectNewLinkB">
+              <option value="Central Silk Board">Central Silk Board (Yellow Line)</option>
+            </select>
+          </div>
+          <button class="btn-primary" id="btnTestNewLink">
+            <span>✨</span> Calculate Link Benefits
+          </button>
+          <div id="newLinkResults" style="display: none; background: rgba(16, 185, 129, 0.1); border: 1px solid rgba(16, 185, 129, 0.3); border-radius: 6px; padding: 0.75rem; font-size: 0.75rem; color: #a7f3d0;">
+            <p><strong>Topological Impact:</strong></p>
+            <ul style="margin-left: 1.2rem; margin-top: 0.25rem;">
+              <li>Majestic betweenness drops from <strong>0.7359</strong> to <strong>0.3840</strong> (48% reduction in pressure!).</li>
+              <li>Network creates its first closed cycle, boosting Transitivity above 0.</li>
+              <li>Saves up to 18 minutes for South-East tech commuters!</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ================= 4. RESEARCHERS & STUDENTS VIEW ================= -->
+      <div class="stakeholder-content" id="viewResearcher" style="display: none;">
+        
+        <!-- Network Metrics Mathematical Definitions -->
+        <div class="panel-section glass-panel">
+          <div class="section-header">
+            <h2 class="section-title"><span class="icon">📐</span> Graph Theory Formulations</h2>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 0.65rem;">
+            <div class="formula-card">
+              <strong>Degree Centrality:</strong> <code>C_D(v) = deg(v) / (N - 1)</code>
+              <p style="color: var(--text-dim); margin-top: 0.2rem;">Measures direct track branching. Majestic = 4; regular pass-through stations = 2; terminals = 1.</p>
+            </div>
+            <div class="formula-card">
+              <strong>Betweenness Centrality:</strong> <code>C_B(v) = Σ (σ_st(v) / σ_st)</code>
+              <p style="color: var(--text-dim); margin-top: 0.2rem;">Fraction of shortest paths passing through station v. Brandes algorithm.</p>
+            </div>
+            <div class="formula-card">
+              <strong>Closeness Centrality:</strong> <code>C_C(v) = (N - 1) / Σ d(v, u)</code>
+              <p style="color: var(--text-dim); margin-top: 0.2rem;">Inverse of sum of shortest path distances from v to all other stations.</p>
+            </div>
+            <div class="formula-card">
+              <strong>Transitivity:</strong> <code>T = (3 × Triangles) / Triads = 0.0000</code>
+              <p style="color: var(--text-dim); margin-top: 0.2rem;">Strictly zero because Namma Metro is a planar tree graph with zero triangular loops.</p>
+            </div>
+            <div class="formula-card">
+              <strong>Reciprocity:</strong> <code>r = |E_directed_bidirectional| / |E_total| = 1.0000</code>
+              <p style="color: var(--text-dim); margin-top: 0.2rem;">Commercial metro lines have dual tracks running both directions.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Research Plots Gallery -->
+        <div class="panel-section glass-panel">
+          <div class="section-header">
+            <h3 class="section-title"><span class="icon">🖼️</span> Scientific Research Charts</h3>
+            <span style="font-size: 0.7rem; color: var(--text-muted);">Click to expand</span>
+          </div>
+          <div class="gallery-grid">
+            <div class="gallery-card" data-img="visualizations/bangalore_centrality_quadrant.png" data-title="Closeness vs Betweenness Centrality Quadrant">
+              <img src="visualizations/bangalore_centrality_quadrant.png" alt="Centrality Quadrant">
+              <div class="gallery-card-desc">Centrality Quadrant</div>
+            </div>
+            <div class="gallery-card" data-img="visualizations/bangalore_degree_distribution.png" data-title="Degree Distribution P(k) and Boxplot">
+              <img src="visualizations/bangalore_degree_distribution.png" alt="Degree Distribution">
+              <div class="gallery-card-desc">Degree Distribution</div>
+            </div>
+            <div class="gallery-card" data-img="visualizations/bangalore_network_topology.png" data-title="Bangalore Namma Metro Topological Network Map">
+              <img src="visualizations/bangalore_network_topology.png" alt="Topology Map">
+              <div class="gallery-card-desc">Network Topology</div>
+            </div>
+            <div class="gallery-card" data-img="visualizations/bangalore_resilience_simulation.png" data-title="Attack Tolerance & Station Failure Curves">
+              <img src="visualizations/bangalore_resilience_simulation.png" alt="Resilience Curve">
+              <div class="gallery-card-desc">Resilience Simulation</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Gephi & NetworkX Download Center -->
+        <div class="panel-section glass-panel">
+          <div class="section-header">
+            <h3 class="section-title"><span class="icon">💾</span> Gephi & NetworkX Downloads</h3>
+          </div>
+          <p style="font-size: 0.75rem; color: var(--text-muted);">
+            Download complete research datasets for Gephi, NetworkX, and GIS tools:
+          </p>
+          <div style="display: flex; flex-direction: column; gap: 0.45rem;">
+            <a href="exports/bangalore_namma_metro.gexf" download="bangalore_namma_metro.gexf" class="btn-outline" style="text-decoration: none; text-align: center;">
+              📥 Download Gephi Graph File (.GEXF)
+            </a>
+            <a href="exports/bangalore_namma_metro.graphml" download="bangalore_namma_metro.graphml" class="btn-outline" style="text-decoration: none; text-align: center;">
+              📥 Download GraphML Format (.graphml)
+            </a>
+            <a href="data/bangalore_metro_centrality.csv" download="bangalore_metro_centrality.csv" class="btn-outline" style="text-decoration: none; text-align: center;">
+              📥 Download Centrality CSV Dataset
+            </a>
+            <a href="scripts/bangalore_metro_analysis.py" download="bangalore_metro_analysis.py" class="btn-outline" style="text-decoration: none; text-align: center;">
+              📥 Download Python NetworkX Script
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+    </aside>
+  </main>
+
+  <!-- Image Lightbox Modal -->
+  <div class="modal-overlay" id="imageModal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="modal-title" id="modalTitle">Chart View</div>
+        <button class="modal-close" id="modalClose">&times;</button>
+      </div>
+      <div class="modal-body">
+        <img id="modalImg" src="" alt="Full view plot">
+      </div>
+    </div>
+  </div>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  
+  <!-- Standalone Data Module -->
+  <script src="bangalore_metro_data.js"></script>
+  
+  <!-- Main Application Logic -->
+  <script src="app.js"></script>
+</body>
+</html>

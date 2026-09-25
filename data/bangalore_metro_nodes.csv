@@ -1,0 +1,84 @@
+id,name,latitude,longitude,zone,lines,corridors,line_count,is_interchange,footfall_tier,is_phase1_operational
+Challegatta,Challegatta,12.8988,77.4665,West Bengaluru,Purple Line,East-West Corridor,1,False,Standard Residential,True
+Kengeri,Kengeri,12.9082,77.4764,West Bengaluru,Purple Line,East-West Corridor,1,False,Standard Residential,True
+Kengeri Bus Terminal,Kengeri Bus Terminal,12.9155,77.4855,West Bengaluru,Purple Line,East-West Corridor,1,False,Standard Residential,True
+Pattanagere,Pattanagere,12.9238,77.4985,West Bengaluru,Purple Line,East-West Corridor,1,False,Standard Residential,True
+Jnanabharathi,Jnanabharathi,12.9345,77.5095,West Bengaluru,Purple Line,East-West Corridor,1,False,Standard Residential,True
+Rajarajeshwari Nagar,Rajarajeshwari Nagar,12.9435,77.5215,West Bengaluru,Purple Line,East-West Corridor,1,False,Standard Residential,True
+Nayandahalli,Nayandahalli,12.9515,77.5315,West Bengaluru,Purple Line,East-West Corridor,1,False,Standard Residential,True
+Mysore Road,Mysore Road,12.9548,77.5412,West Bengaluru,Purple Line,East-West Corridor,1,False,Standard Residential,True
+Deepanjali Nagar,Deepanjali Nagar,12.9575,77.5495,West Bengaluru,Purple Line,East-West Corridor,1,False,Standard Residential,True
+Attiguppe,Attiguppe,12.9615,77.5585,West Bengaluru,Purple Line,East-West Corridor,1,False,Standard Residential,True
+Vijayanagar,Vijayanagar,12.9645,77.5675,West Bengaluru,Purple Line,East-West Corridor,1,False,Standard Residential,True
+Hosahalli,Hosahalli,12.9685,77.5755,Central West,Purple Line,East-West Corridor,1,False,Standard Residential,True
+Magadi Road,Magadi Road,12.9735,77.5835,Central West,Purple Line,East-West Corridor,1,False,Standard Residential,True
+Krantivira Sangolli Rayanna Railway Station,Krantivira Sangolli Rayanna Railway Station,12.9765,77.5925,Central Bengaluru,Purple Line,East-West Corridor,1,False,Standard Residential,True
+Nadaprabhu Kempegowda Station Majestic,Nadaprabhu Kempegowda Station Majestic,12.9757,77.5728,Central Bengaluru,Purple Line; Green Line,East-West Corridor; North-South Corridor,2,True,Apex Mega Hub,True
+Sir M. Visveshwaraya Central College,Sir M. Visveshwaraya Central College,12.9745,77.5865,Central Bengaluru,Purple Line,East-West Corridor,1,False,Standard Residential,True
+Vidhana Soudha,Vidhana Soudha,12.9795,77.5925,Central Bengaluru,Purple Line,East-West Corridor,1,False,Standard Residential,True
+Cubbon Park,Cubbon Park,12.9815,77.5995,Central Bengaluru,Purple Line,East-West Corridor,1,False,Standard Residential,True
+MG Road,MG Road,12.9755,77.6068,Central Bengaluru,Purple Line,East-West Corridor,1,False,High,True
+Trinity,Trinity,12.9725,77.6165,Central Bengaluru,Purple Line,East-West Corridor,1,False,Standard Residential,True
+Halasuru,Halasuru,12.9775,77.6255,East Bengaluru,Purple Line,East-West Corridor,1,False,Standard Residential,True
+Indiranagar,Indiranagar,12.9785,77.6385,East Bengaluru,Purple Line,East-West Corridor,1,False,High,True
+Swami Vivekananda Road,Swami Vivekananda Road,12.9855,77.6475,East Bengaluru,Purple Line,East-West Corridor,1,False,Standard Residential,True
+Baiyappanahalli,Baiyappanahalli,12.9912,77.6525,East Bengaluru,Purple Line,East-West Corridor,1,False,High,True
+Benniganahalli,Benniganahalli,12.9965,77.6625,East Bengaluru,Purple Line,East-West Corridor,1,False,Standard Residential,True
+KR Pura (Krishnarajapuram),KR Pura (Krishnarajapuram),12.9995,77.6785,East Bengaluru,Purple Line,East-West Corridor,1,False,Standard Residential,True
+Singayyanapalya,Singayyanapalya,12.9965,77.6965,East Bengaluru,Purple Line,East-West Corridor,1,False,Standard Residential,True
+Garudacharpalya,Garudacharpalya,12.9935,77.7085,East Bengaluru,Purple Line,East-West Corridor,1,False,Standard Residential,True
+Hoodi,Hoodi,12.9915,77.7185,East Bengaluru,Purple Line,East-West Corridor,1,False,Standard Residential,True
+Seetharampalya,Seetharampalya,12.9865,77.7285,Whitefield IT Hub,Purple Line,East-West Corridor,1,False,Standard Residential,True
+Kundalahalli,Kundalahalli,12.9795,77.7335,Whitefield IT Hub,Purple Line,East-West Corridor,1,False,Standard Residential,True
+Nallurhalli,Nallurhalli,12.9725,77.7385,Whitefield IT Hub,Purple Line,East-West Corridor,1,False,Standard Residential,True
+Sri Sathya Sai Hospital,Sri Sathya Sai Hospital,12.9655,77.7445,Whitefield IT Hub,Purple Line,East-West Corridor,1,False,Standard Residential,True
+Pattandur Agrahara,Pattandur Agrahara,12.9595,77.7485,Whitefield IT Hub,Purple Line,East-West Corridor,1,False,Standard Residential,True
+Kadugodi Tree Park,Kadugodi Tree Park,12.9685,77.7555,Whitefield IT Hub,Purple Line,East-West Corridor,1,False,Standard Residential,True
+Hopefarm Channasandra,Hopefarm Channasandra,12.9785,77.7575,Whitefield IT Hub,Purple Line,East-West Corridor,1,False,Standard Residential,True
+Whitefield (Kadugodi),Whitefield (Kadugodi),12.9955,77.7615,Whitefield IT Hub,Purple Line,East-West Corridor,1,False,High,True
+Madavara (BIEC),Madavara (BIEC),13.0645,77.4825,North Bengaluru,Green Line,North-South Corridor,1,False,Standard Residential,True
+Chikkabidarakallu,Chikkabidarakallu,13.0565,77.4915,North Bengaluru,Green Line,North-South Corridor,1,False,Standard Residential,True
+Manjunath Nagar,Manjunath Nagar,13.0485,77.4995,North Bengaluru,Green Line,North-South Corridor,1,False,Standard Residential,True
+Nagasandra,Nagasandra,13.0425,77.5045,North Bengaluru,Green Line,North-South Corridor,1,False,Standard Residential,True
+Dasarahalli,Dasarahalli,13.0375,77.5125,North Bengaluru,Green Line,North-South Corridor,1,False,Standard Residential,True
+Jalahalli,Jalahalli,13.0335,77.5215,North Bengaluru,Green Line,North-South Corridor,1,False,Standard Residential,True
+Peenya Industry,Peenya Industry,13.0295,77.5295,Peenya Industrial Zone,Green Line,North-South Corridor,1,False,Medium-High Tech Commuter,True
+Peenya,Peenya,13.0245,77.5365,Peenya Industrial Zone,Green Line,North-South Corridor,1,False,Medium-High Tech Commuter,True
+Goraguntepalya,Goraguntepalya,13.0185,77.5445,North Bengaluru,Green Line,North-South Corridor,1,False,Standard Residential,True
+Yeshwanthpur,Yeshwanthpur,13.0125,77.5515,North Bengaluru,Green Line,North-South Corridor,1,False,High,True
+Sandal Soap Factory,Sandal Soap Factory,13.0075,77.5555,North Bengaluru,Green Line,North-South Corridor,1,False,Standard Residential,True
+Mahalakshmi,Mahalakshmi,13.0015,77.5595,North Bengaluru,Green Line,North-South Corridor,1,False,Standard Residential,True
+Rajajinagar,Rajajinagar,12.9945,77.5575,Central West,Green Line,North-South Corridor,1,False,Standard Residential,True
+Kuvempu Road,Kuvempu Road,12.9885,77.5585,Central West,Green Line,North-South Corridor,1,False,Standard Residential,True
+Srirampura,Srirampura,12.9835,77.5635,Central West,Green Line,North-South Corridor,1,False,Standard Residential,True
+Sampige Road (Mantri Square),Sampige Road (Mantri Square),12.9795,77.5685,Central Bengaluru,Green Line,North-South Corridor,1,False,Standard Residential,True
+Chickpete,Chickpete,12.9685,77.5755,Central Bengaluru,Green Line,North-South Corridor,1,False,Standard Residential,True
+Krishna Rajendra Market,Krishna Rajendra Market,12.9615,77.5765,Central Bengaluru,Green Line,North-South Corridor,1,False,Standard Residential,True
+National College,National College,12.9525,77.5755,South Bengaluru,Green Line,North-South Corridor,1,False,Standard Residential,True
+Lalbagh,Lalbagh,12.9465,77.5815,South Bengaluru,Green Line,North-South Corridor,1,False,Standard Residential,True
+South End Circle,South End Circle,12.9395,77.5815,South Bengaluru,Green Line,North-South Corridor,1,False,Standard Residential,True
+Jayanagar,Jayanagar,12.9315,77.5825,South Bengaluru,Green Line,North-South Corridor,1,False,Standard Residential,True
+Rashtreeya Vidyalaya Road (RV Road),Rashtreeya Vidyalaya Road (RV Road),12.9235,77.5825,South Bengaluru,Green Line; Yellow Line,North-South Corridor; South-East Tech Corridor (RV Road - Bommasandra),2,True,High,True
+Banashankari,Banashankari,12.9155,77.5745,South Bengaluru,Green Line,North-South Corridor,1,False,Standard Residential,True
+Jaya Prakash Nagar (JP Nagar),Jaya Prakash Nagar (JP Nagar),12.9075,77.5735,South Bengaluru,Green Line,North-South Corridor,1,False,Standard Residential,True
+Yelachenahalli,Yelachenahalli,12.8975,77.5715,South Bengaluru,Green Line,North-South Corridor,1,False,Standard Residential,True
+Konanakunte Cross,Konanakunte Cross,12.8895,77.5685,South Bengaluru,Green Line,North-South Corridor,1,False,Standard Residential,True
+Doddakallasandra,Doddakallasandra,12.8795,77.5615,South Bengaluru,Green Line,North-South Corridor,1,False,Standard Residential,True
+Vajrahalli,Vajrahalli,12.8705,77.5555,South Bengaluru,Green Line,North-South Corridor,1,False,Standard Residential,True
+Thalaghattapura,Thalaghattapura,12.8625,77.5485,South Bengaluru,Green Line,North-South Corridor,1,False,Standard Residential,True
+Silk Institute,Silk Institute,12.8525,77.5415,South Bengaluru,Green Line,North-South Corridor,1,False,Standard Residential,True
+Ragigudda,Ragigudda,12.9165,77.5935,South Bengaluru,Yellow Line,South-East Tech Corridor (RV Road - Bommasandra),1,False,Standard Residential,False
+Jayadeva Hospital,Jayadeva Hospital,12.9185,77.6065,South Bengaluru,Yellow Line,South-East Tech Corridor (RV Road - Bommasandra),1,False,Standard Residential,False
+BTM Layout,BTM Layout,12.9145,77.6185,South Bengaluru,Yellow Line,South-East Tech Corridor (RV Road - Bommasandra),1,False,Standard Residential,False
+Central Silk Board,Central Silk Board,12.9175,77.6235,South East Hub,Yellow Line,South-East Tech Corridor (RV Road - Bommasandra),1,False,Standard Residential,False
+Bommanahalli,Bommanahalli,12.9065,77.6325,South East,Yellow Line,South-East Tech Corridor (RV Road - Bommasandra),1,False,Standard Residential,False
+Hongasandra,Hongasandra,12.8965,77.6395,South East,Yellow Line,South-East Tech Corridor (RV Road - Bommasandra),1,False,Standard Residential,False
+Kudlu Gate,Kudlu Gate,12.8865,77.6465,South East,Yellow Line,South-East Tech Corridor (RV Road - Bommasandra),1,False,Standard Residential,False
+Singasandra,Singasandra,12.8765,77.6535,South East,Yellow Line,South-East Tech Corridor (RV Road - Bommasandra),1,False,Standard Residential,False
+Hosa Road,Hosa Road,12.8665,77.6605,South East,Yellow Line,South-East Tech Corridor (RV Road - Bommasandra),1,False,Standard Residential,False
+Beratena Agrahara,Beratena Agrahara,12.8565,77.6675,South East,Yellow Line,South-East Tech Corridor (RV Road - Bommasandra),1,False,Standard Residential,False
+Electronic City,Electronic City,12.8465,77.6745,Electronics City Tech Hub,Yellow Line,South-East Tech Corridor (RV Road - Bommasandra),1,False,High,False
+Infosys Foundation Konappana Agrahara,Infosys Foundation Konappana Agrahara,12.8365,77.6815,Electronics City Tech Hub,Yellow Line,South-East Tech Corridor (RV Road - Bommasandra),1,False,Medium-High Tech Commuter,False
+Huskur Road,Huskur Road,12.8265,77.6885,Electronics City Tech Hub,Yellow Line,South-East Tech Corridor (RV Road - Bommasandra),1,False,Medium-High Tech Commuter,False
+Hebbagodi,Hebbagodi,12.8165,77.6955,Electronics City Tech Hub,Yellow Line,South-East Tech Corridor (RV Road - Bommasandra),1,False,Medium-High Tech Commuter,False
+Bommasandra,Bommasandra,12.8065,77.7025,Industrial Suburb,Yellow Line,South-East Tech Corridor (RV Road - Bommasandra),1,False,Medium-High Tech Commuter,False

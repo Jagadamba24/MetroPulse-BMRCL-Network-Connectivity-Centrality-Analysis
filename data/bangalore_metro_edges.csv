@@ -1,0 +1,83 @@
+source,target,line,line_color,distance_km,time_min,status
+Challegatta,Kengeri,Purple Line,#800080,1.5,3.9,Operational
+Kengeri,Kengeri Bus Terminal,Purple Line,#800080,1.28,3.5,Operational
+Kengeri Bus Terminal,Pattanagere,Purple Line,#800080,1.68,4.3,Operational
+Pattanagere,Jnanabharathi,Purple Line,#800080,1.68,4.3,Operational
+Jnanabharathi,Rajarajeshwari Nagar,Purple Line,#800080,1.64,4.2,Operational
+Rajarajeshwari Nagar,Nayandahalli,Purple Line,#800080,1.4,3.8,Operational
+Nayandahalli,Mysore Road,Purple Line,#800080,1.11,3.2,Operational
+Mysore Road,Deepanjali Nagar,Purple Line,#800080,0.95,2.9,Operational
+Deepanjali Nagar,Attiguppe,Purple Line,#800080,1.07,3.1,Operational
+Attiguppe,Vijayanagar,Purple Line,#800080,1.03,3.1,Operational
+Vijayanagar,Hosahalli,Purple Line,#800080,0.97,2.9,Operational
+Hosahalli,Magadi Road,Purple Line,#800080,1.03,3.1,Operational
+Magadi Road,Krantivira Sangolli Rayanna Railway Station,Purple Line,#800080,1.03,3.1,Operational
+Krantivira Sangolli Rayanna Railway Station,Nadaprabhu Kempegowda Station Majestic,Purple Line,#800080,2.14,5.2,Operational
+Nadaprabhu Kempegowda Station Majestic,Sir M. Visveshwaraya Central College,Purple Line,#800080,1.49,3.9,Operational
+Sir M. Visveshwaraya Central College,Vidhana Soudha,Purple Line,#800080,0.86,2.7,Operational
+Vidhana Soudha,Cubbon Park,Purple Line,#800080,0.79,2.6,Operational
+Cubbon Park,MG Road,Purple Line,#800080,1.03,3.1,Operational
+MG Road,Trinity,Purple Line,#800080,1.1,3.2,Operational
+Trinity,Halasuru,Purple Line,#800080,1.12,3.2,Operational
+Halasuru,Indiranagar,Purple Line,#800080,1.41,3.8,Operational
+Indiranagar,Swami Vivekananda Road,Purple Line,#800080,1.25,3.5,Operational
+Swami Vivekananda Road,Baiyappanahalli,Purple Line,#800080,0.83,2.7,Operational
+Baiyappanahalli,Benniganahalli,Purple Line,#800080,1.23,3.4,Operational
+Benniganahalli,KR Pura (Krishnarajapuram),Purple Line,#800080,1.77,4.5,Operational
+KR Pura (Krishnarajapuram),Singayyanapalya,Purple Line,#800080,1.98,4.9,Operational
+Singayyanapalya,Garudacharpalya,Purple Line,#800080,1.34,3.6,Operational
+Garudacharpalya,Hoodi,Purple Line,#800080,1.11,3.2,Operational
+Hoodi,Seetharampalya,Purple Line,#800080,1.22,3.4,Operational
+Seetharampalya,Kundalahalli,Purple Line,#800080,0.95,2.9,Operational
+Kundalahalli,Nallurhalli,Purple Line,#800080,0.95,2.9,Operational
+Nallurhalli,Sri Sathya Sai Hospital,Purple Line,#800080,1.01,3.0,Operational
+Sri Sathya Sai Hospital,Pattandur Agrahara,Purple Line,#800080,0.8,2.6,Operational
+Pattandur Agrahara,Kadugodi Tree Park,Purple Line,#800080,1.26,3.5,Operational
+Kadugodi Tree Park,Hopefarm Channasandra,Purple Line,#800080,1.13,3.2,Operational
+Hopefarm Channasandra,Whitefield (Kadugodi),Purple Line,#800080,1.94,4.8,Operational
+Madavara (BIEC),Chikkabidarakallu,Green Line,#008000,1.32,3.6,Operational
+Chikkabidarakallu,Manjunath Nagar,Green Line,#008000,1.24,3.5,Operational
+Manjunath Nagar,Nagasandra,Green Line,#008000,0.86,2.7,Operational
+Nagasandra,Dasarahalli,Green Line,#008000,1.03,3.1,Operational
+Dasarahalli,Jalahalli,Green Line,#008000,1.07,3.1,Operational
+Jalahalli,Peenya Industry,Green Line,#008000,0.97,2.9,Operational
+Peenya Industry,Peenya,Green Line,#008000,0.94,2.9,Operational
+Peenya,Goraguntepalya,Green Line,#008000,1.09,3.2,Operational
+Goraguntepalya,Yeshwanthpur,Green Line,#008000,1.01,3.0,Operational
+Yeshwanthpur,Sandal Soap Factory,Green Line,#008000,0.75,2.5,Operational
+Sandal Soap Factory,Mahalakshmi,Green Line,#008000,0.8,2.6,Operational
+Mahalakshmi,Rajajinagar,Green Line,#008000,0.81,2.6,Operational
+Rajajinagar,Kuvempu Road,Green Line,#008000,0.75,2.5,Operational
+Kuvempu Road,Srirampura,Green Line,#008000,0.78,2.6,Operational
+Srirampura,Sampige Road (Mantri Square),Green Line,#008000,0.75,2.5,Operational
+Sampige Road (Mantri Square),Nadaprabhu Kempegowda Station Majestic,Green Line,#008000,0.75,2.5,Operational
+Nadaprabhu Kempegowda Station Majestic,Chickpete,Green Line,#008000,0.85,2.7,Operational
+Chickpete,Krishna Rajendra Market,Green Line,#008000,0.79,2.6,Operational
+Krishna Rajendra Market,National College,Green Line,#008000,1.01,3.0,Operational
+National College,Lalbagh,Green Line,#008000,0.93,2.9,Operational
+Lalbagh,South End Circle,Green Line,#008000,0.78,2.6,Operational
+South End Circle,Jayanagar,Green Line,#008000,0.9,2.8,Operational
+Jayanagar,Rashtreeya Vidyalaya Road (RV Road),Green Line,#008000,0.89,2.8,Operational
+Rashtreeya Vidyalaya Road (RV Road),Banashankari,Green Line,#008000,1.24,3.5,Operational
+Banashankari,Jaya Prakash Nagar (JP Nagar),Green Line,#008000,0.9,2.8,Operational
+Jaya Prakash Nagar (JP Nagar),Yelachenahalli,Green Line,#008000,1.13,3.2,Operational
+Yelachenahalli,Konanakunte Cross,Green Line,#008000,0.95,2.9,Operational
+Konanakunte Cross,Doddakallasandra,Green Line,#008000,1.35,3.7,Operational
+Doddakallasandra,Vajrahalli,Green Line,#008000,1.19,3.4,Operational
+Vajrahalli,Thalaghattapura,Green Line,#008000,1.17,3.3,Operational
+Thalaghattapura,Silk Institute,Green Line,#008000,1.35,3.7,Operational
+Rashtreeya Vidyalaya Road (RV Road),Ragigudda,Yellow Line,#FFD700,1.42,3.8,Phase 2 Ready
+Ragigudda,Jayadeva Hospital,Yellow Line,#FFD700,1.43,3.8,Phase 2 Ready
+Jayadeva Hospital,BTM Layout,Yellow Line,#FFD700,1.37,3.7,Phase 2 Ready
+BTM Layout,Central Silk Board,Yellow Line,#FFD700,0.75,2.5,Phase 2 Ready
+Central Silk Board,Bommanahalli,Yellow Line,#FFD700,1.56,4.1,Phase 2 Ready
+Bommanahalli,Hongasandra,Yellow Line,#FFD700,1.35,3.7,Phase 2 Ready
+Hongasandra,Kudlu Gate,Yellow Line,#FFD700,1.35,3.7,Phase 2 Ready
+Kudlu Gate,Singasandra,Yellow Line,#FFD700,1.35,3.7,Phase 2 Ready
+Singasandra,Hosa Road,Yellow Line,#FFD700,1.35,3.7,Phase 2 Ready
+Hosa Road,Beratena Agrahara,Yellow Line,#FFD700,1.35,3.7,Phase 2 Ready
+Beratena Agrahara,Electronic City,Yellow Line,#FFD700,1.35,3.7,Phase 2 Ready
+Electronic City,Infosys Foundation Konappana Agrahara,Yellow Line,#FFD700,1.35,3.7,Phase 2 Ready
+Infosys Foundation Konappana Agrahara,Huskur Road,Yellow Line,#FFD700,1.35,3.7,Phase 2 Ready
+Huskur Road,Hebbagodi,Yellow Line,#FFD700,1.35,3.7,Phase 2 Ready
+Hebbagodi,Bommasandra,Yellow Line,#FFD700,1.35,3.7,Phase 2 Ready
